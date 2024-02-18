@@ -3,123 +3,147 @@ const questionsByDifficultyAndCategory = {
         "GENERAL KNOWLEDGE": [
             {
                 question: "What is the capital of France?",
-                answers: [
-                    { text: "Paris", correct: true },
-                    { text: "London", correct: false },
-                    { text: "Berlin", correct: false },
-                    { text: "Rome", correct: false },
-                ]
+                options: ["Paris", "London", "Berlin", "Rome"],
+                correctAnswer: "Paris"
             },
             {
                 question: "Who wrote 'Romeo and Juliet'?",
-                answers: [
-                    { text: "Charles Dickens", correct: false },
-                    { text: "William Shakespeare", correct: true },
-                    { text: "Jane Austen", correct: false },
-                    { text: "Leo Tolstoy", correct: false },
-                ]
+                options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Leo Tolstoy"],
+                correctAnswer: "William Shakespeare"
             }
         ],
         "HISTORY": [
             {
                 question: "What is the capital of Japan?",
-                answers: [
-                    { text: "Beijing", correct: false },
-                    { text: "Seoul", correct: false },
-                    { text: "Tokyo", correct: true },
-                    { text: "Bangkok", correct: false },
-                ]
+                options: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+                correctAnswer: "Tokyo"
             },
             {
                 question: "What is the largest planet in our solar system?",
-                answers: [
-                    { text: "Jupiter", correct: true },
-                    { text: "Saturn", correct: false },
-                    { text: "Mars", correct: false },
-                    { text: "Venus", correct: false },
-                ]
+                options: ["Jupiter", "Saturn", "Mars", "Venus"],
+                correctAnswer: "Jupiter"
             }
         ],
         "COMPUTER": [
             {
                 question: "Who discovered penicillin?",
-                answers: [
-                    { text: "Alexander Fleming", correct: true },
-                    { text: "Marie Curie", correct: false },
-                    { text: "Isaac Newton", correct: false },
-                    { text: "Albert Einstein", correct: false },
-                ]
+                options: ["Alexander Fleming", "Marie Curie", "Isaac Newton", "Albert Einstein"],
+                correctAnswer: "Alexander Fleming"
             },
             {
                 question: "Which country is known as the Land of the Rising Sun?",
-                answers: [
-                    { text: "China", correct: false },
-                    { text: "Japan", correct: true },
-                    { text: "South Korea", correct: false },
-                    { text: "Vietnam", correct: false },
-                ]
+                options: ["China", "Japan", "South Korea", "Vietnam"],
+                correctAnswer: "Japan"
+            }
+        ],
+        "MATH": [
+            {
+                question: "What is the capital of France?",
+                options: ["Paris", "London", "Berlin", "Rome"],
+                correctAnswer: "Paris"
+            },
+            {
+                question: "Who wrote 'Romeo and Juliet'?",
+                options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Leo Tolstoy"],
+                correctAnswer: "William Shakespeare"
+            }
+        ],
+        "SPORTS": [
+            {
+                question: "What is the capital of Japan?",
+                options: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+                correctAnswer: "Tokyo"
+            },
+            {
+                question: "What is the largest planet in our solar system?",
+                options: ["Jupiter", "Saturn", "Mars", "Venus"],
+                correctAnswer: "Jupiter"
+            }
+        ],
+        "NEPAL": [
+            {
+                question: "Who discovered penicillin?",
+                options: ["Alexander Fleming", "Marie Curie", "Isaac Newton", "Albert Einstein"],
+                correctAnswer: "Alexander Fleming"
+            },
+            {
+                question: "Which country is known as the Land of the Rising Sun?",
+                options: ["China", "Japan", "South Korea", "Vietnam"],
+                correctAnswer: "Japan"
             }
         ]
-    },
+    }, 
     medium: {
         "GENERAL KNOWLEDGE": [
             {
                 question: "What is the capital of France?",
-                answers: [
-                    { text: "Paris", correct: true },
-                    { text: "London", correct: false },
-                    { text: "Berlin", correct: false },
-                    { text: "Rome", correct: false },
-                ]
+                options: ["Paris", "London", "Berlin", "Rome"],
+                correctAnswer: "Paris"
             },
             {
                 question: "Who wrote 'Romeo and Juliet'?",
-                answers: [
-                    { text: "Charles Dickens", correct: false },
-                    { text: "William Shakespeare", correct: true },
-                    { text: "Jane Austen", correct: false },
-                    { text: "Leo Tolstoy", correct: false },
-                ]
+                options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Leo Tolstoy"],
+                correctAnswer: "William Shakespeare"
             }
         ],
         "HISTORY": [
             {
                 question: "What is the capital of Japan?",
-                answers: [
-                    { text: "Beijing", correct: false },
-                    { text: "Seoul", correct: false },
-                    { text: "Tokyo", correct: true },
-                    { text: "Bangkok", correct: false },
-                ]
+                options: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+                correctAnswer: "Tokyo"
             },
             {
                 question: "What is the largest planet in our solar system?",
-                answers: [
-                    { text: "Jupiter", correct: true },
-                    { text: "Saturn", correct: false },
-                    { text: "Mars", correct: false },
-                    { text: "Venus", correct: false },
-                ]
+                options: ["Jupiter", "Saturn", "Mars", "Venus"],
+                correctAnswer: "Jupiter"
             }
         ],
         "COMPUTER": [
             {
                 question: "Who discovered penicillin?",
-                answers: [
-                    { text: "Alexander Fleming", correct: true },
-                    { text: "Marie Curie", correct: false },
-                    { text: "Isaac Newton", correct: false },
-                    { text: "Albert Einstein", correct: false },
-                ]
+                options: ["Alexander Fleming", "Marie Curie", "Isaac Newton", "Albert Einstein"],
+                correctAnswer: "Alexander Fleming"
             },
             {
                 question: "Which country is known as the Land of the Rising Sun?",
-                answers: [
-                    { text: "China", correct: false },
-                    { text: "Japan", correct: true },
-                    { text: "South Korea", correct: false },
-                    { text: "Vietnam", correct: false },
-                ]
+                options: ["China", "Japan", "South Korea", "Vietnam"],
+                correctAnswer: "Japan"
+            }
+        ],
+        "MATH": [
+            {
+                question: "What is the capital of France?",
+                options: ["Paris", "London", "Berlin", "Rome"],
+                correctAnswer: "Paris"
+            },
+            {
+                question: "Who wrote 'Romeo and Juliet'?",
+                options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Leo Tolstoy"],
+                correctAnswer: "William Shakespeare"
+            }
+        ],
+        "SPORTS": [
+            {
+                question: "What is the capital of Japan?",
+                options: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+                correctAnswer: "Tokyo"
+            },
+            {
+                question: "What is the largest planet in our solar system?",
+                options: ["Jupiter", "Saturn", "Mars", "Venus"],
+                correctAnswer: "Jupiter"
+            }
+        ],
+        "NEPAL": [
+            {
+                question: "Who discovered penicillin?",
+                options: ["Alexander Fleming", "Marie Curie", "Isaac Newton", "Albert Einstein"],
+                correctAnswer: "Alexander Fleming"
+            },
+            {
+                question: "Which country is known as the Land of the Rising Sun?",
+                options: ["China", "Japan", "South Korea", "Vietnam"],
+                correctAnswer: "Japan"
             }
         ]
     },
@@ -127,61 +151,73 @@ const questionsByDifficultyAndCategory = {
         "GENERAL KNOWLEDGE": [
             {
                 question: "What is the capital of France?",
-                answers: [
-                    { text: "Paris", correct: true },
-                    { text: "London", correct: false },
-                    { text: "Berlin", correct: false },
-                    { text: "Rome", correct: false },
-                ]
+                options: ["Paris", "London", "Berlin", "Rome"],
+                correctAnswer: "Paris"
             },
             {
                 question: "Who wrote 'Romeo and Juliet'?",
-                answers: [
-                    { text: "Charles Dickens", correct: false },
-                    { text: "William Shakespeare", correct: true },
-                    { text: "Jane Austen", correct: false },
-                    { text: "Leo Tolstoy", correct: false },
-                ]
+                options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Leo Tolstoy"],
+                correctAnswer: "William Shakespeare"
             }
         ],
         "HISTORY": [
             {
                 question: "What is the capital of Japan?",
-                answers: [
-                    { text: "Beijing", correct: false },
-                    { text: "Seoul", correct: false },
-                    { text: "Tokyo", correct: true },
-                    { text: "Bangkok", correct: false },
-                ]
+                options: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+                correctAnswer: "Tokyo"
             },
             {
                 question: "What is the largest planet in our solar system?",
-                answers: [
-                    { text: "Jupiter", correct: true },
-                    { text: "Saturn", correct: false },
-                    { text: "Mars", correct: false },
-                    { text: "Venus", correct: false },
-                ]
+                options: ["Jupiter", "Saturn", "Mars", "Venus"],
+                correctAnswer: "Jupiter"
             }
         ],
         "COMPUTER": [
             {
                 question: "Who discovered penicillin?",
-                answers: [
-                    { text: "Alexander Fleming", correct: true },
-                    { text: "Marie Curie", correct: false },
-                    { text: "Isaac Newton", correct: false },
-                    { text: "Albert Einstein", correct: false },
-                ]
+                options: ["Alexander Fleming", "Marie Curie", "Isaac Newton", "Albert Einstein"],
+                correctAnswer: "Alexander Fleming"
             },
             {
                 question: "Which country is known as the Land of the Rising Sun?",
-                answers: [
-                    { text: "China", correct: false },
-                    { text: "Japan", correct: true },
-                    { text: "South Korea", correct: false },
-                    { text: "Vietnam", correct: false },
-                ]
+                options: ["China", "Japan", "South Korea", "Vietnam"],
+                correctAnswer: "Japan"
+            }
+        ],
+        "MATH": [
+            {
+                question: "What is the capital of France?",
+                options: ["Paris", "London", "Berlin", "Rome"],
+                correctAnswer: "Paris"
+            },
+            {
+                question: "Who wrote 'Romeo and Juliet'?",
+                options: ["Charles Dickens", "William Shakespeare", "Jane Austen", "Leo Tolstoy"],
+                correctAnswer: "William Shakespeare"
+            }
+        ],
+        "SPORTS": [
+            {
+                question: "What is the capital of Japan?",
+                options: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
+                correctAnswer: "Tokyo"
+            },
+            {
+                question: "What is the largest planet in our solar system?",
+                options: ["Jupiter", "Saturn", "Mars", "Venus"],
+                correctAnswer: "Jupiter"
+            }
+        ],
+        "NEPAL": [
+            {
+                question: "Who discovered penicillin?",
+                options: ["Alexander Fleming", "Marie Curie", "Isaac Newton", "Albert Einstein"],
+                correctAnswer: "Alexander Fleming"
+            },
+            {
+                question: "Which country is known as the Land of the Rising Sun?",
+                options: ["China", "Japan", "South Korea", "Vietnam"],
+                correctAnswer: "Japan"
             }
         ]
     }
@@ -197,14 +233,13 @@ const categoryContainer = document.querySelector('.category-container');
 const appSection = document.querySelector('.app');
 const categorySelect = document.getElementById("category");
 const questionElement = document.getElementById("question");
-const answerButtonsContainer = document.getElementById("answerbutton");
+const answerButtonsContainer = document.getElementById("answerbutton"); // Corrected target element ID
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
 let currentDifficulty = "";
 let currentCategory = "";
 let score = 0;
-let questions = [];
 
 startBtn.addEventListener("click", function () {
     infoBox.style.display = "block";
@@ -227,70 +262,41 @@ categorySelect.addEventListener('change', function() {
     if (this.value !== 'option') {
         categoryContainer.style.display = 'none';
         appSection.style.display = 'block';
-        currentCategory = this.value;
-        startQuiz();
+        currentCategory = this.value; // Set current category
+        startQuiz(); // Call startQuiz function when a category is selected
     }
 });
 
 function startQuiz() {
+    // Get the selected difficulty and category
+    currentDifficulty = difficultySelect.value;
+    currentCategory = categorySelect.value;
+
+    // Reset the current question index and score
     currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHTML = "Next";
 
-    const selectedDifficulty = difficultySelect.value;
-    const selectedCategory = categorySelect.value;
-
-    if (selectedCategory && selectedDifficulty) {
-        currentDifficulty = selectedDifficulty;
-        currentCategory = selectedCategory;
-         
-        questions = questionsByDifficultyAndCategory[selectedDifficulty][selectedCategory];
-        if (questions && questions.length > 0) {
-            showQuestion();
-        } else {
-            questionElement.innerHTML = "No questions available for this category and difficulty level.";
-        }
-    } else {
-        questionElement.innerHTML = "Please select a category and difficulty level to start the quiz.";
-    }
+    // Show the first question
+    showQuestion();
 }
 
 function showQuestion() {
-    resetState();
-
-    let currentQuestion = questions[currentQuestionIndex];
+    resetState(); // Reset the state before showing a new question
+    let currentQuestion = questionsByDifficultyAndCategory[currentDifficulty][currentCategory][currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
-    currentQuestion.answers.forEach(answer => {
+    // Loop through each option in the current question and create answer buttons
+    currentQuestion.options.forEach((option, index) => {
         const button = document.createElement("button");
-        button.innerHTML = answer.text;
+        button.innerHTML = option;
         button.classList.add("btn");
-        if (answer.correct) {
-            button.dataset.correct = "true";
-        }
-        button.addEventListener("click", selectAnswer);
-        answerButtonsContainer.appendChild(button);
+        answerButtonsContainer.appendChild(button); // Append the button to the answerButtons container
+        // Add an event listener to handle button click
+        button.addEventListener("click", function(e) {
+            selectAnswer(e); // Call selectAnswer function with the event
+        });
     });
-}
-
-function selectAnswer(e) {
-    const selectedBtn = e.target;
-    const isCorrect = selectedBtn.dataset.correct === "true";
-    if (isCorrect) {
-        selectedBtn.classList.add("correct");
-        score++;
-    } else {
-        selectedBtn.classList.add("incorrect");
-    }
-    Array.from(answerButtonsContainer.children).forEach(button => {
-        if (button.dataset.correct === "true") {
-            button.classList.add("correct");
-        }
-        button.disabled = true;
-    });
-
-    nextButton.style.display = "block";
 }
 
 function resetState() {
@@ -299,34 +305,54 @@ function resetState() {
         answerButtonsContainer.removeChild(answerButtonsContainer.firstChild);
     }
 }
-function showScore() {
-    resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Play Again";
+
+function selectAnswer(e) {
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.textContent === questionsByDifficultyAndCategory[currentDifficulty][currentCategory][currentQuestionIndex].correctAnswer;
+    if (isCorrect) {
+        selectedBtn.classList.add("correct");
+        score++;
+    } else {
+        selectedBtn.classList.add("incorrect");
+    }
+    Array.from(answerButtonsContainer.children).forEach(button => {
+        if (button.textContent === questionsByDifficultyAndCategory[currentDifficulty][currentCategory][currentQuestionIndex].correctAnswer) {
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+
+    answerButtonsContainer.classList.add("answered");
     nextButton.style.display = "block";
 }
 
-function handleNextButton() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        showQuestion();
-    } else {
-        showScore();
-    }
-}
-
-nextButton.addEventListener("click", () => {
-    if (currentQuestionIndex < questions.length) {
-        handleNextButton();
-    } else {
-        startQuiz();
-    }
-});
-
 function changeDifficulty(myvalue) {
+    var difficultySelect = document.getElementById("difficulty");
     var selectedDifficulty = difficultySelect.options[difficultySelect.selectedIndex].value;
 }
 
 function changeCategory() {
+    var categorySelect = document.getElementById("category");
     var selectedCategory = categorySelect.options[categorySelect.selectedIndex].value;
+}
+
+function showScore() {
+    resetState();
+    questionElement.innerHTML = `You scored ${score} out of ${questionsByDifficultyAndCategory[currentDifficulty][currentCategory].length}!`; // Use the length of the questions array based on the selected difficulty and category
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
+}
+
+
+nextButton.addEventListener("click", function() {
+    handleNextButton();
+});
+
+function handleNextButton() {
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questionsByDifficultyAndCategory[currentDifficulty][currentCategory].length) {
+        showQuestion();
+    } else {
+        showScore();
+    }
 }
