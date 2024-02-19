@@ -48,7 +48,34 @@ const questionsByDifficultyAndCategory =
                 ]
             }
         ],
-        "HISTORY": [
+        "HISTORY & PAST": [
+            {
+                question: "Who is the King of Nepal who first visited Europe?",
+                answers: [
+                    { text: "King Tribhuvan", correct: true },
+                    { text: "King Mahendra", correct: false },
+                    { text: "King Birendra", correct: false },
+                    { text: "King Gyanendra", correct: false },
+                ]
+            },
+            {
+                question: "What is called a hundred year period?",
+                answers: [
+                    { text: "Century", correct: true },
+                    { text: "Decade", correct: false },
+                    { text: "Millennium", correct: false },
+                    { text: "Era", correct: false },
+                ]
+            },
+            {
+                question: "Which is the longest running Jatra in Nepal?",
+                answers: [
+                    { text: "Jatra of Red Machhindra Nath", correct: true },
+                    { text: "Indra Jatra", correct: false },
+                    { text: "Bisket Jatra", correct: false },
+                    { text: "Dashain Jatra", correct: false },
+                ]
+            },
             {
                 question: "Which part of Nepal do Gurkhas originate from?",
                 answers: [
@@ -58,7 +85,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Patan", correct: false },
                 ]
             },
-
+ 
             {
                 question: "Which country is not involved in any war?",
                 answers: [
@@ -69,8 +96,7 @@ const questionsByDifficultyAndCategory =
                 ]
             }
         ],
-
-        "COMPUTER": [
+        "COMPUTER & TECHNOLOGY": [
             {
                 question: "Who is the co-founder of Apple Inc.?",
                 answers: [
@@ -90,26 +116,79 @@ const questionsByDifficultyAndCategory =
                 ]
             },
             {
-                question: "What does HTML stand for?",
+                question: "What is the brain of the computer?",
                 answers: [
-
-                    { text: "Hypertext Modeling Language", correct: false },
-                    { text: "Hypertext Management Language", correct: false },
-                    { text: "Hypertext Markup Language", correct: true },
-                    { text: "Hypertext Machine Language", correct: false },
+                    { text: "Monitor", correct: false },
+                    { text: "Central processing unit", correct: true },
+                    { text: "Printer", correct: false },
+                    { text: "Keyboard", correct: false }
                 ]
             },
             {
-                question: "Which programming language is often used for web development?",
+                question: "Which of these is not an operating system?",
                 answers: [
-                    { text: "Java", correct: false },
-                    { text: "Python", correct: false },
-                    { text: "JavaScript", correct: true },
-                    { text: "C++", correct: false },
+                    { text: "Windows", correct: false },
+                    { text: "Android", correct: false },
+                    { text: "MacOS", correct: false },
+                    { text: "Apple", correct: true }
+                ]
+            },
+            {
+                question: "What did the first generation of computer use for its operations?",
+                answers: [
+                    { text: "Leakages", correct: false },
+                    { text: "Cable", correct: false },
+                    { text: "Vacuum tube", correct: true },
+                    { text: "Transistor", correct: false }
+                ]
+            },
+            {
+                question: "Who invented computer?",
+                answers: [
+                    { text: "Charles Babbage", correct: true },
+                    { text: "Isaac Newton", correct: false },
+                    { text: "Fredrick Luggard", correct: false },
+                    { text: "Galileo Galilea", correct: false }
+                ]
+            },
+            {
+                question: "What does Control S means?",
+                answers: [
+                    { text: "Save", correct: true },
+                    { text: "Select", correct: false },
+                    { text: "Paste", correct: false },
+                    { text: "Pick", correct: false }
+                ]
+            },
+            {
+                question: "Which company developed the first mobile phone?",
+                answers: [
+                    { text: "Motorola", correct: true },
+                    { text: "Nokia", correct: false },
+                    { text: "Samsung", correct: false },
+                    { text: "Apple", correct: false }
+                ]
+            },
+            {
+                question: "What does A.I. stand for?",
+                answers: [
+                    { text: "Artificial information", correct: false },
+                    { text: "Artificial intelligence", correct: true },
+                    { text: "Anti intelligence", correct: false },
+                    { text: "Anti information", correct: false }
+                ]
+            },
+            {
+                question: "What is the biggest key in the keyboard of a computer?",
+                answers: [
+                    { text: "Space bar", correct: true },
+                    { text: "Function keys", correct: false },
+                    { text: "Backspace", correct: false },
+                    { text: "Arrow key", correct: false }
                 ]
             }
         ],
-        "MATH": [
+        "MATHS & IQ": [
             {
                 question: "What is the square root of 25?",
                 answers: [
@@ -292,16 +371,8 @@ const questionsByDifficultyAndCategory =
             }
 
         ],
-        "SPORTS": [
-            {
-                question: "Who is known as the 'King of Clay' in tennis?",
-                answers: [
-                    { text: "Roger Federer", correct: false },
-                    { text: "Novak Djokovic", correct: false },
-                    { text: "Rafael Nadal", correct: true },
-                    { text: "Andy Murray", correct: false },
-                ]
-            },
+        "SPORTS & GAMES": [
+           
             {
                 question: "In soccer, what body part can't touch the ball?",
                 answers: [
@@ -325,7 +396,7 @@ const questionsByDifficultyAndCategory =
                 answers: [
                     { text: "Golf", correct: false },
                     { text: "Tennis", correct: false },
-                    { text: "Hockey", correct: true },
+                    { text: "Badminton", correct: true },
                     { text: "Polo", correct: false },
                 ]
             },
@@ -338,44 +409,9 @@ const questionsByDifficultyAndCategory =
                     { text: "Germany", correct: false },
                 ]
             },
+            
             {
-                question: "What sport is played on a diamond-shaped field?",
-                answers: [
-                    { text: "Football", correct: false },
-                    { text: "Baseball", correct: true },
-                    { text: "Basketball", correct: false },
-                    { text: "Soccer", correct: false }
-                ]
-            },
-            {
-                question: "In basketball, how many points is a free throw worth?",
-                answers: [
-                    { text: "1 point", correct: true },
-                    { text: "2 points", correct: false },
-                    { text: "3 points", correct: false },
-                    { text: "4 points", correct: false }
-                ]
-            },
-            {
-                question: "Who is known as 'The Greatest' in boxing?",
-                answers: [
-                    { text: "Muhammad Ali", correct: true },
-                    { text: "Mike Tyson", correct: false },
-                    { text: "Floyd Mayweather Jr.", correct: false },
-                    { text: "George Foreman", correct: false }
-                ]
-            },
-            {
-                question: "What sport is played at Wimbledon?",
-                answers: [
-                    { text: "Tennis", correct: true },
-                    { text: "Golf", correct: false },
-                    { text: "Cricket", correct: false },
-                    { text: "Badminton", correct: false }
-                ]
-            },
-            {
-                question: "What do you call it when a player scores three times in hockey?",
+                question: "What do you call it when a player scores three times in Football?",
                 answers: [
                     { text: "Hat-trick", correct: true },
                     { text: "Triple score", correct: false },
@@ -392,17 +428,9 @@ const questionsByDifficultyAndCategory =
                     { text: "Germany", correct: false }
                 ]
             },
+            
             {
-                question: "What sport is associated with the term 'birdie'?",
-                answers: [
-                    { text: "Golf", correct: true },
-                    { text: "Tennis", correct: false },
-                    { text: "Badminton", correct: false },
-                    { text: "Cricket", correct: false }
-                ]
-            },
-            {
-                question: "How many players are on a soccer team?",
+                question: "How many players are on a Football team?",
                 answers: [
                     { text: "11", correct: true },
                     { text: "10", correct: false },
@@ -410,51 +438,18 @@ const questionsByDifficultyAndCategory =
                     { text: "12", correct: false }
                 ]
             },
-            {
-                question: "What is the highest possible score in a single frame of bowling?",
-                answers: [
-                    { text: "30", correct: true },
-                    { text: "20", correct: false },
-                    { text: "25", correct: false },
-                    { text: "15", correct: false }
-                ]
-            },
-            {
-                question: "In golf, what is a 'bogey'?",
-                answers: [
-                    { text: "One under par", correct: false },
-                    { text: "One over par", correct: true },
-                    { text: "Two under par", correct: false },
-                    { text: "Two over par", correct: false }
-                ]
-            },
-            {
-                question: "Who is the all-time leading scorer in NBA history?",
-                answers: [
-                    { text: "LeBron James", correct: false },
-                    { text: "Kareem Abdul-Jabbar", correct: true },
-                    { text: "Michael Jordan", correct: false },
-                    { text: "Kobe Bryant", correct: false }
-                ]
-            },
+           
+           
             {
                 question: "What is the most popular sport in Brazil?",
                 answers: [
-                    { text: "Soccer", correct: true },
+                    { text: "Football", correct: true },
                     { text: "Basketball", correct: false },
                     { text: "Volleyball", correct: false },
                     { text: "Rugby", correct: false }
                 ]
             },
-            {
-                question: "In tennis, what is it called when a player wins a point without the opponent touching the ball?",
-                answers: [
-                    { text: "Ace", correct: true },
-                    { text: "Smash", correct: false },
-                    { text: "Drop shot", correct: false },
-                    { text: "Slice", correct: false }
-                ]
-            },
+           
             {
                 question: "What does NFL stand for?",
                 answers: [
@@ -464,33 +459,8 @@ const questionsByDifficultyAndCategory =
                     { text: "National Figure Skating League", correct: false }
                 ]
             },
-            {
-                question: "Which sport is played at the Super Bowl?",
-                answers: [
-                    { text: "Football", correct: true },
-                    { text: "Basketball", correct: false },
-                    { text: "Baseball", correct: false },
-                    { text: "Hockey", correct: false }
-                ]
-            },
-            {
-                question: "Who holds the record for the most Olympic gold medals?",
-                answers: [
-                    { text: "Usain Bolt", correct: false },
-                    { text: "Michael Phelps", correct: true },
-                    { text: "Serena Williams", correct: false },
-                    { text: "Lionel Messi", correct: false }
-                ]
-            },
-            {
-                question: "What sport is associated with Wimbledon?",
-                answers: [
-                    { text: "Tennis", correct: true },
-                    { text: "Golf", correct: false },
-                    { text: "Cricket", correct: false },
-                    { text: "Soccer", correct: false }
-                ]
-            },
+            
+           
             {
                 question: "What is the main objective in rugby?",
                 answers: [
@@ -499,12 +469,47 @@ const questionsByDifficultyAndCategory =
                     { text: "Score tries", correct: true },
                     { text: "Score goals", correct: false }
                 ]
-            }
-
+            }, 
+            {
+                question: "Which of the following is not related to football?",
+                answers: [
+                    { text: "Penalty area", correct: false },
+                    { text: "Umpire", correct: true },
+                    { text: "Trapping", correct: false },
+                    { text: "Offside", correct: false }
+                ]
+            },
+            {
+                question: "Dead ball is associated with -",
+                answers: [
+                    { text: "Softball", correct: false },
+                    { text: "Basketball", correct: false },
+                    { text: "Hockey", correct: false },
+                    { text: "Cricket", correct: true }
+                ]
+            },
+            {
+                question: "The Asian Games are organized after every -",
+                answers: [
+                    { text: "3 years", correct: false },
+                    { text: "4 years", correct: true },
+                    { text: "5 years", correct: false },
+                    { text: "6 years", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following teams won the FIFA World Cup 2022?",
+                answers: [
+                    { text: "France", correct: false },
+                    { text: "Argentina", correct: true },
+                    { text: "Brazil", correct: false },
+                    { text: "Mexico", correct: false }
+                ]
+            },
 
 
         ],
-        "GEOGRAPHY": [
+        "GEOGRAPHY & NEPAL": [
             {
                 question: "In which district is Mahendra Cave located?",
                 answers: [
@@ -748,6 +753,34 @@ const questionsByDifficultyAndCategory =
                     { text: "Bell", correct: false }
                 ]
             },
+            {
+                question: "What is the chemical symbol for water?",
+                options: [
+                  { text: "H2O", correct: true },
+                  { text: "CO2", correct: false },
+                  { text: "NaCl", correct: false },
+                  { text: "O2", correct: false }
+                ]
+            },
+            {
+              question: "Who painted the Mona Lisa?",
+                options: [
+                  { text: "Leonardo da Vinci", correct: true },
+                  { text: "Vincent van Gogh", correct: false },
+                  { text: "Pablo Picasso", correct: false },
+                  { text: "Michelangelo", correct: false }
+                ]
+              },
+            
+           {
+            question: "What is the full form of NASA?",
+            answers: [
+           { text: "National Aeronautics and Space Administration", correct: true },
+           { text: "National Association of Space Astronauts", correct: false },
+           { text: "North American Space Agency", correct: false },
+           { text: "National Aeronautics and Science Association", correct: false }
+           ]
+           },
 
             {
                 question: "Which river in the world does not have fish?",
@@ -761,46 +794,188 @@ const questionsByDifficultyAndCategory =
             }
 
         ],
-        "HISTORY": [
+        "HISTORY & PAST": [
+        
             {
-                question: "Who is the King of Nepal who first visited Europe?",
+                question: "Where was Mesopotamia located?",
                 answers: [
-                    { text: "King Tribhuvan", correct: true },
-                    { text: "King Mahendra", correct: false },
-                    { text: "King Birendra", correct: false },
-                    { text: "King Gyanendra", correct: false },
+                    { text: "Middle East", correct: true },
+                    { text: "Eastern Europe", correct: false },
+                    { text: "North Africa", correct: false },
+                    { text: "Central Asia", correct: false }
                 ]
             },
             {
-                question: "What is called a hundred year period?",
+                question: "Where was Adolf Hitler born?",
                 answers: [
-                    { text: "Century", correct: true },
-                    { text: "Decade", correct: false },
-                    { text: "Millennium", correct: false },
-                    { text: "Era", correct: false },
+                    { text: "Hallstatt, Austria", correct: false },
+                    { text: "Braunau am Inn, Austria", correct: true },
+                    { text: "Kufstein, Austria", correct: false },
+                    { text: "Vienna, Austria", correct: false }
                 ]
             },
             {
-                question: "Which is the longest running Jatra in Nepal?",
+                question: "Who was the last Shang king?",
                 answers: [
-                    { text: "Jatra of Red Machhindra Nath", correct: true },
-                    { text: "Indra Jatra", correct: false },
-                    { text: "Bisket Jatra", correct: false },
-                    { text: "Dashain Jatra", correct: false },
-                ]
-            }
-
-        ],
-        "COMPUTER": [
-            {
-                question: "Who is considered the father of modern computer science?",
-                answers: [
-                    { text: "Alan Turing", correct: true },
-                    { text: "Tim Berners-Lee", correct: false },
-                    { text: "Linus Torvalds", correct: false },
-                    { text: "Ada Lovelace", correct: false },
+                    { text: "Tai Wu", correct: false },
+                    { text: "Di Xin", correct: true },
+                    { text: "Tai Jia", correct: false },
+                    { text: "Wu Ding", correct: false }
                 ]
             },
+            {
+                question: "What is the other name of World War I?",
+                answers: [
+                    { text: "Great War", correct: true },
+                    { text: "Ultimate War", correct: false },
+                    { text: "Absolute War", correct: false },
+                    { text: "First World War", correct: false }
+                ]
+            },
+            {
+                question: "What is the other name of World War I?",
+                answers: [
+                    { text: "Great War", correct: true },
+                    { text: "Ultimate War", correct: false },
+                    { text: "Absolute War", correct: false },
+                    { text: "Cold War", correct: false }
+                ]
+            },
+            {
+                question: "What is the time period of World War II?",
+                answers: [
+                    { text: "1939 — 1945", correct: true },
+                    { text: "1917 — 1920", correct: false },
+                    { text: "1940 — 1946", correct: false },
+                    { text: "1920 — 1940", correct: false }
+                ]
+            },
+            {
+                question: "When did Hitler kill himself along with his wife?",
+                answers: [
+                    { text: "1945", correct: true },
+                    { text: "1939", correct: false },
+                    { text: "1940", correct: false },
+                    { text: "1931", correct: false }
+                ]
+            },
+            {
+                question: "What was the largest tank battle in history?",
+                answers: [
+                    { text: "Battle of Moscow", correct: false },
+                    { text: "Battle of Prokhorovka", correct: true },
+                    { text: "Battle of the Dnieper", correct: false },
+                    { text: "Battle of Kursk", correct: false }
+                ]
+            },
+            {
+                question: "Which of the Seven Wonders of the Ancient World can be seen today?",
+                answers: [
+                    { text: "The Great Pyramid of Giza", correct: true },
+                    { text: "The Colossus of Rhodes", correct: false },
+                    { text: "Hanging Gardens of Babylon", correct: false },
+                    { text: "The Lighthouse of Alexandria", correct: false }
+                ]
+            }                        
+           ],
+        "COMPUTER & TECHNOLOGY": [
+            {
+                question: "Which programming language is often used for web development?",
+                answers: [
+                    { text: "Java", correct: false },
+                    { text: "Python", correct: false },
+                    { text: "JavaScript", correct: true },
+                    { text: "C++", correct: false },
+                ]
+            },
+           
+            {
+                question: "If you were having your students create a chart with data they collected, which software would be the best choice?",
+                answers: [
+                    { text: "Microsoft Word", correct: false },
+                    { text: "Microsoft Excel", correct: true },
+                    { text: "Microsoft Access", correct: false },
+                    { text: "Microsoft Powerpoint", correct: false }
+                ]
+            },
+            
+            {
+                question: "A program that allows you to view pages on the internet is called:",
+                answers: [
+                    { text: "Url", correct: false },
+                    { text: "Browser", correct: true },
+                    { text: "Search engine", correct: false },
+                    { text: "Database", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following answers is the largest amount of information?",
+                answers: [
+                    { text: "80 bytes", correct: false },
+                    { text: "80 megabytes", correct: false },
+                    { text: "80 Gigabytes", correct: true },
+                    { text: "80 Kilobytes", correct: false }
+                ]
+            },
+            {
+                question: "What file would you commonly find for a picture?",
+                answers: [
+                    { text: ".JPG", correct: true },
+                    { text: ".DOC", correct: false },
+                    { text: ".BMP", correct: false },
+                    { text: ".TIF", correct: false }
+                ]
+            },
+            {
+                question: "Which of these technologies help computers to behave like humans?",
+                answers: [
+                    { text: "XBOX", correct: false },
+                    { text: "Artificial intelligence", correct: true },
+                    { text: "Artificial embryo", correct: false },
+                    { text: "3-D printing", correct: false }
+                ]
+            },
+            {
+                question: "A ring of gold is yellow. Is this statement correct?",
+                answers: [
+                    { text: "Yes", correct: true },
+                    { text: "No", correct: false },
+                    { text: "Depends on its alloy", correct: false },
+                    { text: "I'm not sure.", correct: false }
+                ]
+            },
+            {
+                question: "World-wide, what language is used the most on the internet?",
+                answers: [
+                    { text: "German", correct: false },
+                    { text: "English", correct: true },
+                    { text: "Spanish", correct: false },
+                    { text: "Chinese", correct: false }
+                ]
+            },           
+            
+            
+            {
+                question: "Where was the world wide web invented?",
+                answers: [
+                    { text: "United States", correct: false },
+                    { text: "Switzerland", correct: true },
+                    { text: "Germany", correct: false },
+                    { text: "United Kingdom", correct: false }
+                ]
+            },
+            
+            {
+                question: "What does HTML stand for?",
+                answers: [
+            
+                    { text: "Hypertext Modeling Language", correct: false },
+                    { text: "Hypertext Management Language", correct: false },
+                    { text: "Hypertext Markup Language", correct: true },
+                    { text: "Hypertext Machine Language", correct: false },
+                ]
+            },
+            
             {
                 question: "What is the name of the first electronic general-purpose computer?",
                 answers: [
@@ -810,24 +985,7 @@ const questionsByDifficultyAndCategory =
                     { text: "EDSAC", correct: false },
                 ]
             },
-            {
-                question: "Which programming language was created by Bjarne Stroustrup in 1983?",
-                answers: [
-                    { text: "Java", correct: false },
-                    { text: "C++", correct: true },
-                    { text: "Python", correct: false },
-                    { text: "Ruby", correct: false },
-                ]
-            },
-            {
-                question: "What is the function of a compiler in programming?",
-                answers: [
-                    { text: "It translates high-level code into machine code", correct: true },
-                    { text: "It executes code line by line", correct: false },
-                    { text: "It checks for errors in the code", correct: false },
-                    { text: "It optimizes code for performance", correct: false },
-                ]
-            },
+            
             {
                 question: "What does CSS stand for in web development?",
                 answers: [
@@ -838,7 +996,7 @@ const questionsByDifficultyAndCategory =
                 ]
             }
         ],
-        "MATH": [
+        "MATHS & IQ": [
             {
                 question: "What is the derivative of x^2 with respect to x?",
                 answers: [
@@ -1047,7 +1205,7 @@ const questionsByDifficultyAndCategory =
             },
 
         ],
-        "GEOGRAPHY": [
+        "GEOGRAPHY & NEPAL": [
             {
                 question: "What is the highest mountain in Nepal?",
                 answers: [
@@ -1237,72 +1395,151 @@ const questionsByDifficultyAndCategory =
         ],
         "SPORTS": [
             {
-                question: "Who is known as the 'King of Clay' in tennis?",
-                answers: [
-                    { text: "Roger Federer", correct: false },
-                    { text: "Novak Djokovic", correct: false },
-                    { text: "Rafael Nadal", correct: true },
-                    { text: "Andy Murray", correct: false },
-                ]
-            },
-            {
-                question: "In soccer, what body part can't touch the ball?",
-                answers: [
-                    { text: "Feet", correct: false },
-                    { text: "Head", correct: false },
-                    { text: "Chest", correct: false },
-                    { text: "Hands", correct: true },
-                ]
-            },
-            {
-                question: "The Olympics are held every how many years?",
-                answers: [
-                    { text: "2 years", correct: false },
-                    { text: "3 years", correct: false },
-                    { text: "4 years", correct: true },
-                    { text: "5 years", correct: false },
-                ]
-            },
-            {
-                question: "Which of the following sports does not use a ball?",
-                answers: [
-                    { text: "Golf", correct: false },
-                    { text: "Tennis", correct: false },
-                    { text: "Hockey", correct: true },
-                    { text: "Polo", correct: false },
-                ]
-            },
-
-            {
-                question: "Which country won the FIFA World Cup in 2018?",
+                question: "What country won the first World Cup?",
                 answers: [
                     { text: "Brazil", correct: false },
                     { text: "Argentina", correct: false },
-                    { text: "France", correct: true },
-                    { text: "Germany", correct: false },
+                    { text: "Uruguay", correct: true },
+                    { text: "Germany", correct: false }
                 ]
-            }
+            },
+                {
+                    question: "What is the full form of IPL?",
+                    answers: [
+                        { text: "Indian Premier League", correct: true },
+                        { text: "Indo-Pakistan League", correct: false },
+                        { text: "International Premier League", correct: false },
+                        { text: "Indian Players League", correct: false }
+                    ]
+                },
+                {
+                    question: "World's fastest sprinter Usain Bolt belongs to which country?",
+                    answers: [
+                        { text: "Nigeria", correct: false },
+                        { text: "Colombia", correct: false },
+                        { text: "Jamaica", correct: true },
+                        { text: "Uganda", correct: false }
+                    ]
+                },
+                {
+                    question: "Which country won the title of Asian Kabaddi Championship 2023?",
+                    answers: [
+                        { text: "India", correct: true },
+                        { text: "Iran", correct: false },
+                        { text: "Nepal", correct: false },
+                        { text: "Bangladesh", correct: false }
+                    ]
+                },
+                
+                {
+                    question: "With which sport is Lionel Messi associated?",
+                    answers: [
+                        { text: "Chess", correct: false },
+                        { text: "Football", correct: true },
+                        { text: "Cricket", correct: false },
+                        { text: "Shooting", correct: false }
+                    ]
+                },
+                
+                {
+                    question: "The first Asian Games were organized in 1951 in -",
+                    answers: [
+                        { text: "Singapore", correct: false },
+                        { text: "Tokyo", correct: false },
+                        { text: "New Delhi", correct: true },
+                        { text: "Beijing", correct: false }
+                    ]
+                },
+                {
+                    question: "Who has been named men's player of the year for 2022?",
+                    answers: [
+                        { text: "Kylian Mbappe", correct: false },
+                        { text: "Karim Benzema", correct: false },
+                        { text: "Lionel Messi", correct: true },
+                        { text: "Emiliano 'Dibu' Martinez", correct: false }
+                    ]
+                },
+                
+                {
+                    question: "Which one of the following players won the 'Golden Boot' Award in FIFA World Cup 2022?",
+                    answers: [
+                        { text: "Kylian Mbappe (France)", correct: false },
+                        { text: "Lionel Messi (Argentina)", correct: false },
+                        { text: "Hassan Al-Haydos (Qatar)", correct: false },
+                        { text: "Nemayer (Brazil)", correct: false }
+                    ]
+                },
+                {
+                    question: "Who among the following players won the 'Golden Ball' trophy in FIFA World Cup 2022?",
+                    answers: [
+                        { text: "Lionel Messi (Argentina)", correct: true },
+                        { text: "Damian Emiliano Martinez Romero (Argentina)", correct: false },
+                        { text: "Cristiano Ronaldo (Portugal)", correct: false },
+                        { text: "Harry Kane (England)", correct: false }
+                    ]
+                },
+                {
+                    question: "Which of the following teams won the FIFA World Cup 2022?",
+                    answers: [
+                        { text: "France", correct: false },
+                        { text: "Argentina", correct: true },
+                        { text: "Brazil", correct: false },
+                        { text: "Mexico", correct: false }
+                    ]
+                },
+                {
+                    question: "The Asian Games are organized after every -",
+                    answers: [
+                        { text: "3 years", correct: false },
+                        { text: "4 years", correct: true },
+                        { text: "5 years", correct: false },
+                        { text: "6 years", correct: false }
+                    ]
+                },
+                {
+                    question: "What is it called when a player can't defend an attack against their king?",
+                    answers: [
+                        { text: "Check", correct: true },
+                        { text: "Chess", correct: false },
+                        { text: "Checkchess", correct: false },
+                        { text: "Checkmate", correct: false }
+                    ]
+                },
+                
+                
+                
+                {
+                    question: "Which of the following is not related to football?",
+                    answers: [
+                        { text: "Penalty area", correct: false },
+                        { text: "Umpire", correct: true },
+                        { text: "Trapping", correct: false },
+                        { text: "Offside", correct: false }
+                    ]
+                },
+                {
+                    question: "Where is the headquarters of the International Olympic Committee located?",
+                    answers: [
+                        { text: "Beijing", correct: false },
+                        { text: "London", correct: false },
+                        { text: "Switzerland", correct: true },
+                        { text: "Germany", correct: false }
+                    ]
+                },
+                {
+                    question: "Which team emerged winner of the UEFA Champions League title in 2022?",
+                    answers: [
+                        { text: "Real Madrid", correct: false },
+                        { text: "FC Barcelona", correct: false },
+                        { text: "Bryan Munich", correct: false },
+                        { text: "Inter Milan", correct: true }
+                    ]
+                }                      
         ]
     },
     hard: {
         "GENERAL KNOWLEDGE": [
-            {
-                question: "What is the capital of France?",
-                answers: [
-                    { text: "Paris", correct: true },
-                    { text: "London", correct: false },
-                    { text: "Berlin", correct: false },
-                    { text: "Rome", correct: false },
-                ]
-            }, {
-                question: "What is the capital of France?",
-                answers: [
-                    { text: "Paris", correct: true },
-                    { text: "London", correct: false },
-                    { text: "Berlin", correct: false },
-                    { text: "Rome", correct: false },
-                ]
-            },
+            
             {
                 question: "Name the hardest substance available on Earth?",
                 answers: [
@@ -1342,7 +1579,7 @@ const questionsByDifficultyAndCategory =
             }
 
         ],
-        "HISTORY": [
+        "HISTORY & PAST": [
             {
                 question: "What is the capital of Japan?",
                 answers: [
@@ -1362,7 +1599,7 @@ const questionsByDifficultyAndCategory =
                 ]
             }
         ],
-        "COMPUTER": [{
+        "COMPUTER & TECHNOLOGY": [{
             question: "What is the name of the programming language developed by Microsoft?",
             answers: [
                 { text: "Java", correct: false },
@@ -1399,6 +1636,79 @@ const questionsByDifficultyAndCategory =
             ]
         },
         {
+            question: "Which programming language was created by Bjarne Stroustrup in 1983?",
+            answers: [
+                { text: "Java", correct: false },
+                { text: "C++", correct: true },
+                { text: "Python", correct: false },
+                { text: "Ruby", correct: false },
+            ]
+        },
+        {
+            question: "Who is considered the father of modern computer science?",
+            answers: [
+                { text: "Alan Turing", correct: true },
+                { text: "Tim Berners-Lee", correct: false },
+                { text: "Linus Torvalds", correct: false },
+                { text: "Ada Lovelace", correct: false },
+            ]
+        },
+        {
+        question: "What technology is used to record cryptocurrency transactions?",
+        answers: [
+            { text: "Digital wallet", correct: false },
+            { text: "Mining", correct: false },
+            { text: "Blockchain", correct: true },
+            { text: "Token", correct: false }
+        ]
+        },
+        
+        {
+            question: "About how many smartphones are being used in the world?",
+            answers: [
+                { text: "1 million", correct: false },
+                { text: "100 million", correct: false },
+                { text: "1 billion", correct: true },
+                { text: "100 billion", correct: false }
+            ]
+        },
+        {
+            question: "What was the fastest growing web browser in 2020?",
+            answers: [
+                { text: "Microsoft Edge", correct: true },
+                { text: "Firefox", correct: false },
+                { text: "DuckDuckGo", correct: false },
+                { text: "Internet Explorer", correct: false }
+            ]
+        },
+        {
+            question: "What was the name of the first operating system?",
+            answers: [
+                { text: "Windows 1.01", correct: false },
+                { text: "TSS/360", correct: false },
+                { text: "EPOC", correct: false },
+                { text: "GM-NAA I/O", correct: true }
+            ]
+        },
+        {
+            question: "What is the function of a compiler in programming?",
+            answers: [
+                { text: "It translates high-level code into machine code", correct: true },
+                { text: "It executes code line by line", correct: false },
+                { text: "It checks for errors in the code", correct: false },
+                { text: "It optimizes code for performance", correct: false },
+            ]
+        },
+        {
+            question: "A project using Powerpoint may include all of the following items except:",
+            answers: [
+                { text: "Video tape", correct: true },
+                { text: "Text", correct: false },
+                { text: "Sound clip", correct: false },
+                { text: "Animation", correct: false }
+            ]
+        },
+        {
             question: "What is the primary purpose of version control systems like Git?",
             answers: [
                 { text: "To track changes in code and collaborate with others", correct: true },
@@ -1409,135 +1719,109 @@ const questionsByDifficultyAndCategory =
         }
 
         ],
-        "MATH": [
+        "MATHS & IQ": [
             {
-                question: "What is the derivative of e^x with respect to x?",
+                question: "What is 6372+5849?",
                 answers: [
-                    { text: "e^x", correct: true },
-                    { text: "x^2", correct: false },
-                    { text: "2x", correct: false },
-                    { text: "1/e^x", correct: false }
+                  { text: "14253", correct: false },
+                  { text: "12221", correct: true },
+                  { text: "06458", correct: false },
+                  { text: "74839", correct: false }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+1)?",
+              },
+              {
+                question: "What if you divide 352 by 12?",
                 answers: [
-                    { text: "arctan(x) + C", correct: true },
-                    { text: "arcsin(x) + C", correct: false },
-                    { text: "arccos(x) + C", correct: false },
-                    { text: "arcsec(x) + C", correct: false }
+                  { text: "23.9", correct: false },
+                  { text: "27.9", correct: false },
+                  { text: "29.3", correct: true },
+                  { text: "67.8", correct: false }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+4)?",
+              },
+                {
+                question: "What if you add 7778.1 into 0.0001?",
                 answers: [
-                    { text: "arctan(x/2) + C", correct: true },
-                    { text: "arcsin(x/2) + C", correct: false },
-                    { text: "arccos(x/2) + C", correct: false },
-                    { text: "arcsec(x/2) + C", correct: false }
+                  { text: "7778.0010", correct: false },
+                  { text: "7778.1001", correct: true },
+                  { text: "7778.0011", correct: false },
+                  { text: "7779", correct: false }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+9)?",
+              },
+                {
+                question: "Solve 3 + 6 × (5 + 4) ÷ 3 - 7",
                 answers: [
-                    { text: "arctan(x/3) + C", correct: true },
-                    { text: "arcsin(x/3) + C", correct: false },
-                    { text: "arccos(x/3) + C", correct: false },
-                    { text: "arcsec(x/3) + C", correct: false }
+                  { text: "11", correct: false },
+                  { text: "16", correct: false },
+                  { text: "14", correct: true },
+                  { text: "15", correct: false }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+16)?",
+              },
+              {
+                question: "Priya had 16 Red Balls, 2 Green Balls, 9 Blue Balls, and 1 Multicolor Ball. If He Lost 9 Red Balls, 1 Green Ball, and 3 Blue Balls. How Many Balls would be Left?",
                 answers: [
-                    { text: "arctan(x/4) + C", correct: true },
-                    { text: "arcsin(x/4) + C", correct: false },
-                    { text: "arccos(x/4) + C", correct: false },
-                    { text: "arcsec(x/4) + C", correct: false }
+                  { text: "15", correct: true },
+                  { text: "11", correct: false },
+                  { text: "28", correct: false },
+                  { text: "39", correct: false }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+25)?",
+              },
+              {
+                question: "whwt is the sum of 2000+20+30+40+10?",
                 answers: [
-                    { text: "arctan(x/5) + C", correct: true },
-                    { text: "arcsin(x/5) + C", correct: false },
-                    { text: "arccos(x/5) + C", correct: false },
-                    { text: "arcsec(x/5) + C", correct: false }
+                  { text: "2100", correct: true },
+                  { text: "3000", correct: false },
+                  { text: "2050", correct: false },
+                  { text: "2022", correct: false }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+36)?",
+              }, 
+              
+              {
+                question: "5, 11, 23, 47, 95, ?",
                 answers: [
-                    { text: "arctan(x/6) + C", correct: true },
-                    { text: "arcsin(x/6) + C", correct: false },
-                    { text: "arccos(x/6) + C", correct: false },
-                    { text: "arcsec(x/6) + C", correct: false }
+                  { text: "176", correct: false },
+                  { text: "191", correct: false },
+                  { text: "199", correct: false },
+                  { text: "207", correct: true }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+49)?",
+              },
+              {
+                question: "Mary is 16 years old. She is 4 times older than her brother. How old will Mary be when she is twice his age?",
                 answers: [
-                    { text: "arctan(x/7) + C", correct: true },
-                    { text: "arcsin(x/7) + C", correct: false },
-                    { text: "arccos(x/7) + C", correct: false },
-                    { text: "arcsec(x/7) + C", correct: false }
+                  { text: "That's impossible", correct: false },
+                  { text: "20", correct: false },
+                  { text: "24", correct: true },
+                  { text: "28", correct: false }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+64)?",
+              },
+              {
+                question: "There are 5 machines that make 5 parts in 5 minutes. How long does it take to make 100 parts on 100 machines?",
                 answers: [
-                    { text: "arctan(x/8) + C", correct: true },
-                    { text: "arcsin(x/8) + C", correct: false },
-                    { text: "arccos(x/8) + C", correct: false },
-                    { text: "arcsec(x/8) + C", correct: false }
+                  { text: "5", correct: true },
+                  { text: "10", correct: false },
+                  { text: "15", correct: false },
+                  { text: "30", correct: false }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+81)?",
+              },
+              {
+                question: "How many minutes are in four and a half hours?",
                 answers: [
-                    { text: "arctan(x/9) + C", correct: true },
-                    { text: "arcsin(x/9) + C", correct: false },
-                    { text: "arccos(x/9) + C", correct: false },
-                    { text: "arcsec(x/9) + C", correct: false }
+                  { text: "270", correct: true },
+                  { text: "180", correct: false },
+                  { text: "240", correct: false },
+                  { text: "360", correct: false }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+100)?",
+              },
+              {
+                question: " 8 10 14 18 ? 34 50 66",
                 answers: [
-                    { text: "arctan(x/10) + C", correct: true },
-                    { text: "arcsin(x/10) + C", correct: false },
-                    { text: "arccos(x/10) + C", correct: false },
-                    { text: "arcsec(x/10) + C", correct: false }
+                  { text: "20", correct: false },
+                  { text: "26", correct: true },
+                  { text: "28", correct: false },
+                  { text: "30", correct: false }
                 ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+121)?",
-                answers: [
-                    { text: "arctan(x/11) + C", correct: true },
-                    { text: "arcsin(x/11) + C", correct: false },
-                    { text: "arccos(x/11) + C", correct: false },
-                    { text: "arcsec(x/11) + C", correct: false }
-                ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+144)?",
-                answers: [
-                    { text: "arctan(x/12) + C", correct: true },
-                    { text: "arcsin(x/12) + C", correct: false },
-                    { text: "arccos(x/12) + C", correct: false },
-                    { text: "arcsec(x/12) + C", correct: false }
-                ]
-            },
-            {
-                question: "What is the antiderivative of 1/(x^2+169)?",
-                answers: [
-                    { text: "arctan(x/13) + C", correct: true },
-                    { text: "arcsin(x/13) + C", correct: false },
-                    { text: "arccos(x/13) + C", correct: false },
-                    { text: "arcsec(x/13) + C", correct: false }
-                ]
-            }
+              }
         ],
-        "GEOGRAPHY": [
+        "GEOGRAPHY & NEPAL": [
 
             {
                 question: "Which is the longest continental mountain range in the world?",
@@ -1683,15 +1967,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Iguazu Falls", correct: false }
                 ]
             },
-            {
-                question: "What is the capital city of Uzbekistan?",
-                answers: [
-                    { text: "Tashkent", correct: true },
-                    { text: "Ashgabat", correct: false },
-                    { text: "Bishkek", correct: false },
-                    { text: "Astana", correct: false }
-                ]
-            },
+            
             {
                 question: "Which is the largest lake in Africa?",
                 answers: [
@@ -1719,19 +1995,11 @@ const questionsByDifficultyAndCategory =
                     { text: "Angel Falls", correct: true }
                 ]
             },
-            {
-                question: "What is the capital city of Kazakhstan?",
-                answers: [
-                    { text: "Almaty", correct: false },
-                    { text: "Tashkent", correct: false },
-                    { text: "Nur-Sultan", correct: true },
-                    { text: "Dushanbe", correct: false }
-                ]
-            }
+            
 
 
         ],
-        "SPORTS": [
+        "SPORTS & GAMES": [
             {
                 question: "Who is known as the 'King of Clay' in tennis?",
                 answers: [
@@ -1740,42 +2008,106 @@ const questionsByDifficultyAndCategory =
                     { text: "Rafael Nadal", correct: true },
                     { text: "Andy Murray", correct: false },
                 ]
-            },
+            },  
             {
-                question: "In soccer, what body part can't touch the ball?",
+                question: "Distance of Marathon race is -",
                 answers: [
-                    { text: "Feet", correct: false },
-                    { text: "Head", correct: false },
-                    { text: "Chest", correct: false },
-                    { text: "Hands", correct: true },
+                    { text: "43.195 km", correct: false },
+                    { text: "42.195 km", correct: true },
+                    { text: "41.185 km", correct: false },
+                    { text: "40.165 km", correct: false }
                 ]
             },
             {
-                question: "The Olympics are held every how many years?",
+                question: "In which game Antenna is used?",
                 answers: [
-                    { text: "2 years", correct: false },
-                    { text: "3 years", correct: false },
-                    { text: "4 years", correct: true },
-                    { text: "5 years", correct: false },
+                    { text: "Basketball", correct: false },
+                    { text: "Cricket", correct: false },
+                    { text: "Rugby", correct: false },
+                    { text: "Volleyball", correct: true }
+                ]
+            },         
+            {
+                question: "In basketball, how many points is a free throw worth?",
+                answers: [
+                    { text: "1 point", correct: true },
+                    { text: "2 points", correct: false },
+                    { text: "3 points", correct: false },
+                    { text: "4 points", correct: false }
                 ]
             },
             {
-                question: "Which of the following sports does not use a ball?",
+                question: "Which country won the FIFA World Cup (Men) for the maximum number of times?",
                 answers: [
+                    { text: "West Indies", correct: false },
+                    { text: "Pakistan", correct: false },
+                    { text: "Sri Lanka", correct: false },
+                    { text: "Australia", correct: true }
+                ]
+            },
+            {
+                question: "Triples is a new format of",
+                answers: [
+                    { text: "Boxing", correct: false },
+                    { text: "Judo", correct: false },
+                    { text: "Chess", correct: false },
+                    { text: "Badminton", correct: true }
+                ]
+            },
+            {
+                question: "The first Winter Olympic Games were organized in the year -",
+                answers: [
+                    { text: "1920", correct: false },
+                    { text: "1921", correct: false },
+                    { text: "1923", correct: false },
+                    { text: "1924", correct: true }
+                ]
+            },
+            
+            {
+                question: "Who is known as 'The Greatest' in boxing?",
+                answers: [
+                    { text: "Muhammad Ali", correct: true },
+                    { text: "Mike Tyson", correct: false },
+                    { text: "Floyd Mayweather Jr.", correct: false },
+                    { text: "George Foreman", correct: false }
+                ]
+            },
+            {
+                question: "What sport is played at Wimbledon?",
+                answers: [
+                    { text: "Tennis", correct: true },
                     { text: "Golf", correct: false },
-                    { text: "Tennis", correct: false },
-                    { text: "Hockey", correct: true },
-                    { text: "Polo", correct: false },
+                    { text: "Cricket", correct: false },
+                    { text: "Badminton", correct: false }
                 ]
             },
-
             {
-                question: "Which country won the FIFA World Cup in 2018?",
+                question: "Who is the all-time leading scorer in NBA history?",
                 answers: [
-                    { text: "Brazil", correct: false },
-                    { text: "Argentina", correct: false },
-                    { text: "France", correct: true },
-                    { text: "Germany", correct: false },
+                    { text: "LeBron James", correct: false },
+                    { text: "Kareem Abdul-Jabbar", correct: true },
+                    { text: "Michael Jordan", correct: false },
+                    { text: "Kobe Bryant", correct: false }
+                ]
+            },
+            {
+                question: "How many squares does a chessboard have?",
+                answers: [
+                    { text: "65", correct: false },
+                    { text: "32", correct: false },
+                    { text: "64", correct: true },
+                    { text: "99", correct: false }
+                ]
+            },
+            
+            {
+                question: "Who holds the record for the most Olympic gold medals?",
+                answers: [
+                    { text: "Usain Bolt", correct: false },
+                    { text: "Michael Phelps", correct: true },
+                    { text: "Serena Williams", correct: false },
+                    { text: "Lionel Messi", correct: false }
                 ]
             }
         ]
