@@ -85,7 +85,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Patan", correct: false },
                 ]
             },
- 
+
             {
                 question: "Which country is not involved in any war?",
                 answers: [
@@ -94,7 +94,64 @@ const questionsByDifficultyAndCategory =
                     { text: "Russia", correct: false },
                     { text: "Germany", correct: false },
                 ]
-            }
+            },
+            {
+                question: "Which Nepali Queen is known for Her Contribution to the Field of Women’s Rights and Education?",
+                answers: [
+                    { text: "Rajya Lakshmi Devi Shah", correct: false },
+                    { text: "Shanti Devi", correct: false },
+                    { text: "Ishwari Rajya Laxmi Devi Shah", correct: true },
+                    { text: "Divyeshwari Devi", correct: false }
+                ]
+            },
+            {
+                question: "Who Was the First President of Nepal?",
+                answers: [
+                    { text: "Ram Baran Yadav", correct: true },
+                    { text: "Bidhya Devi Bhandari", correct: false },
+                    { text: "Dr. Prakash Chandra Lohani", correct: false },
+                    { text: "Surya Bahadur Thapa", correct: false }
+                ]
+            },
+
+            {
+                question: "Who Was the First Prime Minister of Nepal?",
+                answers: [
+                    { text: "Bishweshwar Prasad Koirala", correct: true },
+                    { text: "Matrika Prasad Koirala", correct: false },
+                    { text: "Krishna Prasad Bhattarai", correct: false },
+                    { text: "Girija Prasad Koirala", correct: false }
+                ]
+            },
+            {
+                question: "Who Was the First Person to Climb Mount Everest?",
+                answers: [
+                    { text: "Tenzing Norgay", correct: false },
+                    { text: "Edmund Hillary", correct: true },
+                    { text: "Reinhold Messner", correct: false },
+                    { text: "Junko Tabei", correct: false }
+                ]
+            },
+            {
+                question: "Who Was the Founder of the Licchavi Dynasty in Nepal?",
+                answers: [
+                    { text: "Amshuverma", correct: false },
+                    { text: "Shankhadhar Sakhwa", correct: false },
+                    { text: "Manadeva", correct: true },
+                    { text: "Anshuvarma", correct: false }
+                ]
+            },
+
+
+            {
+                question: "Who Was the First Nepali to Climb Mount Everest Without Using Bottled Oxygen?",
+                answers: [
+                    { text: "Tenzing Norgay", correct: true },
+                    { text: "Pasang Lhamu Sherpa", correct: false },
+                    { text: "Ang Rita Sherpa", correct: false },
+                    { text: "Apa Sherpa", correct: false }
+                ]
+            },
         ],
         "COMPUTER & TECHNOLOGY": [
             {
@@ -372,7 +429,7 @@ const questionsByDifficultyAndCategory =
 
         ],
         "SPORTS & GAMES": [
-           
+
             {
                 question: "In soccer, what body part can't touch the ball?",
                 answers: [
@@ -409,7 +466,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Germany", correct: false },
                 ]
             },
-            
+
             {
                 question: "What do you call it when a player scores three times in Football?",
                 answers: [
@@ -428,7 +485,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Germany", correct: false }
                 ]
             },
-            
+
             {
                 question: "How many players are on a Football team?",
                 answers: [
@@ -438,8 +495,8 @@ const questionsByDifficultyAndCategory =
                     { text: "12", correct: false }
                 ]
             },
-           
-           
+
+
             {
                 question: "What is the most popular sport in Brazil?",
                 answers: [
@@ -449,7 +506,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Rugby", correct: false }
                 ]
             },
-           
+
             {
                 question: "What does NFL stand for?",
                 answers: [
@@ -459,8 +516,8 @@ const questionsByDifficultyAndCategory =
                     { text: "National Figure Skating League", correct: false }
                 ]
             },
-            
-           
+
+
             {
                 question: "What is the main objective in rugby?",
                 answers: [
@@ -469,7 +526,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Score tries", correct: true },
                     { text: "Score goals", correct: false }
                 ]
-            }, 
+            },
             {
                 question: "Which of the following is not related to football?",
                 answers: [
@@ -756,31 +813,31 @@ const questionsByDifficultyAndCategory =
             {
                 question: "What is the chemical symbol for water?",
                 options: [
-                  { text: "H2O", correct: true },
-                  { text: "CO2", correct: false },
-                  { text: "NaCl", correct: false },
-                  { text: "O2", correct: false }
+                    { text: "H2O", correct: true },
+                    { text: "CO2", correct: false },
+                    { text: "NaCl", correct: false },
+                    { text: "O2", correct: false }
                 ]
             },
             {
-              question: "Who painted the Mona Lisa?",
+                question: "Who painted the Mona Lisa?",
                 options: [
-                  { text: "Leonardo da Vinci", correct: true },
-                  { text: "Vincent van Gogh", correct: false },
-                  { text: "Pablo Picasso", correct: false },
-                  { text: "Michelangelo", correct: false }
+                    { text: "Leonardo da Vinci", correct: true },
+                    { text: "Vincent van Gogh", correct: false },
+                    { text: "Pablo Picasso", correct: false },
+                    { text: "Michelangelo", correct: false }
                 ]
-              },
-            
-           {
-            question: "What is the full form of NASA?",
-            answers: [
-           { text: "National Aeronautics and Space Administration", correct: true },
-           { text: "National Association of Space Astronauts", correct: false },
-           { text: "North American Space Agency", correct: false },
-           { text: "National Aeronautics and Science Association", correct: false }
-           ]
-           },
+            },
+
+            {
+                question: "What is the full form of NASA?",
+                answers: [
+                    { text: "National Aeronautics and Space Administration", correct: true },
+                    { text: "National Association of Space Astronauts", correct: false },
+                    { text: "North American Space Agency", correct: false },
+                    { text: "National Aeronautics and Science Association", correct: false }
+                ]
+            },
 
             {
                 question: "Which river in the world does not have fish?",
@@ -795,7 +852,7 @@ const questionsByDifficultyAndCategory =
 
         ],
         "HISTORY & PAST": [
-        
+
             {
                 question: "Where was Mesopotamia located?",
                 answers: [
@@ -876,8 +933,17 @@ const questionsByDifficultyAndCategory =
                     { text: "Hanging Gardens of Babylon", correct: false },
                     { text: "The Lighthouse of Alexandria", correct: false }
                 ]
-            }                        
-           ],
+            },
+            {
+                question: "When was the Bir Hospital built?",
+                answers: [
+                    { text: "B.S. 1947", correct: true },
+                    { text: "A.D. 1947", correct: false },
+                    { text: "B.S. 1957", correct: false },
+                    { text: "A.D. 1957", correct: false }
+                ]
+            },
+        ],
         "COMPUTER & TECHNOLOGY": [
             {
                 question: "Which programming language is often used for web development?",
@@ -888,7 +954,7 @@ const questionsByDifficultyAndCategory =
                     { text: "C++", correct: false },
                 ]
             },
-           
+
             {
                 question: "If you were having your students create a chart with data they collected, which software would be the best choice?",
                 answers: [
@@ -898,7 +964,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Microsoft Powerpoint", correct: false }
                 ]
             },
-            
+
             {
                 question: "A program that allows you to view pages on the internet is called:",
                 answers: [
@@ -952,9 +1018,9 @@ const questionsByDifficultyAndCategory =
                     { text: "Spanish", correct: false },
                     { text: "Chinese", correct: false }
                 ]
-            },           
-            
-            
+            },
+
+
             {
                 question: "Where was the world wide web invented?",
                 answers: [
@@ -964,18 +1030,18 @@ const questionsByDifficultyAndCategory =
                     { text: "United Kingdom", correct: false }
                 ]
             },
-            
+
             {
                 question: "What does HTML stand for?",
                 answers: [
-            
+
                     { text: "Hypertext Modeling Language", correct: false },
                     { text: "Hypertext Management Language", correct: false },
                     { text: "Hypertext Markup Language", correct: true },
                     { text: "Hypertext Machine Language", correct: false },
                 ]
             },
-            
+
             {
                 question: "What is the name of the first electronic general-purpose computer?",
                 answers: [
@@ -985,7 +1051,7 @@ const questionsByDifficultyAndCategory =
                     { text: "EDSAC", correct: false },
                 ]
             },
-            
+
             {
                 question: "What does CSS stand for in web development?",
                 answers: [
@@ -1403,143 +1469,143 @@ const questionsByDifficultyAndCategory =
                     { text: "Germany", correct: false }
                 ]
             },
-                {
-                    question: "What is the full form of IPL?",
-                    answers: [
-                        { text: "Indian Premier League", correct: true },
-                        { text: "Indo-Pakistan League", correct: false },
-                        { text: "International Premier League", correct: false },
-                        { text: "Indian Players League", correct: false }
-                    ]
-                },
-                {
-                    question: "World's fastest sprinter Usain Bolt belongs to which country?",
-                    answers: [
-                        { text: "Nigeria", correct: false },
-                        { text: "Colombia", correct: false },
-                        { text: "Jamaica", correct: true },
-                        { text: "Uganda", correct: false }
-                    ]
-                },
-                {
-                    question: "Which country won the title of Asian Kabaddi Championship 2023?",
-                    answers: [
-                        { text: "India", correct: true },
-                        { text: "Iran", correct: false },
-                        { text: "Nepal", correct: false },
-                        { text: "Bangladesh", correct: false }
-                    ]
-                },
-                
-                {
-                    question: "With which sport is Lionel Messi associated?",
-                    answers: [
-                        { text: "Chess", correct: false },
-                        { text: "Football", correct: true },
-                        { text: "Cricket", correct: false },
-                        { text: "Shooting", correct: false }
-                    ]
-                },
-                
-                {
-                    question: "The first Asian Games were organized in 1951 in -",
-                    answers: [
-                        { text: "Singapore", correct: false },
-                        { text: "Tokyo", correct: false },
-                        { text: "New Delhi", correct: true },
-                        { text: "Beijing", correct: false }
-                    ]
-                },
-                {
-                    question: "Who has been named men's player of the year for 2022?",
-                    answers: [
-                        { text: "Kylian Mbappe", correct: false },
-                        { text: "Karim Benzema", correct: false },
-                        { text: "Lionel Messi", correct: true },
-                        { text: "Emiliano 'Dibu' Martinez", correct: false }
-                    ]
-                },
-                
-                {
-                    question: "Which one of the following players won the 'Golden Boot' Award in FIFA World Cup 2022?",
-                    answers: [
-                        { text: "Kylian Mbappe (France)", correct: false },
-                        { text: "Lionel Messi (Argentina)", correct: false },
-                        { text: "Hassan Al-Haydos (Qatar)", correct: false },
-                        { text: "Nemayer (Brazil)", correct: false }
-                    ]
-                },
-                {
-                    question: "Who among the following players won the 'Golden Ball' trophy in FIFA World Cup 2022?",
-                    answers: [
-                        { text: "Lionel Messi (Argentina)", correct: true },
-                        { text: "Damian Emiliano Martinez Romero (Argentina)", correct: false },
-                        { text: "Cristiano Ronaldo (Portugal)", correct: false },
-                        { text: "Harry Kane (England)", correct: false }
-                    ]
-                },
-                {
-                    question: "Which of the following teams won the FIFA World Cup 2022?",
-                    answers: [
-                        { text: "France", correct: false },
-                        { text: "Argentina", correct: true },
-                        { text: "Brazil", correct: false },
-                        { text: "Mexico", correct: false }
-                    ]
-                },
-                {
-                    question: "The Asian Games are organized after every -",
-                    answers: [
-                        { text: "3 years", correct: false },
-                        { text: "4 years", correct: true },
-                        { text: "5 years", correct: false },
-                        { text: "6 years", correct: false }
-                    ]
-                },
-                {
-                    question: "What is it called when a player can't defend an attack against their king?",
-                    answers: [
-                        { text: "Check", correct: true },
-                        { text: "Chess", correct: false },
-                        { text: "Checkchess", correct: false },
-                        { text: "Checkmate", correct: false }
-                    ]
-                },
-                
-                
-                
-                {
-                    question: "Which of the following is not related to football?",
-                    answers: [
-                        { text: "Penalty area", correct: false },
-                        { text: "Umpire", correct: true },
-                        { text: "Trapping", correct: false },
-                        { text: "Offside", correct: false }
-                    ]
-                },
-                {
-                    question: "Where is the headquarters of the International Olympic Committee located?",
-                    answers: [
-                        { text: "Beijing", correct: false },
-                        { text: "London", correct: false },
-                        { text: "Switzerland", correct: true },
-                        { text: "Germany", correct: false }
-                    ]
-                },
-                {
-                    question: "Which team emerged winner of the UEFA Champions League title in 2022?",
-                    answers: [
-                        { text: "Real Madrid", correct: false },
-                        { text: "FC Barcelona", correct: false },
-                        { text: "Bryan Munich", correct: false },
-                        { text: "Inter Milan", correct: true }
-                    ]
-                }                      
+            {
+                question: "What is the full form of IPL?",
+                answers: [
+                    { text: "Indian Premier League", correct: true },
+                    { text: "Indo-Pakistan League", correct: false },
+                    { text: "International Premier League", correct: false },
+                    { text: "Indian Players League", correct: false }
+                ]
+            },
+            {
+                question: "World's fastest sprinter Usain Bolt belongs to which country?",
+                answers: [
+                    { text: "Nigeria", correct: false },
+                    { text: "Colombia", correct: false },
+                    { text: "Jamaica", correct: true },
+                    { text: "Uganda", correct: false }
+                ]
+            },
+            {
+                question: "Which country won the title of Asian Kabaddi Championship 2023?",
+                answers: [
+                    { text: "India", correct: true },
+                    { text: "Iran", correct: false },
+                    { text: "Nepal", correct: false },
+                    { text: "Bangladesh", correct: false }
+                ]
+            },
+
+            {
+                question: "With which sport is Lionel Messi associated?",
+                answers: [
+                    { text: "Chess", correct: false },
+                    { text: "Football", correct: true },
+                    { text: "Cricket", correct: false },
+                    { text: "Shooting", correct: false }
+                ]
+            },
+
+            {
+                question: "The first Asian Games were organized in 1951 in -",
+                answers: [
+                    { text: "Singapore", correct: false },
+                    { text: "Tokyo", correct: false },
+                    { text: "New Delhi", correct: true },
+                    { text: "Beijing", correct: false }
+                ]
+            },
+            {
+                question: "Who has been named men's player of the year for 2022?",
+                answers: [
+                    { text: "Kylian Mbappe", correct: false },
+                    { text: "Karim Benzema", correct: false },
+                    { text: "Lionel Messi", correct: true },
+                    { text: "Emiliano 'Dibu' Martinez", correct: false }
+                ]
+            },
+
+            {
+                question: "Which one of the following players won the 'Golden Boot' Award in FIFA World Cup 2022?",
+                answers: [
+                    { text: "Kylian Mbappe (France)", correct: false },
+                    { text: "Lionel Messi (Argentina)", correct: false },
+                    { text: "Hassan Al-Haydos (Qatar)", correct: false },
+                    { text: "Nemayer (Brazil)", correct: false }
+                ]
+            },
+            {
+                question: "Who among the following players won the 'Golden Ball' trophy in FIFA World Cup 2022?",
+                answers: [
+                    { text: "Lionel Messi (Argentina)", correct: true },
+                    { text: "Damian Emiliano Martinez Romero (Argentina)", correct: false },
+                    { text: "Cristiano Ronaldo (Portugal)", correct: false },
+                    { text: "Harry Kane (England)", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following teams won the FIFA World Cup 2022?",
+                answers: [
+                    { text: "France", correct: false },
+                    { text: "Argentina", correct: true },
+                    { text: "Brazil", correct: false },
+                    { text: "Mexico", correct: false }
+                ]
+            },
+            {
+                question: "The Asian Games are organized after every -",
+                answers: [
+                    { text: "3 years", correct: false },
+                    { text: "4 years", correct: true },
+                    { text: "5 years", correct: false },
+                    { text: "6 years", correct: false }
+                ]
+            },
+            {
+                question: "What is it called when a player can't defend an attack against their king?",
+                answers: [
+                    { text: "Check", correct: true },
+                    { text: "Chess", correct: false },
+                    { text: "Checkchess", correct: false },
+                    { text: "Checkmate", correct: false }
+                ]
+            },
+
+
+
+            {
+                question: "Which of the following is not related to football?",
+                answers: [
+                    { text: "Penalty area", correct: false },
+                    { text: "Umpire", correct: true },
+                    { text: "Trapping", correct: false },
+                    { text: "Offside", correct: false }
+                ]
+            },
+            {
+                question: "Where is the headquarters of the International Olympic Committee located?",
+                answers: [
+                    { text: "Beijing", correct: false },
+                    { text: "London", correct: false },
+                    { text: "Switzerland", correct: true },
+                    { text: "Germany", correct: false }
+                ]
+            },
+            {
+                question: "Which team emerged winner of the UEFA Champions League title in 2022?",
+                answers: [
+                    { text: "Real Madrid", correct: false },
+                    { text: "FC Barcelona", correct: false },
+                    { text: "Bryan Munich", correct: false },
+                    { text: "Inter Milan", correct: true }
+                ]
+            }
         ]
     },
     hard: {
         "GENERAL KNOWLEDGE": [
-            
+
             {
                 question: "Name the hardest substance available on Earth?",
                 answers: [
@@ -1597,7 +1663,61 @@ const questionsByDifficultyAndCategory =
                     { text: "Mars", correct: false },
                     { text: "Venus", correct: false },
                 ]
-            }
+            },
+            {
+                question: "Who is the eldest son of Prithvi Narayan Shah?",
+                answers: [
+                    { text: "Pratap Singh Shah", correct: true },
+                    { text: "Bahadur Shah", correct: false },
+                    { text: "Narendra Shah", correct: false },
+                    { text: "Paras Shah", correct: false }
+                ]
+            },
+            {
+                question: "Which Rana Prime Minister ruled Nepal for the Longest Period?",
+                answers: [
+                    { text: "Jung Bahadur Rana", correct: true },
+                    { text: "Chandra Shumsher Rana", correct: false },
+                    { text: "Bhim Shumsher Rana", correct: false },
+                    { text: "Mohan Shumsher Rana", correct: false }
+                ]
+            },
+            {
+                question: "Who Founded the Pashupatinath Temple in Kathmandu?",
+                answers: [
+                    { text: "Jayasthiti Malla", correct: true },
+                    { text: "Yaksha Malla", correct: false },
+                    { text: "Siddhi Narsingh Malla", correct: false },
+                    { text: "Pratap Malla", correct: false }
+                ]
+            },
+            {
+                question: "Who Wrote the Famous Nepali Novel 'Seto Bagh'?",
+                answers: [
+                    { text: "BP Koirala", correct: false },
+                    { text: "Parijat", correct: true },
+                    { text: "Diamond Shumsher Rana", correct: false },
+                    { text: "Laxmi Prasad Devkota", correct: false }
+                ]
+            },
+            {
+                question: "Which Country Did Nepal Fight a War with in 1814-1816?",
+                answers: [
+                    { text: "Tibet", correct: false },
+                    { text: "China", correct: false },
+                    { text: "India", correct: false },
+                    { text: "Britain", correct: true }
+                ]
+            },
+            {
+                question: "Who Was the First Nepali to Receive the Nobel Peace Prize?",
+                answers: [
+                    { text: "Bishweshwar Prasad Koirala", correct: false },
+                    { text: "Mahesh Chandra Regmi", correct: false },
+                    { text: "King Tribhuvan", correct: true },
+                    { text: "Ram Baran Yadav", correct: false }
+                ]
+            },
         ],
         "COMPUTER & TECHNOLOGY": [{
             question: "What is the name of the programming language developed by Microsoft?",
@@ -1654,15 +1774,15 @@ const questionsByDifficultyAndCategory =
             ]
         },
         {
-        question: "What technology is used to record cryptocurrency transactions?",
-        answers: [
-            { text: "Digital wallet", correct: false },
-            { text: "Mining", correct: false },
-            { text: "Blockchain", correct: true },
-            { text: "Token", correct: false }
-        ]
+            question: "What technology is used to record cryptocurrency transactions?",
+            answers: [
+                { text: "Digital wallet", correct: false },
+                { text: "Mining", correct: false },
+                { text: "Blockchain", correct: true },
+                { text: "Token", correct: false }
+            ]
         },
-        
+
         {
             question: "About how many smartphones are being used in the world?",
             answers: [
@@ -1723,103 +1843,103 @@ const questionsByDifficultyAndCategory =
             {
                 question: "What is 6372+5849?",
                 answers: [
-                  { text: "14253", correct: false },
-                  { text: "12221", correct: true },
-                  { text: "06458", correct: false },
-                  { text: "74839", correct: false }
+                    { text: "14253", correct: false },
+                    { text: "12221", correct: true },
+                    { text: "06458", correct: false },
+                    { text: "74839", correct: false }
                 ]
-              },
-              {
+            },
+            {
                 question: "What if you divide 352 by 12?",
                 answers: [
-                  { text: "23.9", correct: false },
-                  { text: "27.9", correct: false },
-                  { text: "29.3", correct: true },
-                  { text: "67.8", correct: false }
+                    { text: "23.9", correct: false },
+                    { text: "27.9", correct: false },
+                    { text: "29.3", correct: true },
+                    { text: "67.8", correct: false }
                 ]
-              },
-                {
+            },
+            {
                 question: "What if you add 7778.1 into 0.0001?",
                 answers: [
-                  { text: "7778.0010", correct: false },
-                  { text: "7778.1001", correct: true },
-                  { text: "7778.0011", correct: false },
-                  { text: "7779", correct: false }
+                    { text: "7778.0010", correct: false },
+                    { text: "7778.1001", correct: true },
+                    { text: "7778.0011", correct: false },
+                    { text: "7779", correct: false }
                 ]
-              },
-                {
+            },
+            {
                 question: "Solve 3 + 6 × (5 + 4) ÷ 3 - 7",
                 answers: [
-                  { text: "11", correct: false },
-                  { text: "16", correct: false },
-                  { text: "14", correct: true },
-                  { text: "15", correct: false }
+                    { text: "11", correct: false },
+                    { text: "16", correct: false },
+                    { text: "14", correct: true },
+                    { text: "15", correct: false }
                 ]
-              },
-              {
+            },
+            {
                 question: "Priya had 16 Red Balls, 2 Green Balls, 9 Blue Balls, and 1 Multicolor Ball. If He Lost 9 Red Balls, 1 Green Ball, and 3 Blue Balls. How Many Balls would be Left?",
                 answers: [
-                  { text: "15", correct: true },
-                  { text: "11", correct: false },
-                  { text: "28", correct: false },
-                  { text: "39", correct: false }
+                    { text: "15", correct: true },
+                    { text: "11", correct: false },
+                    { text: "28", correct: false },
+                    { text: "39", correct: false }
                 ]
-              },
-              {
+            },
+            {
                 question: "whwt is the sum of 2000+20+30+40+10?",
                 answers: [
-                  { text: "2100", correct: true },
-                  { text: "3000", correct: false },
-                  { text: "2050", correct: false },
-                  { text: "2022", correct: false }
+                    { text: "2100", correct: true },
+                    { text: "3000", correct: false },
+                    { text: "2050", correct: false },
+                    { text: "2022", correct: false }
                 ]
-              }, 
-              
-              {
+            },
+
+            {
                 question: "5, 11, 23, 47, 95, ?",
                 answers: [
-                  { text: "176", correct: false },
-                  { text: "191", correct: false },
-                  { text: "199", correct: false },
-                  { text: "207", correct: true }
+                    { text: "176", correct: false },
+                    { text: "191", correct: false },
+                    { text: "199", correct: false },
+                    { text: "207", correct: true }
                 ]
-              },
-              {
+            },
+            {
                 question: "Mary is 16 years old. She is 4 times older than her brother. How old will Mary be when she is twice his age?",
                 answers: [
-                  { text: "That's impossible", correct: false },
-                  { text: "20", correct: false },
-                  { text: "24", correct: true },
-                  { text: "28", correct: false }
+                    { text: "That's impossible", correct: false },
+                    { text: "20", correct: false },
+                    { text: "24", correct: true },
+                    { text: "28", correct: false }
                 ]
-              },
-              {
+            },
+            {
                 question: "There are 5 machines that make 5 parts in 5 minutes. How long does it take to make 100 parts on 100 machines?",
                 answers: [
-                  { text: "5", correct: true },
-                  { text: "10", correct: false },
-                  { text: "15", correct: false },
-                  { text: "30", correct: false }
+                    { text: "5", correct: true },
+                    { text: "10", correct: false },
+                    { text: "15", correct: false },
+                    { text: "30", correct: false }
                 ]
-              },
-              {
+            },
+            {
                 question: "How many minutes are in four and a half hours?",
                 answers: [
-                  { text: "270", correct: true },
-                  { text: "180", correct: false },
-                  { text: "240", correct: false },
-                  { text: "360", correct: false }
+                    { text: "270", correct: true },
+                    { text: "180", correct: false },
+                    { text: "240", correct: false },
+                    { text: "360", correct: false }
                 ]
-              },
-              {
+            },
+            {
                 question: " 8 10 14 18 ? 34 50 66",
                 answers: [
-                  { text: "20", correct: false },
-                  { text: "26", correct: true },
-                  { text: "28", correct: false },
-                  { text: "30", correct: false }
+                    { text: "20", correct: false },
+                    { text: "26", correct: true },
+                    { text: "28", correct: false },
+                    { text: "30", correct: false }
                 ]
-              }
+            }
         ],
         "GEOGRAPHY & NEPAL": [
 
@@ -1967,7 +2087,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Iguazu Falls", correct: false }
                 ]
             },
-            
+
             {
                 question: "Which is the largest lake in Africa?",
                 answers: [
@@ -1995,7 +2115,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Angel Falls", correct: true }
                 ]
             },
-            
+
 
 
         ],
@@ -2008,7 +2128,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Rafael Nadal", correct: true },
                     { text: "Andy Murray", correct: false },
                 ]
-            },  
+            },
             {
                 question: "Distance of Marathon race is -",
                 answers: [
@@ -2026,7 +2146,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Rugby", correct: false },
                     { text: "Volleyball", correct: true }
                 ]
-            },         
+            },
             {
                 question: "In basketball, how many points is a free throw worth?",
                 answers: [
@@ -2063,7 +2183,7 @@ const questionsByDifficultyAndCategory =
                     { text: "1924", correct: true }
                 ]
             },
-            
+
             {
                 question: "Who is known as 'The Greatest' in boxing?",
                 answers: [
@@ -2100,7 +2220,7 @@ const questionsByDifficultyAndCategory =
                     { text: "99", correct: false }
                 ]
             },
-            
+
             {
                 question: "Who holds the record for the most Olympic gold medals?",
                 answers: [
@@ -2177,7 +2297,7 @@ function startQuiz() {
         questions = shuffleArray(questions);
 
 
-        questions = questions.slice(0, 10);
+        questions = questions.slice(0, 5);
 
         if (questions && questions.length > 0) {
             showQuestion();
