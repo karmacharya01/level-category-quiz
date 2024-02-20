@@ -3,6 +3,104 @@ const questionsByDifficultyAndCategory =
     easy: {
         "GENERAL KNOWLEDGE": [
             {
+                question: "How many days does it take for the Earth to orbit the Sun?",
+                answers: [
+                    { text: "365", correct: true },
+                    { text: "364", correct: false },
+                    { text: "366", correct: false },
+                    { text: "360", correct: false }
+                ]
+            },
+            {
+                question: "How many stars are on the Chinese flag?",
+                answers: [
+                    { text: "5", correct: true },
+                    { text: "4", correct: false },
+                    { text: "6", correct: false },
+                    { text: "7", correct: false }
+                ]
+            },
+            {
+                question: "What is the only flag that does not have four sides?",
+                answers: [
+                    { text: "Nepal", correct: true },
+                    { text: "Bhutan", correct: false },
+                    { text: "Switzerland", correct: false },
+                    { text: "Japan", correct: false }
+                ]
+            },
+            {
+                question: "What is the capital of Canada?",
+                answers: [
+                    { text: "Ottawa", correct: true },
+                    { text: "Toronto", correct: false },
+                    { text: "Montreal", correct: false },
+                    { text: "Vancouver", correct: false }
+                ]
+            }, {
+                question: "What planet is closest to the sun?",
+                answers: [
+                    { text: "Mercury", correct: true },
+                    { text: "Venus", correct: false },
+                    { text: "Earth", correct: false },
+                    { text: "Mars", correct: false }
+                ]
+            },
+            {
+                question: "How many hearts does an octopus have?",
+                answers: [
+                    { text: "3", correct: true },
+                    { text: "1", correct: false },
+                    { text: "2", correct: false },
+                    { text: "4", correct: false }
+                ]
+            },
+            {
+                question: "What country has won the most World Cups?",
+                answers: [
+                    { text: "Brazil", correct: true },
+                    { text: "Germany", correct: false },
+                    { text: "Italy", correct: false },
+                    { text: "Argentina", correct: false }
+                ]
+            },
+            {
+                question: "Which planet has the most moons?",
+                answers: [
+                    { text: "Saturn", correct: true },
+                    { text: "Jupiter", correct: false },
+                    { text: "Neptune", correct: false },
+                    { text: "Uranus", correct: false }
+                ]
+            },
+            {
+                question: "Which planet in the Milky Way is the hottest?",
+                answers: [
+                    { text: "Venus", correct: true },
+                    { text: "Mercury", correct: false },
+                    { text: "Mars", correct: false },
+                    { text: "Jupiter", correct: false }
+                ]
+            },
+            {
+                question: "How many elements are in the periodic table?",
+                answers: [
+                    { text: "118", correct: true },
+                    { text: "92", correct: false },
+                    { text: "102", correct: false },
+                    { text: "130", correct: false }
+                ]
+            },
+            {
+                question: "What country has the highest life expectancy?",
+                answers: [
+                    { text: "Hong Kong", correct: true },
+                    { text: "Japan", correct: false },
+                    { text: "Switzerland", correct: false },
+                    { text: "Australia", correct: false }
+                ]
+            },
+            {
                 question: "What is the capital of France?",
                 answers: [
                     { text: "Paris", correct: true },
@@ -118,8 +216,552 @@ const questionsByDifficultyAndCategory =
                     { text: "Taiwanese dollar (NT$)", correct: false }
                 ]
             },
+            {
+                question: "What is the capital city of Nepal?",
+                answers: [
+                    { text: " Kathmandu", correct: true },
+                    { text: " Pokhara", correct: false },
+                    { text: " Lalitpur", correct: false },
+                    { text: "Bhaktapur", correct: false }
+                ]
+            },
+            {
+                question: "Which mountain in Nepal is the highest in the world?",
+                answers: [
+                    { text: " Mount Kanchenjunga", correct: false },
+                    { text: " Mount Everest", correct: true },
+                    { text: " Mount Makalu", correct: false },
+                    { text: " Mount Lhotse", correct: false }
+                ]
+            },
+            {
+                question: "What is the official language of Nepal?",
+                answers: [
+                    { text: " Nepali", correct: true },
+                    { text: " Hindi", correct: false },
+                    { text: " English", correct: false },
+                    { text: " Urdu", correct: false }
+                ]
+            },
+            {
+                question: "Which river is the longest river in Nepal?",
+                answers: [
+                    { text: " Koshi River", correct: false },
+                    { text: " Gandaki River", correct: false },
+                    { text: " Karnali River", correct: true },
+                    { text: " Bagmati River", correct: false }
+                ]
+            },
+            {
+                question: "What is the currency of Nepal?",
+                answers: [
+                    { text: " Rupee", correct: true },
+                    { text: " Taka", correct: false },
+                    { text: " Rupiah", correct: false },
+                    { text: " Tugrik", correct: false }
+                ]
+            },
+            {
+                question: "Which festival is known as the festival of lights in Nepal?",
+                answers: [
+                    { text: " Dashain", correct: false },
+                    { text: " Tihar", correct: true },
+                    { text: " Holi", correct: false },
+                    { text: " Diwali", correct: false }
+                ]
+            },
+            {
+                question: "Which animal is the national symbol of Nepal?",
+                answers: [
+                    { text: " Cow", correct: false },
+                    { text: " Rhinoceros", correct: false },
+                    { text: " Tiger", correct: false },
+                    { text: " Cow", correct: true }
+                ]
+            },
+            {
+                question: "What is the largest city by population in Nepal, after Kathmandu?",
+                answers: [
+                    { text: " Pokhara", correct: false },
+                    { text: " Biratnagar", correct: true },
+                    { text: " Lalitpur", correct: false },
+                    { text: " Bharatpur", correct: false }
+                ]
+            },
+            {
+                question: "Which mountain range separates Nepal from Tibet?",
+                answers: [
+                    { text: " Karakoram Range", correct: false },
+                    { text: " Himalayas", correct: true },
+                    { text: " Aravalli Range", correct: false },
+                    { text: " Pamir Mountains", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the traditional Nepali dress worn by men?",
+                answers: [
+                    { text: " Sari", correct: false },
+                    { text: " Daura Suruwal", correct: true },
+                    { text: " Lehenga Choli", correct: false },
+                    { text: " Sherwani", correct: false }
+                ]
+            },
+            {
+                question: "Which former prince of Nepal became the King in 2001?",
+                answers: [
+                    { text: " Dipendra", correct: false },
+                    { text: " Gyanendra", correct: true },
+                    { text: " Birendra", correct: false },
+                    { text: " Mahendra", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the famous temple in Kathmandu that is dedicated to Lord Shiva?",
+                answers: [
+                    { text: " Swayambhunath", correct: false },
+                    { text: " Pashupatinath", correct: true },
+                    { text: " Boudhanath", correct: false },
+                    { text: " Budhanilkantha", correct: false }
+                ]
+            },
+            {
+                question: "Which ethnic group is the largest in Nepal?",
+                answers: [
+                    { text: " Newar", correct: true },
+                    { text: " Gurung", correct: false },
+                    { text: " Tharu", correct: false },
+                    { text: " Sherpa", correct: false }
+                ]
+            },
+            {
+                question: "What is the altitude of the Kathmandu Valley?",
+                answers: [
+                    { text: " Around 1,000 meters", correct: true },
+                    { text: " Around 1,500 meters", correct: false },
+                    { text: " Around 2,000 meters", correct: false },
+                    { text: " Around 2,500 meters", correct: false }
+                ]
+            },
+            {
+                question: "Which river is known as the 'River of Gold' in Nepal?",
+                answers: [
+                    { text: " Karnali River", correct: false },
+                    { text: " Seti River", correct: true },
+                    { text: " Trishuli River", correct: false },
+                    { text: " Dudh Kosi River", correct: false }
+                ]
+            },
+            {
+                question: "Which mountain in Nepal is popularly known as the 'Goddess of the Sky'?",
+                answers: [
+                    { text: " Annapurna", correct: false },
+                    { text: " Machapuchare", correct: true },
+                    { text: " Manaslu", correct: false },
+                    { text: " Dhaulagiri", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the traditional Newari dish made from buffalo meat?",
+                answers: [
+                    { text: " Sel Roti", correct: false },
+                    { text: " Gundruk", correct: false },
+                    { text: " Dhido", correct: false },
+                    { text: " Yomari", correct: true }
+                ]
+            }, {
+
+                question: "Which religious festival in Nepal involves the worship of young girls as the living incarnations of the goddess?",
+                answers: [
+                    { text: " Dashain", correct: false },
+                    { text: " Indra Jatra", correct: false },
+                    { text: " Kumari Puja", correct: true },
+                    { text: " Teej", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the famous trekking route in Nepal that goes around the Annapurna Massif?",
+                answers: [
+                    { text: " Everest Base Camp Trek", correct: false },
+                    { text: " Langtang Valley Trek", correct: false },
+                    { text: " Annapurna Circuit Trek", correct: true },
+                    { text: " Manaslu Circuit Trek", correct: false }
+                ]
+            },
+            {
+                question: "Which lake in Nepal is considered one of the highest freshwater lakes in the world?",
+                answers: [
+                    { text: " Rara Lake", correct: false },
+                    { text: " Phewa Lake", correct: false },
+                    { text: " Gosaikunda Lake", correct: false },
+                    { text: " Tilicho Lake", correct: true }
+                ]
+            },
+            {
+                question: "What is the name of the famous hill station near Kathmandu known for its sunrise view?",
+                answers: [
+                    { text: " Nagarkot", correct: true },
+                    { text: " Dhulikhel", correct: false },
+                    { text: " Bandipur", correct: false },
+                    { text: " Chandragiri", correct: false }
+                ]
+            },
+            {
+                question: "Which mountain peak in Nepal is known as the 'Matterhorn of Nepal'?",
+                answers: [
+                    { text: " Ama Dablam", correct: true },
+                    { text: " Cho Oyu", correct: false },
+                    { text: " Nuptse", correct: false },
+                    { text: " Lobuche", correct: false }
+                ]
+            },
+            {
+                question: "What is the national dish of Nepal?",
+                answers: [
+                    { text: " Momo", correct: false },
+                    { text: " Dal Bhat", correct: true },
+                    { text: " Chow Mein", correct: false },
+                    { text: " Thukpa", correct: false }
+                ]
+            },
+            {
+                question: "What is the predominant religion in Nepal?",
+                answers: [
+                    { text: " Hinduism", correct: true },
+                    { text: " Buddhism", correct: false },
+                    { text: " Islam", correct: false },
+                    { text: " Christianity", correct: false }
+                ]
+            },
+            {
+                question: "Which is the longest suspension bridge in Nepal?",
+                answers: [
+                    { text: " Mahakali Bridge", correct: false },
+                    { text: " Bhote Koshi Bridge", correct: false },
+                    { text: " Siddha Gufa Bridge", correct: false },
+                    { text: " Tilu Danda Bridge", correct: true }
+                ]
+            },
+            {
+                question: "Which ethnic group in Nepal is famous for their traditional honey hunting skills?",
+                answers: [
+                    { text: " Rai", correct: false },
+                    { text: " Sherpa", correct: false },
+                    { text: " Gurung", correct: false },
+                    { text: " Tharu", correct: true }
+                ]
+            },
+            {
+                question: "What is the name of the famous national park in Nepal known for its Bengal tiger population?",
+                answers: [
+                    { text: " Chitwan National Park", correct: true },
+                    { text: " Sagarmatha National Park", correct: false },
+                    { text: " Langtang National Park", correct: false },
+                    { text: " Khaptad National Park", correct: false }
+                ]
+            },
+            {
+                question: "Which famous mountaineer was the first person to summit Mount Everest without supplemental oxygen?",
+                answers: [
+                    { text: " Tenzing Norgay", correct: false },
+                    { text: " Reinhold Messner", correct: true },
+                    { text: " Edmund Hillary", correct: false },
+                    { text: " Reinhold Messner", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the traditional Nepali bread made from rice flour?",
+                answers: [
+                    { text: " Sel Roti", correct: true },
+                    { text: " Dhido", correct: false },
+                    { text: " Yomari", correct: false },
+                    { text: " Roti", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the famous religious festival celebrated by the Newar community in Kathmandu Valley?",
+                answers: [
+                    { text: " Dashain", correct: false },
+                    { text: " Indra Jatra", correct: true },
+                    { text: " Teej", correct: false },
+                    { text: " Bisket Jatra", correct: false }
+                ]
+            }
+
+
         ],
         "HISTORY & PAST": [
+
+
+            {
+                question: "What is the currency of Nepal?",
+                answers: [
+                    { text: "Nepalese Rupee", correct: true },
+                    { text: "Indian Rupee", correct: false },
+                    { text: "Yen", correct: false },
+                    { text: "Dollar", correct: false }
+                ]
+            },
+            {
+                question: "Who was the first woman to climb Mount Everest?",
+                answers: [
+                    { text: "Junko Tabei", correct: true },
+                    { text: "Tenzing Norgay", correct: false },
+                    { text: "Pasang Lhamu Sherpa", correct: false },
+                    { text: "Reinhold Messner", correct: false }
+                ]
+            },
+            {
+                question: "Which famous festival is celebrated in Nepal to honor the bond between brothers and sisters?",
+                answers: [
+                    { text: "Tihar", correct: false },
+                    { text: "Holi", correct: false },
+                    { text: "Dashain", correct: false },
+                    { text: "Raksha Bandhan", correct: true }
+                ]
+            },
+            {
+                question: "What is the name of the famous lake in Pokhara, Nepal?",
+                answers: [
+                    { text: "Phewa Lake", correct: true },
+                    { text: "Rara Lake", correct: false },
+                    { text: "Fewa Lake", correct: false },
+                    { text: "Tilicho Lake", correct: false }
+                ]
+            },
+            {
+                question: "Who is known as the 'Light of Asia' and was born in Lumbini, Nepal?",
+                answers: [
+                    { text: "Gautama Buddha", correct: true },
+                    { text: "Mahavira", correct: false },
+                    { text: "Ramakrishna Paramahamsa", correct: false },
+                    { text: "Adi Shankaracharya", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the traditional Newari dish consisting of lentil patties?",
+                answers: [
+                    { text: "Yomari", correct: false },
+                    { text: "Sel Roti", correct: false },
+                    { text: "Bara", correct: true },
+                    { text: "Chatamari", correct: false }
+                ]
+            },
+            {
+                question: "Who led the unification of Nepal in the 18th century?",
+                answers: [
+                    { text: "King Prithvi Narayan Shah", correct: true },
+                    { text: "King Mahendra", correct: false },
+                    { text: "King Birendra", correct: false },
+                    { text: "King Gyanendra", correct: false }
+                ]
+            },
+            {
+                question: "What is the predominant religion in Nepal?",
+                answers: [
+                    { text: "Hinduism", correct: true },
+                    { text: "Buddhism", correct: false },
+                    { text: "Christianity", correct: false },
+                    { text: "Islam", correct: false }
+                ]
+            },
+            {
+                question: "Which king of Nepal was responsible for introducing democracy in 1951?",
+                answers: [
+                    { text: "King Tribhuvan", correct: true },
+                    { text: "King Prithvi Narayan Shah", correct: false },
+                    { text: "King Gyanendra", correct: false },
+                    { text: "King Mahendra", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the traditional musical instrument of Nepal?",
+                answers: [
+                    { text: "Madal", correct: true },
+                    { text: "Sarangi", correct: false },
+                    { text: "Tabla", correct: false },
+                    { text: "Sitar", correct: false }
+                ]
+            },
+            {
+                question: "Which famous trekking route is located in the Himalayas of Nepal?",
+                answers: [
+                    { text: "Everest Base Camp Trek", correct: true },
+                    { text: "Annapurna Circuit Trek", correct: false },
+                    { text: "Langtang Valley Trek", correct: false },
+                    { text: "Manaslu Circuit Trek", correct: false }
+                ]
+            },
+            {
+                question: "What is the national bird of Nepal?",
+                answers: [
+                    { text: "Himalayan Monal", correct: true },
+                    { text: "Danphe", correct: false },
+                    { text: "Sparrow", correct: false },
+                    { text: "Peacock", correct: false }
+                ]
+            },
+            {
+                question: "Which dynasty ruled Nepal before the Shah dynasty?",
+                answers: [
+                    { text: "Malla dynasty", correct: true },
+                    { text: "Rana dynasty", correct: false },
+                    { text: "Thakuri dynasty", correct: false },
+                    { text: "Gurkha dynasty", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the ancient city in the Kathmandu Valley known for its intricate wood carvings?",
+                answers: [
+                    { text: "Bhaktapur", correct: true },
+                    { text: "Patan", correct: false },
+                    { text: "Kirtipur", correct: false },
+                    { text: "Lalitpur", correct: false }
+                ]
+            },
+            {
+                question: "Who is the current Prime Minister of Nepal?",
+                answers: [
+                    { text: "Sher Bahadur Deuba", correct: true },
+                    { text: "Khadga Prasad Oli", correct: false },
+                    { text: "Pushpa Kamal Dahal", correct: false },
+                    { text: "Sushil Koirala", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the national anthem of Nepal?",
+                answers: [
+                    { text: "Sayaun Thunga Phool Ka", correct: true },
+                    { text: "Amar Sonar Bangla", correct: false },
+                    { text: "Jana Gana Mana", correct: false },
+                    { text: "Namo Namo Matha", correct: false }
+                ]
+            },
+            {
+                question: "Which international organization is headquartered in Kathmandu, Nepal?",
+                answers: [
+                    { text: "South Asian Association for Regional Cooperation (SAARC)", correct: true },
+                    { text: "Association of Southeast Asian Nations (ASEAN)", correct: false },
+                    { text: "United Nations", correct: false },
+                    { text: "World Health Organization", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the traditional Nepali bread made from rice flour?",
+                answers: [
+                    { text: "Sel Roti", correct: true },
+                    { text: "Yomari", correct: false },
+                    { text: "Bara", correct: false },
+                    { text: "Chatamari", correct: false }
+                ]
+            }, {
+                question: "What is the capital city of Nepal?",
+                answers: [
+                    { text: "Kathmandu", correct: true },
+                    { text: "Pokhara", correct: false },
+                    { text: "Lumbini", correct: false },
+                    { text: "Bhaktapur", correct: false }
+                ]
+            },
+            {
+                question: "Who was the first monarch of modern Nepal?",
+                answers: [
+                    { text: "King Prithvi Narayan Shah", correct: true },
+                    { text: "King Mahendra", correct: false },
+                    { text: "King Birendra", correct: false },
+                    { text: "King Tribhuvan", correct: false }
+                ]
+            },
+            {
+                question: "In which year did Nepal become a federal democratic republic?",
+                answers: [
+                    { text: "2006", correct: false },
+                    { text: "2008", correct: true },
+                    { text: "2010", correct: false },
+                    { text: "2012", correct: false }
+                ]
+            },
+            {
+                question: "Which mountain, the highest in the world, is located in Nepal?",
+                answers: [
+                    { text: "Mount Everest", correct: true },
+                    { text: "K2", correct: false },
+                    { text: "Kangchenjunga", correct: false },
+                    { text: "Lhotse", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the famous Hindu temple in Kathmandu?",
+                answers: [
+                    { text: "Pashupatinath Temple", correct: true },
+                    { text: "Swayambhunath Stupa", correct: false },
+                    { text: "Boudhanath Stupa", correct: false },
+                    { text: "Changu Narayan Temple", correct: false }
+                ]
+            },
+            {
+                question: "Who is considered the founder of Buddhism and was born in Nepal?",
+                answers: [
+                    { text: "Gautama Buddha", correct: true },
+                    { text: "Mahavira", correct: false },
+                    { text: "Adi Shankaracharya", correct: false },
+                    { text: "Ramakrishna Paramahamsa", correct: false }
+                ]
+            },
+            {
+                question: "Which river is known as the 'Holy River' of Nepal?",
+                answers: [
+                    { text: "Bagmati River", correct: true },
+                    { text: "Koshi River", correct: false },
+                    { text: "Gandaki River", correct: false },
+                    { text: "Narayani River", correct: false }
+                ]
+            },
+            {
+                question: "What is the traditional Nepali attire worn by men?",
+                answers: [
+                    { text: "Daura-Suruwal", correct: true },
+                    { text: "Sari", correct: false },
+                    { text: "Kurta-Pajama", correct: false },
+                    { text: "Ghaghra-Choli", correct: false }
+                ]
+            },
+            {
+                question: "What is the traditional Nepali attire worn by women?",
+                answers: [
+                    { text: "Sari", correct: true },
+                    { text: "Daura-Suruwal", correct: false },
+                    { text: "Kurta-Pajama", correct: false },
+                    { text: "Ghaghra-Choli", correct: false }
+                ]
+            },
+            {
+                question: "Which festival is celebrated with the flying of kites in Nepal?",
+                answers: [
+                    { text: "Makar Sankranti", correct: true },
+                    { text: "Dashain", correct: false },
+                    { text: "Tihar", correct: false },
+                    { text: "Holi", correct: false }
+                ]
+            },
+            {
+                question: "What is the national flower of Nepal?",
+                answers: [
+                    { text: "Rhododendron", correct: true },
+                    { text: "Lotus", correct: false },
+                    { text: "Lily", correct: false },
+                    { text: "Jasmine", correct: false }
+                ]
+            },
+            {
+                question: "Which treaty established the current borders of Nepal with India?",
+                answers: [
+                    { text: "Treaty of Sugauli", correct: true },
+                    { text: "Treaty of Kathmandu", correct: false },
+                    { text: "Treaty of Versailles", correct: false },
+                    { text: "Treaty of Tordesillas", correct: false }
+                ]
+            },
+
             {
                 question: "Who is the King of Nepal who first visited Europe?",
                 answers: [
@@ -185,15 +827,7 @@ const questionsByDifficultyAndCategory =
                 ]
             },
 
-            {
-                question: "Who Was the First Prime Minister of Nepal?",
-                answers: [
-                    { text: "Bishweshwar Prasad Koirala", correct: true },
-                    { text: "Matrika Prasad Koirala", correct: false },
-                    { text: "Krishna Prasad Bhattarai", correct: false },
-                    { text: "Girija Prasad Koirala", correct: false }
-                ]
-            },
+
             {
                 question: "Who Was the First Person to Climb Mount Everest?",
                 answers: [
@@ -223,8 +857,216 @@ const questionsByDifficultyAndCategory =
                     { text: "Apa Sherpa", correct: false }
                 ]
             },
+            {
+                question: "When was the unification of Nepal completed under King Prithvi Narayan Shah?",
+                answers: [
+                    { text: " 1768", correct: true },
+                    { text: " 1789", correct: false },
+                    { text: " 1820", correct: false },
+                    { text: " 1846", correct: false }
+                ]
+            },
+            {
+                question: "Who was the founder of the Shah dynasty in Nepal?",
+                answers: [
+                    { text: " Prithvi Narayan Shah", correct: true },
+                    { text: " Siddhartha Gautama", correct: false },
+                    { text: " King Mahendra", correct: false },
+                    { text: " King Tribhuvan", correct: false }
+                ]
+            },
+            {
+                question: "What was the capital of Nepal before Kathmandu?",
+                answers: [
+                    { text: " Bhaktapur", correct: false },
+                    { text: " Lalitpur", correct: false },
+                    { text: " Pokhara", correct: false },
+                    { text: " Gorkha", correct: true }
+                ]
+            },
+            {
+                question: "The Rana dynasty ruled Nepal for how many years?",
+                answers: [
+                    { text: " 104 years", correct: false },
+                    { text: " 134 years", correct: true },
+                    { text: " 164 years", correct: false },
+                    { text: " 194 years", correct: false }
+                ]
+            },
+            {
+                question: "During which century did the British sign the Sugauli Treaty with Nepal, defining its borders?",
+                answers: [
+                    { text: "17th century", correct: false },
+                    { text: "18th century", correct: false },
+                    { text: "19th century", correct: true },
+                    { text: "20th century", correct: false }
+                ]
+            },
+            {
+                question: "Who was the first Prime Minister of Nepal?",
+                answers: [
+                    { text: "Bishweshwar Prasad Koirala", correct: true },
+                    { text: "King Tribhuvan", correct: false },
+                    { text: "Jang Bahadur Rana", correct: false },
+                    { text: "Mohan Shumsher Jang Bahadur Rana", correct: false }
+                ]
+            },
+            {
+                question: "Nepal officially became a democratic federal republic in which year?",
+                answers: [
+                    { text: "1947", correct: false },
+                    { text: "1951", correct: false },
+                    { text: "1990", correct: false },
+                    { text: "2008", correct: true }
+                ]
+            },
+
+            {
+                question: "Who was the last king of Nepal before the country became a republic?",
+                answers: [
+                    { text: "King Birendra", correct: false },
+                    { text: "King Gyanendra", correct: true },
+                    { text: " King Tribhuvan", correct: false },
+                    { text: "King Mahendra", correct: false }
+                ]
+            },
+            {
+                question: "In which year did Nepal suffer a devastating earthquake that caused widespread destruction?",
+                answers: [
+                    { text: "2010", correct: false },
+                    { text: "2015", correct: true },
+                    { text: "2017", correct: false },
+                    { text: "2018", correct: false }
+                ]
+            }
         ],
         "COMPUTER & TECHNOLOGY": [
+            {
+                question: "What is the default chart type in Microsoft Excel?",
+                answers: [
+                    { text: "pie chart", correct: true },
+                    { text: "line chart", correct: false },
+                    { text: "surface chart", correct: false },
+                    { text: "column chart", correct: false }
+                ]
+            },
+            {
+                question: "bit stands for",
+                answers: [
+                    { text: "binary information term", correct: false },
+                    { text: "binary digit", correct: true },
+                    { text: "binary tree", correct: false },
+                    { text: "Bivariate Theory", correct: false }
+                ]
+            },
+            {
+                question: "File extensions are used in order to ……….",
+                answers: [
+                    { text: "Name the file", correct: false },
+                    { text: "Ensure the filename is not lost", correct: false },
+                    { text: "Identify the file", correct: false },
+                    { text: "Identify the file type", correct: true }
+                ]
+            },
+            {
+                question: "Which of the following is an example of non-volatile memory?",
+                answers: [
+                    { text: "Cache memory", correct: false },
+                    { text: "RAM", correct: false },
+                    { text: "ROM", correct: true },
+                    { text: "None of the above", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is not an input device?",
+                answers: [
+                    { text: "Mouse", correct: false },
+                    { text: "Light pen", correct: false },
+                    { text: "Keyboard", correct: false },
+                    { text: "VDU", correct: true }
+                ]
+            },
+            {
+                question: "One Gigabyte is approximately equal is:",
+                answers: [
+                    { text: "1000,000 bytes", correct: false },
+                    { text: "1000,000,000 bytes", correct: true },
+                    { text: "1000,000,000,000 bytes", correct: false },
+                    { text: "None of these", correct: false }
+                ]
+            },
+            {
+                question: "A ………. is an electronic device that process data, converting it into information.",
+                answers: [
+                    { text: "computer", correct: true },
+                    { text: "processor", correct: false },
+                    { text: "case", correct: false },
+                    { text: "stylus", correct: false }
+                ]
+            },
+            {
+                question: "Which is the part of the computer system that one can physically touch?",
+                answers: [
+                    { text: "data", correct: false },
+                    { text: "operating systems", correct: false },
+                    { text: "hardware", correct: true },
+                    { text: "software", correct: false }
+                ]
+            },
+            {
+                question: "In which printer ribbon is used?",
+                answers: [
+                    { text: "plotter", correct: false },
+                    { text: "laser printer", correct: false },
+                    { text: "dot matrix printer", correct: true },
+                    { text: "inkjet printer", correct: false }
+                ]
+            },
+            {
+                question: "By using which tab can you add page numbers in an MS-Word 2019 document?",
+                answers: [
+                    { text: "edit", correct: false },
+                    { text: "format", correct: false },
+                    { text: "insert", correct: true },
+                    { text: "Home", correct: false }
+                ]
+            },
+            {
+                question: "In terms of Computer Networks, what does VPN stands for:",
+                answers: [
+                    { text: "vertical personal network", correct: false },
+                    { text: "Verbal Private News", correct: false },
+                    { text: "virtual private news", correct: false },
+                    { text: "virtual Private Network", correct: true }
+                ]
+            },
+            {
+                question: "which of the following is an example of a volatile memory.",
+                answers: [
+                    { text: "cd-rom", correct: false },
+                    { text: "RAM", correct: true },
+                    { text: "Rome", correct: false },
+                    { text: "hard disk", correct: false }
+                ]
+            },
+            {
+                question: "Which symbol is used to separate the username of an email address from that of an ISP?",
+                answers: [
+                    { text: "@", correct: true },
+                    { text: "&", correct: false },
+                    { text: "$", correct: false },
+                    { text: "#", correct: false }
+                ]
+            },
+            {
+                question: "Mail merge is a component of which of the following?",
+                answers: [
+                    { text: "MS Word", correct: true },
+                    { text: "MS Excel", correct: false },
+                    { text: "Word Press", correct: false },
+                    { text: "MS Access", correct: false }
+                ]
+            },
             {
                 question: "Who is the co-founder of Apple Inc.?",
                 answers: [
@@ -639,6 +1481,60 @@ const questionsByDifficultyAndCategory =
         ],
         "GEOGRAPHY & NEPAL": [
             {
+                question: "What ocean is the largest and deepest?",
+                options: [
+                    { text: "Atlantic Ocean", correct: false },
+                    { text: "Indian Ocean", correct: false },
+                    { text: "Arctic Ocean", correct: false },
+                    { text: "Pacific Ocean", correct: true }
+                ]
+            },
+            {
+                question: "What is the largest desert in the world?",
+                options: [
+                    { text: "Arabian Desert", correct: false },
+                    { text: "Kalahari Desert", correct: false },
+                    { text: "Sahara Desert", correct: true },
+                    { text: "Gobi Desert", correct: false }
+                ]
+            },
+            {
+                question: "What is the largest continent by land area?",
+                options: [
+                    { text: "North America", correct: false },
+                    { text: "Europe", correct: false },
+                    { text: "Asia", correct: true },
+                    { text: "Australia", correct: false }
+                ]
+            },
+            {
+                question: "What is the most populous city in the world?",
+                options: [
+                    { text: "Tokyo, Japan", correct: true },
+                    { text: "Beijing, China", correct: false },
+                    { text: "Shanghai, China", correct: false },
+                    { text: "Delhi, India", correct: false }
+                ]
+            },
+            {
+                question: "Which country has the most pyramids?",
+                options: [
+                    { text: "Sudan", correct: true },
+                    { text: "Egypt", correct: false },
+                    { text: "Mexico", correct: false },
+                    { text: "Guatemala", correct: false }
+                ]
+            },
+            {
+                question: "What is the smallest country in the world?",
+                options: [
+                    { text: "Monaco", correct: false },
+                    { text: "Nauru", correct: false },
+                    { text: "Tuvalu", correct: false },
+                    { text: "Vatican City", correct: true }
+                ]
+            },
+            {
                 question: "In which district is Mahendra Cave located?",
                 answers: [
 
@@ -829,6 +1725,59 @@ const questionsByDifficultyAndCategory =
     medium: {
         "GENERAL KNOWLEDGE": [
             {
+                question: "What is a group of crows called?",
+                answers: [
+                    { text: "A murder", correct: true },
+                    { text: "A flock", correct: false },
+                    { text: "A herd", correct: false },
+                    { text: "A colony", correct: false }
+                ]
+            },
+            {
+                question: "What is a group of pandas known as?",
+                answers: [
+                    { text: "An embarrassment", correct: true },
+                    { text: "A pride", correct: false },
+                    { text: "A gaggle", correct: false },
+                    { text: "A pod", correct: false }
+                ]
+            }, {
+                question: "What art form is described as 'decorative handwriting or handwritten lettering'?",
+                answers: [
+                    { text: "Calligraphy", correct: true },
+                    { text: "Graffiti", correct: false },
+                    { text: "Typography", correct: false },
+                    { text: "Sketching", correct: false }
+                ]
+            },
+            {
+                question: "What company was initially known as 'Blue Ribbon Sports'?",
+                answers: [
+                    { text: "Nike", correct: true },
+                    { text: "Adidas", correct: false },
+                    { text: "Puma", correct: false },
+                    { text: "Under Armour", correct: false }
+                ]
+            },
+            {
+                question: "What country drinks the most coffee per capita?",
+                answers: [
+                    { text: "Finland", correct: true },
+                    { text: "Sweden", correct: false },
+                    { text: "Norway", correct: false },
+                    { text: "Denmark", correct: false }
+                ]
+            },
+            {
+                question: "How many ghosts chase Pac-Man at the start of each game?",
+                answers: [
+                    { text: "4", correct: true },
+                    { text: "3", correct: false },
+                    { text: "5", correct: false },
+                    { text: "2", correct: false }
+                ]
+            },
+            {
                 question: "What is the fastest growing plant?",
                 answers: [
                     { "text": "Rose", "correct": false },
@@ -864,7 +1813,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Bell", correct: false },
                 ]
             },
-            
+
             {
                 question: "What is the full form of NASA?",
                 answers: [
@@ -1036,6 +1985,78 @@ const questionsByDifficultyAndCategory =
         ],
         "COMPUTER & TECHNOLOGY": [
             {
+                question: "The hexadecimal number system consists of the symbols",
+                answers: [
+                    { text: "0 – 7", correct: false },
+                    { text: "0 – 9 , A – F", correct: true },
+                    { text: "0 – 7, A – F", correct: false },
+                    { text: "None of these", correct: false }
+                ]
+            },
+            {
+                question: "Which one of the following is different from other members?",
+                answers: [
+                    { text: "Google", correct: true },
+                    { text: "Windows", correct: false },
+                    { text: "Linux", correct: false },
+                    { text: "Mac", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is used to Manage DataBase?",
+                answers: [
+                    { text: "Operating System", correct: false },
+                    { text: "Compiler", correct: false },
+                    { text: "DBMS", correct: true },
+                    { text: "None of the above", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is not an example of an Operating System?",
+                answers: [
+                    { text: "Windows 98", correct: false },
+                    { text: "BSD Unix", correct: false },
+                    { text: "Microsoft Office XP", correct: true },
+                    { text: "Red Hat Linux", correct: false }
+                ]
+            },
+            {
+                question: "IC chips used in computers are usually made of:",
+                answers: [
+                    { text: "Lead", correct: false },
+                    { text: "Silicon", correct: true },
+                    { text: "Chromium", correct: false },
+                    { text: "Gold", correct: false }
+                ]
+            },
+            {
+                question: "The CPU, motherboard and RAM are ........ components of a computer hardware system.",
+                answers: [
+                    { text: "input device", correct: false },
+                    { text: "secondary storage device", correct: false },
+                    { text: "output device", correct: false },
+                    { text: "internal", correct: true }
+                ]
+            },
+            {
+                question: "The instruction about booting your system is stored in:",
+                answers: [
+                    { text: "RAM", correct: false },
+                    { text: "CPU", correct: false },
+                    { text: "BIOS", correct: true },
+                    { text: "Register", correct: false }
+                ]
+            },
+            {
+                question: "A nibble is equal to how many bits?",
+                answers: [
+                    { text: "4", correct: true },
+                    { text: "8", correct: false },
+                    { text: "16", correct: false },
+                    { text: "32", correct: false }
+                ]
+            },
+            {
                 question: "Which programming language is often used for web development?",
                 answers: [
                     { text: "Java", correct: false },
@@ -1150,7 +2171,16 @@ const questionsByDifficultyAndCategory =
                     { text: "Creative Style Sheets", correct: false },
                     { text: "Coded Style Sheets", correct: false },
                 ]
-            }
+            },
+            {
+                question: "Which computer virus records every movement you make on the computer?",
+                answers: [
+                    { text: "Malware Android", correct: false },
+                    { text: "DoS", correct: false },
+                    { text: "Key Logger", correct: true },
+                    { text: "Trapper", correct: false }
+                ]
+            },
         ],
         "MATHS & IQ": [
             {
@@ -1361,7 +2391,7 @@ const questionsByDifficultyAndCategory =
             },
 
         ],
-        
+
         "SPORTS & GAMES": [
             {
                 question: "What country won the first World Cup?",
@@ -1506,6 +2536,42 @@ const questionsByDifficultyAndCategory =
             }
         ],
         "GEOGRAPHY & NEPAL": [
+            {
+                question: "What is the smallest continent by area?",
+                options: [
+                    { text: "North America", correct: false },
+                    { text: "Europe", correct: false },
+                    { text: "Asia", correct: false },
+                    { text: "Australia", correct: true }
+                ]
+            },
+            {
+                question: "In which country would you find the Kalahari Desert?",
+                options: [
+                    { text: "South Africa", correct: false },
+                    { text: "Namibia", correct: false },
+                    { text: "Botswana", correct: true },
+                    { text: "Zimbabwe", correct: false }
+                ]
+            },
+            {
+                question: "In which ocean is the Bermuda Triangle located?",
+                options: [
+                    { text: "Atlantic Ocean", correct: true },
+                    { text: "Pacific Ocean", correct: false },
+                    { text: "Indian Ocean", correct: false },
+                    { text: "Arctic Ocean", correct: false }
+                ]
+            },
+            {
+                question: "Which ocean is between North America and Africa?",
+                options: [
+                    { text: "Pacific", correct: false },
+                    { text: "Arctic", correct: false },
+                    { text: "Indian", correct: false },
+                    { text: "Atlantic", correct: true }
+                ]
+            },
             {
                 question: "What is the highest mountain in Nepal?",
                 answers: [
@@ -1694,6 +2760,103 @@ const questionsByDifficultyAndCategory =
         "GENERAL KNOWLEDGE": [
 
             {
+                question: "What is the only continent with land in all four hemispheres?",
+                answers: [
+                    { text: "Africa", correct: true },
+                    { text: "Asia", correct: false },
+                    { text: "North America", correct: false },
+                    { text: "South America", correct: false }
+                ]
+            },
+            {
+                question: "What country has the most islands?",
+                answers: [
+                    { text: "Sweden", correct: true },
+                    { text: "Indonesia", correct: false },
+                    { text: "Philippines", correct: false },
+                    { text: "Japan", correct: false }
+                ]
+            },
+            {
+                question: "What is acrophobia a fear of?",
+                answers: [
+                    { text: "Heights", correct: true },
+                    { text: "Spiders", correct: false },
+                    { text: "Water", correct: false },
+                    { text: "Closed spaces", correct: false }
+                ]
+            },
+            {
+                question: "Which is the only body part that is fully grown from birth?",
+                answers: [
+                    { text: "Eyes", correct: true },
+                    { text: "Brain", correct: false },
+                    { text: "Heart", correct: false },
+                    { text: "Lungs", correct: false }
+                ]
+            },
+            {
+                question: "How many dots appear on a pair of dice?",
+                answers: [
+                    { text: "42", correct: true },
+                    { text: "36", correct: false },
+                    { text: "48", correct: false },
+                    { text: "56", correct: false }
+                ]
+            }, {
+                question: "In what country would you find Mount Kilimanjaro?",
+                answers: [
+                    { text: "Tanzania", correct: true },
+                    { text: "Kenya", correct: false },
+                    { text: "Uganda", correct: false },
+                    { text: "Ethiopia", correct: false }
+                ]
+            }, {
+                question: "What city is known as 'The Eternal City'?",
+                answers: [
+                    { text: "Rome", correct: true },
+                    { text: "Athens", correct: false },
+                    { text: "Jerusalem", correct: false },
+                    { text: "Constantinople", correct: false }
+                ]
+            },
+            {
+                question: "What car manufacturer had the highest revenue in 2020?",
+                answers: [
+                    { text: "Volkswagen", correct: true },
+                    { text: "Toyota", correct: false },
+                    { text: "General Motors", correct: false },
+                    { text: "Tesla", correct: false }
+                ]
+            },
+            {
+                question: "How many minutes are in a full week?",
+                answers: [
+                    { text: "10,080", correct: true },
+                    { text: "14,400", correct: false },
+                    { text: "8,640", correct: false },
+                    { text: "12,960", correct: false }
+                ]
+            },
+            {
+                question: "What artist has the most streams on Spotify on FEB 2024 ?",
+                answers: [
+                    { text: "Drake", correct: true },
+                    { text: "Ed Sheeran", correct: false },
+                    { text: "Justin Bieber", correct: false },
+                    { text: "Ariana Grande", correct: false }
+                ]
+            },
+            {
+                question: "What year was the United Nations established?",
+                answers: [
+                    { text: "1945", correct: true },
+                    { text: "1955", correct: false },
+                    { text: "1935", correct: false },
+                    { text: "1965", correct: false }
+                ]
+            },
+            {
                 question: "Name the hardest substance available on Earth?",
                 answers: [
                     { text: "Quartz", correct: false },
@@ -1869,124 +3032,224 @@ const questionsByDifficultyAndCategory =
                 ]
             },
         ],
-        "COMPUTER & TECHNOLOGY": [{
-            question: "What is the name of the programming language developed by Microsoft?",
-            answers: [
-                { text: "Java", correct: false },
-                { text: "C#", correct: true },
-                { text: "Swift", correct: false },
-                { text: "Objective-C", correct: false },
-            ]
-        },
-        {
-            question: "Which company developed the Java programming language?",
-            answers: [
-                { text: "Microsoft", correct: false },
-                { text: "Apple", correct: false },
-                { text: "Sun Microsystems", correct: true },
-                { text: "IBM", correct: false },
-            ]
-        },
-        {
-            question: "What does API stand for in programming?",
-            answers: [
-                { text: "Application Process Integration", correct: false },
-                { text: "Application Programming Interface", correct: true },
-                { text: "Automated Program Installation", correct: false },
-                { text: "Advanced Program Integration", correct: false },
-            ]
-        },
-        {
-            question: "Which programming language is often used for artificial intelligence and machine learning?",
-            answers: [
-                { text: "Python", correct: true },
-                { text: "JavaScript", correct: false },
-                { text: "C++", correct: false },
-                { text: "PHP", correct: false },
-            ]
-        },
-        {
-            question: "Which programming language was created by Bjarne Stroustrup in 1983?",
-            answers: [
-                { text: "Java", correct: false },
-                { text: "C++", correct: true },
-                { text: "Python", correct: false },
-                { text: "Ruby", correct: false },
-            ]
-        },
-        {
-            question: "Who is considered the father of modern computer science?",
-            answers: [
-                { text: "Alan Turing", correct: true },
-                { text: "Tim Berners-Lee", correct: false },
-                { text: "Linus Torvalds", correct: false },
-                { text: "Ada Lovelace", correct: false },
-            ]
-        },
-        {
-            question: "What technology is used to record cryptocurrency transactions?",
-            answers: [
-                { text: "Digital wallet", correct: false },
-                { text: "Mining", correct: false },
-                { text: "Blockchain", correct: true },
-                { text: "Token", correct: false }
-            ]
-        },
+        "COMPUTER & TECHNOLOGY": [
+            {
+                question: "1 GB is equal to",
+                answers: [
+                    { text: "1000 bits", correct: false },
+                    { text: "1000 Mb", correct: false },
+                    { text: "1024 bits", correct: false },
+                    { text: "1024 bytes", correct: true }
+                ]
+            },
+            {
+                question: "Function of running and loading programs by use of peripherals is function of",
+                answers: [
+                    { text: "operating system", correct: true },
+                    { text: "inquiry system", correct: false },
+                    { text: "dump programs", correct: false },
+                    { text: "function system", correct: false }
+                ]
+            },
+            {
+                question: "Process to exit from computer by giving correct instructions such as 'EXIT' is classified as",
+                answers: [
+                    { text: "log in", correct: false },
+                    { text: "process out", correct: false },
+                    { text: "process in", correct: false },
+                    { text: "log out", correct: true }
+                ]
+            },
+            {
+                question: "What type of process creates a smaller file that is faster to transfer over the internet?",
+                answers: [
+                    { text: "Compression", correct: true },
+                    { text: "Fragmentation", correct: false },
+                    { text: "Encapsulation", correct: false },
+                    { text: "None of the above", correct: false }
+                ]
+            },
+            {
+                question: "Compact discs, (according to the original CD specifications) hold how many minutes of music?",
+                answers: [
+                    { text: "74 mins", correct: false },
+                    { text: "90 mins", correct: false },
+                    { text: "56 mins", correct: false },
+                    { text: "60 mins", correct: true }
+                ]
+            },
+            {
+                question: "When is the World Computer Literacy Day observed every year?",
+                answers: [
+                    { text: "08 September", correct: false },
+                    { text: "11 september", correct: false },
+                    { text: "03 November", correct: false },
+                    { text: "02 December", correct: true }
+                ]
+            },
+            {
+                question: "what is the key combination to open the 'Save As' dialog box in MS PowerPoint?",
+                answers: [
+                    { text: "F12.", correct: false },
+                    { text: "Alt+F then D", correct: false },
+                    { text: "Alt+F then E", correct: false },
+                    { text: "Alt+F then O", correct: true }
+                ]
+            },
+            {
+                question: "In a _______, a parent record type can be associated with one or more 'child' record types, but a child record type can have only one parent.",
+                answers: [
+                    { text: "network database", correct: false },
+                    { text: "relational database", correct: true },
+                    { text: "distributed database", correct: false },
+                    { text: "hierarchical database", correct: false }
+                ]
+            },
+            {
+                question: "Which files are used during the operation of DBMS?",
+                answers: [
+                    { text: "Query language and utilities", correct: true },
+                    { text: "Data manipulation language and query language", correct: false },
+                    { text: "Data dictionary and transaction log", correct: false },
+                    { text: "Data dictionary and query language", correct: false }
+                ]
+            },
+            {
+                question: "What is called the syntax analysis part in the machine language transformation of a high-level language?",
+                answers: [
+                    { text: "lexical analysis", correct: false },
+                    { text: "semantic analysis", correct: false },
+                    { text: "parsing", correct: true },
+                    { text: "linking", correct: false }
+                ]
+            },
+            {
+                question: "Which keys are used to switch between programs in Windows?",
+                answers: [
+                    { text: "Ctrl+TAB", correct: false },
+                    { text: "Alt+TAB", correct: true },
+                    { text: "Shift+TAB", correct: false },
+                    { text: "Shift+Enter", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the programming language developed by Microsoft?",
+                answers: [
+                    { text: "Java", correct: false },
+                    { text: "C#", correct: true },
+                    { text: "Swift", correct: false },
+                    { text: "Objective-C", correct: false },
+                ]
+            },
+            {
+                question: "Which company developed the Java programming language?",
+                answers: [
+                    { text: "Microsoft", correct: false },
+                    { text: "Apple", correct: false },
+                    { text: "Sun Microsystems", correct: true },
+                    { text: "IBM", correct: false },
+                ]
+            },
+            {
+                question: "What does API stand for in programming?",
+                answers: [
+                    { text: "Application Process Integration", correct: false },
+                    { text: "Application Programming Interface", correct: true },
+                    { text: "Automated Program Installation", correct: false },
+                    { text: "Advanced Program Integration", correct: false },
+                ]
+            },
+            {
+                question: "Which programming language is often used for artificial intelligence and machine learning?",
+                answers: [
+                    { text: "Python", correct: true },
+                    { text: "JavaScript", correct: false },
+                    { text: "C++", correct: false },
+                    { text: "PHP", correct: false },
+                ]
+            },
+            {
+                question: "Which programming language was created by Bjarne Stroustrup in 1983?",
+                answers: [
+                    { text: "Java", correct: false },
+                    { text: "C++", correct: true },
+                    { text: "Python", correct: false },
+                    { text: "Ruby", correct: false },
+                ]
+            },
+            {
+                question: "Who is considered the father of modern computer science?",
+                answers: [
+                    { text: "Alan Turing", correct: true },
+                    { text: "Tim Berners-Lee", correct: false },
+                    { text: "Linus Torvalds", correct: false },
+                    { text: "Ada Lovelace", correct: false },
+                ]
+            },
+            {
+                question: "What technology is used to record cryptocurrency transactions?",
+                answers: [
+                    { text: "Digital wallet", correct: false },
+                    { text: "Mining", correct: false },
+                    { text: "Blockchain", correct: true },
+                    { text: "Token", correct: false }
+                ]
+            },
 
-        {
-            question: "About how many smartphones are being used in the world?",
-            answers: [
-                { text: "1 million", correct: false },
-                { text: "100 million", correct: false },
-                { text: "1 billion", correct: true },
-                { text: "100 billion", correct: false }
-            ]
-        },
-        {
-            question: "What was the fastest growing web browser in 2020?",
-            answers: [
-                { text: "Microsoft Edge", correct: true },
-                { text: "Firefox", correct: false },
-                { text: "DuckDuckGo", correct: false },
-                { text: "Internet Explorer", correct: false }
-            ]
-        },
-        {
-            question: "What was the name of the first operating system?",
-            answers: [
-                { text: "Windows 1.01", correct: false },
-                { text: "TSS/360", correct: false },
-                { text: "EPOC", correct: false },
-                { text: "GM-NAA I/O", correct: true }
-            ]
-        },
-        {
-            question: "What is the function of a compiler in programming?",
-            answers: [
-                { text: "It translates high-level code into machine code", correct: true },
-                { text: "It executes code line by line", correct: false },
-                { text: "It checks for errors in the code", correct: false },
-                { text: "It optimizes code for performance", correct: false },
-            ]
-        },
-        {
-            question: "A project using Powerpoint may include all of the following items except:",
-            answers: [
-                { text: "Video tape", correct: true },
-                { text: "Text", correct: false },
-                { text: "Sound clip", correct: false },
-                { text: "Animation", correct: false }
-            ]
-        },
-        {
-            question: "What is the primary purpose of version control systems like Git?",
-            answers: [
-                { text: "To track changes in code and collaborate with others", correct: true },
-                { text: "To write and execute automated tests", correct: false },
-                { text: "To deploy applications to servers", correct: false },
-                { text: "To monitor system performance", correct: false },
-            ]
-        }
+            {
+                question: "About how many smartphones are being used in the world?",
+                answers: [
+                    { text: "1 million", correct: false },
+                    { text: "100 million", correct: false },
+                    { text: "1 billion", correct: true },
+                    { text: "100 billion", correct: false }
+                ]
+            },
+            {
+                question: "What was the fastest growing web browser in 2020?",
+                answers: [
+                    { text: "Microsoft Edge", correct: true },
+                    { text: "Firefox", correct: false },
+                    { text: "DuckDuckGo", correct: false },
+                    { text: "Internet Explorer", correct: false }
+                ]
+            },
+            {
+                question: "What was the name of the first operating system?",
+                answers: [
+                    { text: "Windows 1.01", correct: false },
+                    { text: "TSS/360", correct: false },
+                    { text: "EPOC", correct: false },
+                    { text: "GM-NAA I/O", correct: true }
+                ]
+            },
+            {
+                question: "What is the function of a compiler in programming?",
+                answers: [
+                    { text: "It translates high-level code into machine code", correct: true },
+                    { text: "It executes code line by line", correct: false },
+                    { text: "It checks for errors in the code", correct: false },
+                    { text: "It optimizes code for performance", correct: false },
+                ]
+            },
+            {
+                question: "A project using Powerpoint may include all of the following items except:",
+                answers: [
+                    { text: "Video tape", correct: true },
+                    { text: "Text", correct: false },
+                    { text: "Sound clip", correct: false },
+                    { text: "Animation", correct: false }
+                ]
+            },
+            {
+                question: "What is the primary purpose of version control systems like Git?",
+                answers: [
+                    { text: "To track changes in code and collaborate with others", correct: true },
+                    { text: "To write and execute automated tests", correct: false },
+                    { text: "To deploy applications to servers", correct: false },
+                    { text: "To monitor system performance", correct: false },
+                ]
+            }
 
         ],
         "MATHS & IQ": [
@@ -2091,8 +3354,130 @@ const questionsByDifficultyAndCategory =
                 ]
             }
         ],
+
+        "SPORTS & GAMES": [
+            {
+                question: "Who is known as the 'King of Clay' in tennis?",
+                answers: [
+                    { text: "Roger Federer", correct: false },
+                    { text: "Novak Djokovic", correct: false },
+                    { text: "Rafael Nadal", correct: true },
+                    { text: "Andy Murray", correct: false },
+                ]
+            },
+            {
+                question: "Distance of Marathon race is -",
+                answers: [
+                    { text: "43.195 km", correct: false },
+                    { text: "42.195 km", correct: true },
+                    { text: "41.185 km", correct: false },
+                    { text: "40.165 km", correct: false }
+                ]
+            },
+            {
+                question: "In which game Antenna is used?",
+                answers: [
+                    { text: "Basketball", correct: false },
+                    { text: "Cricket", correct: false },
+                    { text: "Rugby", correct: false },
+                    { text: "Volleyball", correct: true }
+                ]
+            },
+            {
+                question: "In basketball, how many points is a free throw worth?",
+                answers: [
+                    { text: "1 point", correct: true },
+                    { text: "2 points", correct: false },
+                    { text: "3 points", correct: false },
+                    { text: "4 points", correct: false }
+                ]
+            },
+            {
+                question: "Which country won the FIFA World Cup (Men) for the maximum number of times?",
+                answers: [
+                    { text: "West Indies", correct: false },
+                    { text: "Pakistan", correct: false },
+                    { text: "Sri Lanka", correct: false },
+                    { text: "Australia", correct: true }
+                ]
+            },
+            {
+                question: "Triples is a new format of",
+                answers: [
+                    { text: "Boxing", correct: false },
+                    { text: "Judo", correct: false },
+                    { text: "Chess", correct: false },
+                    { text: "Badminton", correct: true }
+                ]
+            },
+            {
+                question: "The first Winter Olympic Games were organized in the year -",
+                answers: [
+                    { text: "1920", correct: false },
+                    { text: "1921", correct: false },
+                    { text: "1923", correct: false },
+                    { text: "1924", correct: true }
+                ]
+            },
+
+            {
+                question: "Who is known as 'The Greatest' in boxing?",
+                answers: [
+                    { text: "Muhammad Ali", correct: true },
+                    { text: "Mike Tyson", correct: false },
+                    { text: "Floyd Mayweather Jr.", correct: false },
+                    { text: "George Foreman", correct: false }
+                ]
+            },
+            {
+                question: "What sport is played at Wimbledon?",
+                answers: [
+                    { text: "Tennis", correct: true },
+                    { text: "Golf", correct: false },
+                    { text: "Cricket", correct: false },
+                    { text: "Badminton", correct: false }
+                ]
+            },
+            {
+                question: "Who is the all-time leading scorer in NBA history?",
+                answers: [
+                    { text: "LeBron James", correct: false },
+                    { text: "Kareem Abdul-Jabbar", correct: true },
+                    { text: "Michael Jordan", correct: false },
+                    { text: "Kobe Bryant", correct: false }
+                ]
+            },
+            {
+                question: "How many squares does a chessboard have?",
+                answers: [
+                    { text: "65", correct: false },
+                    { text: "32", correct: false },
+                    { text: "64", correct: true },
+                    { text: "99", correct: false }
+                ]
+            },
+
+            {
+                question: "Who holds the record for the most Olympic gold medals?",
+                answers: [
+                    { text: "Usain Bolt", correct: false },
+                    { text: "Michael Phelps", correct: true },
+                    { text: "Serena Williams", correct: false },
+                    { text: "Lionel Messi", correct: false }
+                ]
+            }
+        ],
         "GEOGRAPHY & NEPAL": [
 
+            {
+                question: "Which country is made up of 7,000 islands?",
+                options: [
+                    { text: "The Philippines", correct: true },
+                    { text: "Indonesia", correct: false },
+                    { text: "Japan", correct: false },
+                    { text: "Malaysia", correct: false }
+                ]
+            },
             {
                 question: "Which is the longest continental mountain range in the world?",
                 answers: [
@@ -2269,118 +3654,6 @@ const questionsByDifficultyAndCategory =
 
 
         ],
-        "SPORTS & GAMES": [
-            {
-                question: "Who is known as the 'King of Clay' in tennis?",
-                answers: [
-                    { text: "Roger Federer", correct: false },
-                    { text: "Novak Djokovic", correct: false },
-                    { text: "Rafael Nadal", correct: true },
-                    { text: "Andy Murray", correct: false },
-                ]
-            },
-            {
-                question: "Distance of Marathon race is -",
-                answers: [
-                    { text: "43.195 km", correct: false },
-                    { text: "42.195 km", correct: true },
-                    { text: "41.185 km", correct: false },
-                    { text: "40.165 km", correct: false }
-                ]
-            },
-            {
-                question: "In which game Antenna is used?",
-                answers: [
-                    { text: "Basketball", correct: false },
-                    { text: "Cricket", correct: false },
-                    { text: "Rugby", correct: false },
-                    { text: "Volleyball", correct: true }
-                ]
-            },
-            {
-                question: "In basketball, how many points is a free throw worth?",
-                answers: [
-                    { text: "1 point", correct: true },
-                    { text: "2 points", correct: false },
-                    { text: "3 points", correct: false },
-                    { text: "4 points", correct: false }
-                ]
-            },
-            {
-                question: "Which country won the FIFA World Cup (Men) for the maximum number of times?",
-                answers: [
-                    { text: "West Indies", correct: false },
-                    { text: "Pakistan", correct: false },
-                    { text: "Sri Lanka", correct: false },
-                    { text: "Australia", correct: true }
-                ]
-            },
-            {
-                question: "Triples is a new format of",
-                answers: [
-                    { text: "Boxing", correct: false },
-                    { text: "Judo", correct: false },
-                    { text: "Chess", correct: false },
-                    { text: "Badminton", correct: true }
-                ]
-            },
-            {
-                question: "The first Winter Olympic Games were organized in the year -",
-                answers: [
-                    { text: "1920", correct: false },
-                    { text: "1921", correct: false },
-                    { text: "1923", correct: false },
-                    { text: "1924", correct: true }
-                ]
-            },
-
-            {
-                question: "Who is known as 'The Greatest' in boxing?",
-                answers: [
-                    { text: "Muhammad Ali", correct: true },
-                    { text: "Mike Tyson", correct: false },
-                    { text: "Floyd Mayweather Jr.", correct: false },
-                    { text: "George Foreman", correct: false }
-                ]
-            },
-            {
-                question: "What sport is played at Wimbledon?",
-                answers: [
-                    { text: "Tennis", correct: true },
-                    { text: "Golf", correct: false },
-                    { text: "Cricket", correct: false },
-                    { text: "Badminton", correct: false }
-                ]
-            },
-            {
-                question: "Who is the all-time leading scorer in NBA history?",
-                answers: [
-                    { text: "LeBron James", correct: false },
-                    { text: "Kareem Abdul-Jabbar", correct: true },
-                    { text: "Michael Jordan", correct: false },
-                    { text: "Kobe Bryant", correct: false }
-                ]
-            },
-            {
-                question: "How many squares does a chessboard have?",
-                answers: [
-                    { text: "65", correct: false },
-                    { text: "32", correct: false },
-                    { text: "64", correct: true },
-                    { text: "99", correct: false }
-                ]
-            },
-
-            {
-                question: "Who holds the record for the most Olympic gold medals?",
-                answers: [
-                    { text: "Usain Bolt", correct: false },
-                    { text: "Michael Phelps", correct: true },
-                    { text: "Serena Williams", correct: false },
-                    { text: "Lionel Messi", correct: false }
-                ]
-            }
-        ]
     }
 }
 
@@ -2449,7 +3722,7 @@ function startQuiz() {
 
         questions = questions.filter((question, index) => !usedQuestionsIndexes.includes(index));
         questions = shuffleArray(questions);
-        questions = questions.slice(0, 5);
+        //  questions = questions.slice(0, 5);
 
         if (questions && questions.length > 0) {
             showQuestion();
