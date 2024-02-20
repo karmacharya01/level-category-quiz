@@ -941,6 +941,269 @@ const questionsByDifficultyAndCategory =
             }
         ],
         "COMPUTER & TECHNOLOGY": [
+
+            {
+                question: "What is the most common file extension for a webpage?",
+                answers: [
+                    { text: ".html", correct: true },
+                    { text: ".txt", correct: false },
+                    { text: ".docx", correct: false },
+                    { text: ".pdf", correct: false }
+                ]
+            },
+            {
+                question: "What is the process of converting data into a secret code to hide the original information?",
+                answers: [
+                    { text: "Encryption", correct: true },
+                    { text: "Decryption", correct: false },
+                    { text: "Compression", correct: false },
+                    { text: "Decompression", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is a cloud computing service provided by Amazon?",
+                answers: [
+                    { text: "Amazon Web Services (AWS)", correct: true },
+                    { text: "Google Drive", correct: false },
+                    { text: "Microsoft Azure", correct: false },
+                    { text: "Dropbox", correct: false }
+                ]
+            },
+            {
+                question: "What is the function of an operating system?",
+                answers: [
+                    { text: "To manage hardware resources and provide a user interface", correct: true },
+                    { text: "To display advertisements on the screen", correct: false },
+                    { text: "To execute programs and applications", correct: false },
+                    { text: "To protect the computer from viruses and malware", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is NOT a web browser?",
+                answers: [
+                    { text: "Microsoft Word", correct: true },
+                    { text: "Google Chrome", correct: false },
+                    { text: "Mozilla Firefox", correct: false },
+                    { text: "Safari", correct: false }
+                ]
+            },
+            {
+                question: "What is the purpose of a search engine?",
+                answers: [
+                    { text: "To help users find information on the internet", correct: true },
+                    { text: "To send and receive emails", correct: false },
+                    { text: "To create documents and presentations", correct: false },
+                    { text: "To manage files and folders on a computer", correct: false }
+                ]
+            },
+            {
+                question: "What does DNS stand for?",
+                answers: [
+                    { text: "Domain Name System", correct: true },
+                    { text: "Dynamic Network Service", correct: false },
+                    { text: "Data Network Security", correct: false },
+                    { text: "Digital Naming Service", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is a social media platform?",
+                answers: [
+                    { text: "Facebook", correct: true },
+                    { text: "Amazon", correct: false },
+                    { text: "Netflix", correct: false },
+                    { text: "YouTube", correct: false }
+                ]
+            },
+            {
+                question: "What is the purpose of a router in a computer network?",
+                answers: [
+                    { text: "To forward data packets between computer networks", correct: true },
+                    { text: "To store and manage data files", correct: false },
+                    { text: "To provide power to network devices", correct: false },
+                    { text: "To cool down the computer components", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of Google's mobile operating system?",
+                answers: [
+                    { text: "Android", correct: true },
+                    { text: "iOS", correct: false },
+                    { text: "Windows Phone", correct: false },
+                    { text: "BlackBerry OS", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is a storage device?",
+                answers: [
+                    { text: "Hard Disk Drive (HDD)", correct: true },
+                    { text: "RAM", correct: false },
+                    { text: "CPU", correct: false },
+                    { text: "Motherboard", correct: false }
+                ]
+            },
+            {
+                question: "What does VPN stand for?",
+                answers: [
+                    { text: "Virtual Private Network", correct: true },
+                    { text: "Virtual Personal Network", correct: false },
+                    { text: "Verified Personal Network", correct: false },
+                    { text: "Verified Private Network", correct: false }
+                ]
+            },
+            {
+                question: "Which programming language is commonly used for building mobile apps?",
+                answers: [
+                    { text: "Java", correct: false },
+                    { text: "C++", correct: false },
+                    { text: "Swift", correct: false },
+                    { text: "All of the above", correct: true }
+                ]
+            },
+            {
+                question: "What does CSS stand for?",
+                answers: [
+                    { text: "Cascading Style Sheets", correct: true },
+                    { text: "Computer Style Sheets", correct: false },
+                    { text: "Creative Style Sheets", correct: false },
+                    { text: "Coded Style Sheets", correct: false }
+                ]
+            },
+            {
+                question: "What is the primary function of RAM in a computer?",
+                answers: [
+                    { text: "To temporarily store data and programs that are being used or processed", correct: true },
+                    { text: "To store the operating system permanently", correct: false },
+                    { text: "To process arithmetic and logical operations", correct: false },
+                    { text: "To control the flow of data between the CPU and other devices", correct: false }
+                ]
+            },
+            {
+                question: "What is the function of a modem?",
+                answers: [
+                    { text: "To convert digital signals to analog signals for transmission over telephone lines", correct: true },
+                    { text: "To amplify audio signals", correct: false },
+                    { text: "To display images on a monitor", correct: false },
+                    { text: "To control the flow of electricity in a circuit", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is NOT an input device?",
+                answers: [
+                    { text: "Printer", correct: true },
+                    { text: "Keyboard", correct: false },
+                    { text: "Mouse", correct: false },
+                    { text: "Scanner", correct: false }
+                ]
+            },
+            {
+                question: "What is the purpose of a graphics card in a computer?",
+                answers: [
+                    { text: "To render and display images and videos on the monitor", correct: true },
+                    { text: "To store data files", correct: false },
+                    { text: "To connect to the internet wirelessly", correct: false },
+                    { text: "To provide power to the CPU", correct: false }
+                ]
+            },
+            {
+                question: "What does CPU stand for?",
+                answers: [
+                    { text: "Central Processing Unit", correct: true },
+                    { text: "Computer Personal Unit", correct: false },
+                    { text: "Central Personal Unit", correct: false },
+                    { text: "Central Processor Unit", correct: false }
+                ]
+            },
+            {
+                question: "Which programming language is known for its simplicity and readability?",
+                answers: [
+                    { text: "Python", correct: true },
+                    { text: "Java", correct: false },
+                    { text: "C++", correct: false },
+                    { text: "Ruby", correct: false }
+                ]
+            },
+            {
+                question: "What does HTML stand for?",
+                answers: [
+                    { text: "Hypertext Markup Language", correct: true },
+                    { text: "Hyperlink and Text Markup Language", correct: false },
+                    { text: "Hyper Text Manipulation Language", correct: false },
+                    { text: "Hypertext Manipulation Language", correct: false }
+                ]
+            },
+            {
+                question: "What does URL stand for?",
+                answers: [
+                    { text: "Uniform Resource Locator", correct: true },
+                    { text: "Universal Resource Link", correct: false },
+                    { text: "Uniform Resource Link", correct: false },
+                    { text: "Universal Resource Locator", correct: false }
+                ]
+            },
+            {
+                question: "Which company developed the Windows operating system?",
+                answers: [
+                    { text: "Microsoft", correct: true },
+                    { text: "Apple", correct: false },
+                    { text: "Google", correct: false },
+                    { text: "IBM", correct: false }
+                ]
+            },
+            {
+                question: "What is the full form of USB?",
+                answers: [
+                    { text: "Universal Serial Bus", correct: true },
+                    { text: "Universal Service Bus", correct: false },
+                    { text: "Uniform Serial Bus", correct: false },
+                    { text: "Uniform Service Bus", correct: false }
+                ]
+            },
+            {
+                question: "What does PDF stand for?",
+                answers: [
+                    { text: "Portable Document Format", correct: true },
+                    { text: "Personal Document Format", correct: false },
+                    { text: "Printable Document Format", correct: false },
+                    { text: "Public Document Format", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is a type of computer virus?",
+                answers: [
+                    { text: "Trojan Horse", correct: false },
+                    { text: "All of the above", correct: true },
+                    { text: "Worm", correct: false },
+                    { text: "Spyware", correct: false }
+                ]
+            },
+            {
+                question: "What is the function of a firewall in network security?",
+                answers: [
+                    { text: "To monitor and control incoming and outgoing network traffic", correct: true },
+                    { text: "To filter spam emails", correct: false },
+                    { text: "To encrypt data transmissions", correct: false },
+                    { text: "To store and manage user authentication credentials", correct: false }
+                ]
+            },
+            {
+                question: "Which programming language is used for developing web pages?",
+                answers: [
+                    { text: "JavaScript", correct: true },
+                    { text: "Python", correct: false },
+                    { text: "C++", correct: false },
+                    { text: "Swift", correct: false }
+                ]
+            },
+            {
+                question: "What does LAN stand for?",
+                answers: [
+                    { text: "Local Area Network", correct: true },
+                    { text: "Large Area Network", correct: false },
+                    { text: "Longitudinal Access Network", correct: false },
+                    { text: "Lightweight Access Network", correct: false }
+                ]
+            },
+
             {
                 question: "What is the default chart type in Microsoft Excel?",
                 answers: [
@@ -1159,6 +1422,277 @@ const questionsByDifficultyAndCategory =
             }
         ],
         "MATHS & IQ": [
+
+            {
+                question: "If a square has a side length of 5 units, what is its area?",
+                answers: [
+                    { text: "15 square units", correct: false },
+                    { text: "20 square units", correct: false },
+                    { text: "25 square units", correct: true },
+                    { text: "30 square units", correct: false }
+                ]
+            },
+            {
+                question: "How many sides does a hexagon have?",
+                answers: [
+                    { text: "4", correct: false },
+                    { text: "5", correct: false },
+                    { text: "6", correct: true },
+                    { text: "7", correct: false }
+                ]
+            },
+            {
+                question: "What is the result of 10 divided by 2?",
+                answers: [
+                    { text: "2", correct: false },
+                    { text: "4", correct: false },
+                    { text: "5", correct: true },
+                    { text: "10", correct: false }
+                ]
+            },
+            {
+                question: "If a clock shows 3:15, what is the measure of the angle between the hour and minute hands?",
+                answers: [
+                    { text: "30°", correct: false },
+                    { text: "45°", correct: false },
+                    { text: "60°", correct: false },
+                    { text: "22.5°", correct: true }
+                ]
+            },
+            {
+                question: "What is the value of 3! (3 factorial)?",
+                answers: [
+                    { text: "3", correct: false },
+                    { text: "6", correct: true },
+                    { text: "9", correct: false },
+                    { text: "12", correct: false }
+                ]
+            },
+            {
+                question: "What is the result of 9 - 4?",
+                answers: [
+                    { text: "3", correct: false },
+                    { text: "4", correct: false },
+                    { text: "5", correct: true },
+                    { text: "6", correct: false }
+                ]
+            },
+            {
+                question: "How many degrees are in a right angle?",
+                answers: [
+                    { text: "45°", correct: false },
+                    { text: "90°", correct: true },
+                    { text: "135°", correct: false },
+                    { text: "180°", correct: false }
+                ]
+            },
+            {
+                question: "What is the value of 5 squared?",
+                answers: [
+                    { text: "10", correct: false },
+                    { text: "15", correct: false },
+                    { text: "20", correct: false },
+                    { text: "25", correct: true }
+                ]
+            },
+            {
+                question: "What is the next prime number after 7?",
+                answers: [
+                    { text: "8", correct: false },
+                    { text: "9", correct: false },
+                    { text: "10", correct: false },
+                    { text: "11", correct: true }
+                ]
+            },
+            {
+                question: "If a rectangle has a length of 8 units and a width of 4 units, what is its perimeter?",
+                answers: [
+                    { text: "12 units", correct: false },
+                    { text: "16 units", correct: false },
+                    { text: "24 units", correct: true },
+                    { text: "32 units", correct: false }
+                ]
+            },
+            {
+                question: "What is the value of 0 times any number?",
+                answers: [
+                    { text: "0", correct: true },
+                    { text: "1", correct: false },
+                    { text: "The number itself", correct: false },
+                    { text: "Infinity", correct: false }
+                ]
+            },
+            {
+                question: "What is the sum of the first 10 positive integers?",
+                answers: [
+                    { text: "45", correct: false },
+                    { text: "50", correct: false },
+                    { text: "55", correct: true },
+                    { text: "60", correct: false }
+                ]
+            },
+            {
+                question: "What is the result of 7 multiplied by 0?",
+                answers: [
+                    { text: "0", correct: true },
+                    { text: "7", correct: false },
+                    { text: "The result is undefined", correct: false },
+                    { text: "Infinity", correct: false }
+                ]
+            },
+            {
+                question: "If a circle has a radius of 5 units, what is its circumference (approximately)?",
+                answers: [
+                    { text: "10 units", correct: false },
+                    { text: "15 units", correct: false },
+                    { text: "20 units", correct: false },
+                    { text: "30 units", correct: true }
+                ]
+            },
+            {
+                question: "How many sides does a pentagon have?",
+                answers: [
+                    { text: "4", correct: false },
+                    { text: "5", correct: true },
+                    { text: "6", correct: false },
+                    { text: "7", correct: false }
+                ]
+            },
+            {
+                question: "What is the result of 4 divided by 2?",
+                answers: [
+                    { text: "2", correct: true },
+                    { text: "3", correct: false },
+                    { text: "4", correct: false },
+                    { text: "5", correct: false }
+                ]
+            },
+            {
+                question: "What is the value of 10 - 7?",
+                answers: [
+                    { text: "1", correct: false },
+                    { text: "2", correct: false },
+                    { text: "3", correct: true },
+                    { text: "4", correct: false }
+                ]
+            },
+            {
+                question: "What is the result of 2 + 2?",
+                answers: [
+                    { text: "3", correct: false },
+                    { text: "4", correct: true },
+                    { text: "5", correct: false },
+                    { text: "6", correct: false }
+                ]
+            },
+            {
+                question: "What is the square root of 16?",
+                answers: [
+                    { text: "2", correct: false },
+                    { text: "4", correct: true },
+                    { text: "8", correct: false },
+                    { text: "16", correct: false }
+                ]
+            },
+            {
+                question: "If a car travels at 60 miles per hour, how far will it travel in 2 hours?",
+                answers: [
+                    { text: "30 miles", correct: false },
+                    { text: "60 miles", correct: false },
+                    { text: "90 miles", correct: false },
+                    { text: "120 miles", correct: true }
+                ]
+            },
+            {
+                question: "What is 20% of 50?",
+                answers: [
+                    { text: "5", correct: false },
+                    { text: "10", correct: true },
+                    { text: "15", correct: false },
+                    { text: "20", correct: false }
+                ]
+            },
+            {
+                question: "If x = 5 and y = 3, what is the value of x + y?",
+                answers: [
+                    { text: "5", correct: false },
+                    { text: "8", correct: true },
+                    { text: "10", correct: false },
+                    { text: "15", correct: false }
+                ]
+            },
+            {
+                question: "What is the next number in the sequence: 2, 4, 6, 8, ...?",
+                answers: [
+                    { text: "10", correct: true },
+                    { text: "12", correct: false },
+                    { text: "14", correct: false },
+                    { text: "16", correct: false }
+                ]
+            },
+            {
+                question: "What is the smallest prime number?",
+                answers: [
+                    { text: "0", correct: false },
+                    { text: "1", correct: false },
+                    { text: "2", correct: true },
+                    { text: "3", correct: false }
+                ]
+            },
+            {
+                question: "If a triangle has angles measuring 30°, 60°, and 90°, what type of triangle is it?",
+                answers: [
+                    { text: "Equilateral", correct: false },
+                    { text: "Isosceles", correct: false },
+                    { text: "Scalene", correct: false },
+                    { text: "Right", correct: true }
+                ]
+            },
+            {
+                question: "What is the value of π (pi) approximately?",
+                answers: [
+                    { text: "3.14", correct: true },
+                    { text: "2.71", correct: false },
+                    { text: "1.61", correct: false },
+                    { text: "4.16", correct: false }
+                ]
+            },
+            {
+                question: "If 5x = 25, what is the value of x?",
+                answers: [
+                    { text: "5", correct: true },
+                    { text: "10", correct: false },
+                    { text: "15", correct: false },
+                    { text: "20", correct: false }
+                ]
+            },
+            {
+                question: "What is the sum of the interior angles of a triangle?",
+                answers: [
+                    { text: "90°", correct: false },
+                    { text: "180°", correct: true },
+                    { text: "270°", correct: false },
+                    { text: "360°", correct: false }
+                ]
+            },
+            {
+                question: "What is the product of 6 and 7?",
+                answers: [
+                    { text: "12", correct: false },
+                    { text: "36", correct: false },
+                    { text: "42", correct: true },
+                    { text: "49", correct: false }
+                ]
+            },
+            {
+                question: "What is the value of 2^3 (2 raised to the power of 3)?",
+                answers: [
+                    { text: "4", correct: false },
+                    { text: "6", correct: false },
+                    { text: "8", correct: true },
+                    { text: "10", correct: false }
+                ]
+            },
             {
                 question: "What is the square root of 25?",
                 answers: [
@@ -1344,6 +1878,102 @@ const questionsByDifficultyAndCategory =
         "SPORTS & GAMES": [
 
             {
+                question: "What is the maximum number of players allowed on a basketball court per team during a game?",
+                answers: [
+                    { text: "5", correct: true },
+                    { text: "6", correct: false },
+                    { text: "7", correct: false },
+                    { text: "8", correct: false }
+                ]
+            }, {
+                question: "Which Nepali cricketer scored Nepal's first century in an international cricket match?",
+                answers: [
+                    { text: "Paras Khadka", correct: true },
+                    { text: "Sharad Vesawkar", correct: false },
+                    { text: "Gyanendra Malla", correct: false },
+                    { text: "Sompal Kami", correct: false }
+                ]
+            }, {
+                question: "Which sport is associated with the term 'checkmate'?",
+                answers: [
+                    { text: "Chess", correct: true },
+                    { text: "Boxing", correct: false },
+                    { text: "Table Tennis", correct: false },
+                    { text: "Badminton", correct: false }
+                ]
+            }, {
+                question: "What is the name of the national sport of Nepal?",
+                answers: [
+                    { text: "Football", correct: false },
+                    { text: "Cricket", correct: false },
+                    { text: "Volleyball", correct: true },
+                    { text: "Kabaddi", correct: false }
+                ]
+            }, {
+                question: "Which sport is associated with Wembley Stadium in London?",
+                answers: [
+                    { text: "Football", correct: true },
+                    { text: "Cricket", correct: false },
+                    { text: "Tennis", correct: false },
+                    { text: "Rugby", correct: false }
+                ]
+            }, {
+                question: "What is the name of the Nepali professional football league?",
+                answers: [
+                    { text: "Nepal Premier League", correct: false },
+                    { text: "Nepal Super League", correct: true },
+                    { text: "Nepal Football League", correct: false },
+                    { text: "Nepal Professional League", correct: false }
+                ]
+            }, {
+                question: "Which Nepali cricket team qualified for the ICC T20 World Cup Global Qualifier in 2021?",
+                answers: [
+                    { text: "Nepal national cricket team", correct: true },
+                    { text: "Nepal Under-19 cricket team", correct: false },
+                    { text: "Nepal A cricket team", correct: false },
+                    { text: "Nepal Prime Minister XI", correct: false }
+                ]
+            }, {
+                question: "What is the name of the Nepali football club that won the Martyrs Memorial 'A' Division League title in 2021?",
+                answers: [
+                    { text: "Manang Marshyangdi Club", correct: false },
+                    { text: "Three Star Club", correct: false },
+                    { text: "Machhindra Football Club", correct: false },
+                    { text: "Nepal Police Club", correct: true }
+                ]
+            }, {
+                question: "Who is the first Nepali cricketer to score a century in a One Day International (ODI) match?",
+                answers: [
+                    { text: "Paras Khadka", correct: true },
+                    { text: "Sharad Vesawkar", correct: false },
+                    { text: "Gyanendra Malla", correct: false },
+                    { text: "Sompal Kami", correct: false }
+                ]
+            }, {
+                question: "What is the name of the annual international football tournament held in Nepal?",
+                answers: [
+                    { text: "Himalayan Cup", correct: false },
+                    { text: "Everest Cup", correct: false },
+                    { text: "Buddha Cup", correct: true },
+                    { text: "Manaslu Cup", correct: false }
+                ]
+            }, {
+                question: "Which Nepali athlete won the gold medal in Men's Marathon at the 2019 South Asian Games?",
+                answers: [
+                    { text: "Gaurika Singh", correct: false },
+                    { text: "Sagar Thapa", correct: false },
+                    { text: "Bhim Bahadur Gurung", correct: true },
+                    { text: "Bijay Lama", correct: false }
+                ]
+            }, {
+                question: "What is the name of the national sport of Nepal?",
+                answers: [
+                    { text: "Cricket", correct: false },
+                    { text: "Football", correct: false },
+                    { text: "Volleyball", correct: true },
+                    { text: "Kabaddi", correct: false }
+                ]
+            }, {
                 question: "In soccer, what body part can't touch the ball?",
                 answers: [
                     { text: "Feet", correct: false },
@@ -2394,6 +3024,54 @@ const questionsByDifficultyAndCategory =
 
         "SPORTS & GAMES": [
             {
+                question: "What is the duration of a standard game of chess?",
+                answers: [
+                    { text: "30 minutes", correct: false },
+                    { text: "1 hour", correct: false },
+                    { text: "2 hours", correct: false },
+                    { text: "There is no fixed duration", correct: true }
+                ]
+            }, {
+                question: "In which city are the headquarters of FIFA (International Federation of Association Football) located?",
+                answers: [
+                    { text: "Geneva", correct: false },
+                    { text: "Paris", correct: false },
+                    { text: "Zurich", correct: true },
+                    { text: "Rome", correct: false }
+                ]
+            }, {
+                question: "Who is the current captain of the Indian cricket team in the One Day Internationals (ODIs)?",
+                answers: [
+                    { text: "Virat Kohli", correct: false },
+                    { text: "Rohit Sharma", correct: true },
+                    { text: "MS Dhoni", correct: false },
+                    { text: "Ajinkya Rahane", correct: false }
+                ]
+            }, {
+                question: "Which team won the UEFA Champions League in the 2020-2021 season?",
+                answers: [
+                    { text: "Bayern Munich", correct: false },
+                    { text: "Real Madrid", correct: false },
+                    { text: "Chelsea", correct: true },
+                    { text: "Manchester City", correct: false }
+                ]
+            }, {
+                question: "Which country has won the most Olympic gold medals in the history of the Summer Olympics?",
+                answers: [
+                    { text: "United States", correct: true },
+                    { text: "China", correct: false },
+                    { text: "Soviet Union", correct: false },
+                    { text: "Great Britain", correct: false }
+                ]
+            }, {
+                question: "In which city are the headquarters of the International Olympic Committee (IOC) located?",
+                answers: [
+                    { text: "New York City", correct: false },
+                    { text: "Paris", correct: false },
+                    { text: "London", correct: false },
+                    { text: "Lausanne", correct: true }
+                ]
+            }, {
                 question: "What country won the first World Cup?",
                 answers: [
                     { text: "Brazil", correct: false },
@@ -3357,6 +4035,46 @@ const questionsByDifficultyAndCategory =
 
         "SPORTS & GAMES": [
             {
+                question: "Which country has won the most medals in the history of the Winter Olympics?",
+                answers: [
+                    { text: "United States", correct: false },
+                    { text: "Norway", correct: true },
+                    { text: "Canada", correct: false },
+                    { text: "Germany", correct: false }
+                ]
+            }, {
+                question: "What is the diameter of a basketball hoop in inches?",
+                answers: [
+                    { text: "16 inches", correct: false },
+                    { text: "17 inches", correct: false },
+                    { text: "18 inches", correct: true },
+                    { text: "19 inches", correct: false }
+                ]
+            }, {
+                question: "Who is the all-time leading goal scorer in the history of FIFA World Cup tournaments?",
+                answers: [
+                    { text: "Lionel Messi", correct: false },
+                    { text: "Cristiano Ronaldo", correct: false },
+                    { text: "Pele", correct: false },
+                    { text: "Miroslav Klose", correct: true }
+                ]
+            }, {
+                question: "Which Nepali female athlete won a bronze medal in Women's Karate at the 2019 South Asian Games?",
+                answers: [
+                    { text: "Gaurika Singh", correct: false },
+                    { text: "Sonita Luitel", correct: true },
+                    { text: "Manita Shrestha Pradhan", correct: false },
+                    { text: "Mira Rai", correct: false }
+                ]
+            }, {
+                question: "Who is the first Nepali athlete to participate in the Paralympic Games?",
+                answers: [
+                    { text: "Rajendra Rajbahak", correct: false },
+                    { text: "Tek Bahadur Dangi", correct: true },
+                    { text: "Shankar Aryal", correct: false },
+                    { text: "Ek Raj Sunar", correct: false }
+                ]
+            }, {
                 question: "Who is known as the 'King of Clay' in tennis?",
                 answers: [
                     { text: "Roger Federer", correct: false },
