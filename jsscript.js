@@ -17,7 +17,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Venus", correct: false },
                     { text: "Mars", correct: false },
                     { text: "Mercury", correct: true },
-                    { text: "Jupiter", correct: false }
+                    { text: "Jupiter", correct: false },
                 ]
             },
             {
@@ -35,7 +35,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Amazon", correct: false },
                     { text: "Nile", correct: true },
                     { text: "Yangtze", correct: false },
-                    { text: "Mississippi", correct: false }
+                    { text: "Mississippi", correct: false },
                 ]
             },
             {
@@ -44,9 +44,80 @@ const questionsByDifficultyAndCategory =
                     { text: "India", correct: false },
                     { text: "China", correct: true },
                     { text: "United States", correct: false },
-                    { text: "Indonesia", correct: false }
+                    { text: "Indonesia", correct: false },
                 ]
-            }
+            }, {
+                question: "What is the largest desert in the world?",
+                answers: [
+                    { text: "The Sahara Desert", correct: true },
+                    { text: "The Gobi Desert", correct: false },
+                    { text: "The Arabian Desert", correct: false },
+                    { text: "The Kalahari Desert", correct: false },
+                ]
+            },
+            {
+                question: "Which country is both an island and a continent?",
+                answers: [
+                    { text: "Australia", correct: true },
+                    { text: "Greenland", correct: false },
+                    { text: "Madagascar", correct: false },
+                    { text: "New Zealand", correct: false }
+                ]
+            },
+            {
+                question: "Which ocean is the deepest on Earth?",
+                answers: [
+                    { text: "The Pacific Ocean", correct: true },
+                    { text: "The Atlantic Ocean", correct: false },
+                    { text: "The Indian Ocean", correct: false },
+                    { text: "The Southern Ocean", correct: false }
+                ]
+            },
+            {
+                question: "What is the process by which plants make their own food using sunlight?",
+                answers: [
+                    { text: "Photosynthesis", correct: true },
+                    { text: "Respiration", correct: false },
+                    { text: "Transpiration", correct: false },
+                    { text: "Germination", correct: false }
+                ]
+            },
+            {
+                question: "What is the largest planet in our solar system?",
+                answers: [
+                    { text: "Jupiter", correct: true },
+                    { text: "Saturn", correct: false },
+                    { text: "Neptune", correct: false },
+                    { text: "Uranus", correct: false }
+                ]
+            },
+            {
+                question: "What is the Earth’s primary source of energy?",
+                answers: [
+                    { text: "The Sun", correct: true },
+                    { text: "Geothermal Energy", correct: false },
+                    { text: "Fossil Fuels", correct: false },
+                    { text: "Wind Energy", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the global pandemic that began in late 2019 and significantly impacted the world?",
+                answers: [
+                    { text: "COVID-19", correct: true },
+                    { text: "H1N1", correct: false },
+                    { text: "Ebola", correct: false },
+                    { text: "Zika", correct: false }
+                ]
+            },
+            {
+                question: "What is the currency of Japan?",
+                answers: [
+                    { text: "Japanese yen (¥)", correct: true },
+                    { text: "Chinese yuan (¥)", correct: false },
+                    { text: "South Korean won (₩)", correct: false },
+                    { text: "Taiwanese dollar (NT$)", correct: false }
+                ]
+            },
         ],
         "HISTORY & PAST": [
             {
@@ -126,7 +197,7 @@ const questionsByDifficultyAndCategory =
             {
                 question: "Who Was the First Person to Climb Mount Everest?",
                 answers: [
-                    { text: "Tenzing Norgay", correct: false },
+                    { text: "Pasang Lhamu Sherpa", correct: false },
                     { text: "Edmund Hillary", correct: true },
                     { text: "Reinhold Messner", correct: false },
                     { text: "Junko Tabei", correct: false }
@@ -146,8 +217,8 @@ const questionsByDifficultyAndCategory =
             {
                 question: "Who Was the First Nepali to Climb Mount Everest Without Using Bottled Oxygen?",
                 answers: [
-                    { text: "Tenzing Norgay", correct: true },
-                    { text: "Pasang Lhamu Sherpa", correct: false },
+                    { text: "Tenzing Norgay", correct: false },
+                    { text: "Pasang Lhamu Sherpa", correct: true },
                     { text: "Ang Rita Sherpa", correct: false },
                     { text: "Apa Sherpa", correct: false }
                 ]
@@ -339,8 +410,8 @@ const questionsByDifficultyAndCategory =
             {
                 question: "What is the perimeter of a square with side length 4?",
                 answers: [
-                    { text: "12", correct: true },
-                    { text: "16", correct: false },
+                    { text: "16", correct: true },
+                    { text: "12", correct: false },
                     { text: "20", correct: false },
                     { text: "24", correct: false }
                 ]
@@ -385,7 +456,7 @@ const questionsByDifficultyAndCategory =
                 question: "What is the perimeter of a rectangle with length 8 and width 6?",
                 answers: [
                     { text: "16", correct: false },
-                    { text: "26", correct: true },
+                    { text: "28", correct: true },
                     { text: "36", correct: false },
                     { text: "46", correct: false }
                 ]
@@ -607,7 +678,7 @@ const questionsByDifficultyAndCategory =
             {
                 question: "What is the highest mountain in Nepal?",
                 answers: [
-                    { text: "Mount Everest", correct: true },
+                    { text: "Sagarmatha", correct: true },
                     { text: "Kangchenjunga", correct: false },
                     { text: "Lhotse", correct: false },
                     { text: "Makalu", correct: false }
@@ -688,7 +759,7 @@ const questionsByDifficultyAndCategory =
             {
                 question: "What is the famous square in Kathmandu known for its temples?",
                 answers: [
-                    { text: "Durbar Square", correct: true },
+                    { text: "Kathmandu Durbar Square", correct: true },
                     { text: "Bhaktapur Square", correct: false },
                     { text: "Patan Square", correct: false },
                     { text: "Freak Street", correct: false }
@@ -710,15 +781,6 @@ const questionsByDifficultyAndCategory =
                     { text: "Pashupatinath", correct: true },
                     { text: "Boudhanath", correct: false },
                     { text: "Changu Narayan", correct: false }
-                ]
-            },
-            {
-                question: "What is the name of the traditional Newari feast in Nepal?",
-                answers: [
-                    { text: "Dashain", correct: false },
-                    { text: "Bisket Jatra", correct: false },
-                    { text: "Indra Jatra", correct: false },
-                    { text: "Yomari Punhi", correct: true }
                 ]
             },
             {
@@ -744,19 +806,11 @@ const questionsByDifficultyAndCategory =
                 answers: [
                     { text: "Cricket", correct: false },
                     { text: "Soccer", correct: false },
-                    { text: "Volleyball", correct: false },
+                    { text: "Badmintion", correct: false },
                     { text: "Volleyball", correct: true }
                 ]
             },
-            {
-                question: "Which mountain in Nepal is known as the 'Matterhorn of Nepal'?",
-                answers: [
-                    { text: "Kangchenjunga", correct: false },
-                    { text: "Makalu", correct: false },
-                    { text: "Dhaulagiri", correct: true },
-                    { text: "Manaslu", correct: false }
-                ]
-            },
+            ,
             {
                 question: "What is the name of the traditional Nepali bread?",
                 answers: [
@@ -807,35 +861,17 @@ const questionsByDifficultyAndCategory =
                     { text: "Edison", correct: false },
                     { text: "Marconi", correct: true },
                     { text: "Tesla", correct: false },
-                    { text: "Bell", correct: false }
+                    { text: "Bell", correct: false },
                 ]
             },
-            {
-                question: "What is the chemical symbol for water?",
-                options: [
-                    { text: "H2O", correct: true },
-                    { text: "CO2", correct: false },
-                    { text: "NaCl", correct: false },
-                    { text: "O2", correct: false }
-                ]
-            },
-            {
-                question: "Who painted the Mona Lisa?",
-                options: [
-                    { text: "Leonardo da Vinci", correct: true },
-                    { text: "Vincent van Gogh", correct: false },
-                    { text: "Pablo Picasso", correct: false },
-                    { text: "Michelangelo", correct: false }
-                ]
-            },
-
+            
             {
                 question: "What is the full form of NASA?",
                 answers: [
                     { text: "National Aeronautics and Space Administration", correct: true },
                     { text: "National Association of Space Astronauts", correct: false },
                     { text: "North American Space Agency", correct: false },
-                    { text: "National Aeronautics and Science Association", correct: false }
+                    { text: "National Aeronautics and Science Association", correct: false },
                 ]
             },
 
@@ -848,7 +884,61 @@ const questionsByDifficultyAndCategory =
                     { text: "Yangtze", correct: false },
                     { text: "Jordan", correct: true },
                 ]
-            }
+            },
+            {
+                question: "In which year did the Titanic sink?",
+                answers: [
+                    { text: "1912", correct: true },
+                    { text: "1905", correct: false },
+                    { text: "1915", correct: false },
+                    { text: "1921", correct: false },
+                ]
+            },
+            {
+                question: "Who was the first person to step foot on the moon in 1969?",
+                answers: [
+                    { text: "Neil Armstrong", correct: true },
+                    { text: "Buzz Aldrin", correct: false },
+                    { text: "Michael Collins", correct: false },
+                    { text: "Yuri Gagarin", correct: false }
+                ]
+            },
+            {
+                question: "What is the European Union's currency?",
+                answers: [
+                    { text: "Euro (€)", correct: true },
+                    { text: "Pound Sterling (£)", correct: false },
+                    { text: "Dollar ($)", correct: false },
+                    { text: "Yen (¥)", correct: false }
+                ]
+            },
+            {
+                question: "What is the famous painting featuring a woman with an enigmatic smile, created by Leonardo da Vinci?",
+                answers: [
+                    { text: "Mona Lisa", correct: true },
+                    { text: "The Starry Night", correct: false },
+                    { text: "The Last Supper", correct: false },
+                    { text: "The Creation of Adam", correct: false }
+                ]
+            },
+            {
+                question: "Who is known for his theory of relativity and is considered one of the greatest physicists of the 20th century?",
+                answers: [
+                    { text: "Albert Einstein", correct: true },
+                    { text: "Isaac Newton", correct: false },
+                    { text: "Stephen Hawking", correct: false },
+                    { text: "Nikola Tesla", correct: false }
+                ]
+            },
+            {
+                question: "What is the smallest unit of matter?",
+                answers: [
+                    { text: "Atom", correct: true },
+                    { text: "Molecule", correct: false },
+                    { text: "Cell", correct: false },
+                    { text: "Quark", correct: false }
+                ]
+            },
 
         ],
         "HISTORY & PAST": [
@@ -1271,195 +1361,8 @@ const questionsByDifficultyAndCategory =
             },
 
         ],
-        "GEOGRAPHY & NEPAL": [
-            {
-                question: "What is the highest mountain in Nepal?",
-                answers: [
-                    { text: "Mount Kanchenjunga", correct: false },
-                    { text: "Mount Everest", correct: true },
-                    { text: "Mount Makalu", correct: false },
-                    { text: "Mount Lhotse", correct: false }
-                ]
-            },
-            {
-                question: "Which river is the longest river in Nepal?",
-                answers: [
-                    { text: "Karnali River", correct: false },
-                    { text: "Kosi River", correct: true },
-                    { text: "Gandaki River", correct: false },
-                    { text: "Trishuli River", correct: false }
-                ]
-            },
-            {
-                question: "What is the capital city of Nepal?",
-                answers: [
-                    { text: "Pokhara", correct: false },
-                    { text: "Biratnagar", correct: false },
-                    { text: "Kathmandu", correct: true },
-                    { text: "Lalitpur", correct: false }
-                ]
-            },
-            {
-                question: "Which lake is the largest lake in Nepal?",
-                answers: [
-                    { text: "Rara Lake", correct: true },
-                    { text: "Phewa Lake", correct: false },
-                    { text: "Begnas Lake", correct: false },
-                    { text: "Gosaikunda Lake", correct: false }
-                ]
-            },
-            {
-                question: "What is the major religion in Nepal?",
-                answers: [
-                    { text: "Christianity", correct: false },
-                    { text: "Islam", correct: false },
-                    { text: "Buddhism", correct: false },
-                    { text: "Hinduism", correct: true }
-                ]
-            },
-            {
-                question: "Which national park is located in the Terai region of Nepal?",
-                answers: [
-                    { text: "Sagarmatha National Park", correct: false },
-                    { text: "Langtang National Park", correct: false },
-                    { text: "Chitwan National Park", correct: true },
-                    { text: "Khaptad National Park", correct: false }
-                ]
-            },
-            {
-                question: "What is the highest peak in the Annapurna mountain range?",
-                answers: [
-                    { text: "Annapurna I", correct: true },
-                    { text: "Annapurna South", correct: false },
-                    { text: "Machapuchare", correct: false },
-                    { text: "Gangapurna", correct: false }
-                ]
-            },
-            {
-                question: "Which is the largest city in Nepal by population?",
-                answers: [
-                    { text: "Pokhara", correct: false },
-                    { text: "Biratnagar", correct: true },
-                    { text: "Dharan", correct: false },
-                    { text: "Bharatpur", correct: false }
-                ]
-            },
-            {
-                question: "What is the major economic activity in the Mustang district of Nepal?",
-                answers: [
-                    { text: "Farming", correct: false },
-                    { text: "Tourism", correct: true },
-                    { text: "Mining", correct: false },
-                    { text: "Fishing", correct: false }
-                ]
-            },
-            {
-                question: "Which mountain peak is known as the 'Fish Tail'?",
-                answers: [
-                    { text: "Annapurna I", correct: false },
-                    { text: "Dhaulagiri", correct: false },
-                    { text: "Machapuchare", correct: true },
-                    { text: "Gangapurna", correct: false }
-                ]
-            },
-            [
-                {
-                    question: "Which is the highest lake in Nepal?",
-                    answers: [
-                        { text: "Rara Lake", correct: false },
-                        { text: "Tilicho Lake", correct: true },
-                        { text: "Phewa Lake", correct: false },
-                        { text: "Shey Phoksundo Lake", correct: false }
-                    ]
-                },
-                {
-                    question: "What is the name of the longest glacier in Nepal?",
-                    answers: [
-                        { text: "Khumbu Glacier", correct: false },
-                        { text: "Ngozumpa Glacier", correct: true },
-                        { text: "Imja Glacier", correct: false },
-                        { text: "Langtang Glacier", correct: false }
-                    ]
-                },
-                {
-                    question: "Which district is home to the famous Annapurna Circuit trek in Nepal?",
-                    answers: [
-                        { text: "Mustang", correct: false },
-                        { text: "Manang", correct: true },
-                        { text: "Dolpa", correct: false },
-                        { text: "Gorkha", correct: false }
-                    ]
-                },
-                {
-                    question: "What is the name of the deepest lake in Nepal?",
-                    answers: [
-                        { text: "Rara Lake", correct: false },
-                        { text: "Gosaikunda Lake", correct: false },
-                        { text: "Phoksundo Lake", correct: true },
-                        { text: "Shey Phoksundo Lake", correct: false }
-                    ]
-                },
-                {
-                    question: "Which is the largest glacier in Nepal?",
-                    answers: [
-                        { text: "Khumbu Glacier", correct: true },
-                        { text: "Ngozumpa Glacier", correct: false },
-                        { text: "Imja Glacier", correct: false },
-                        { text: "Langtang Glacier", correct: false }
-                    ]
-                },
-                {
-                    question: "What is the name of the highest waterfall in Nepal?",
-                    answers: [
-                        { text: "Devis Falls", correct: false },
-                        { text: "Hyatung Falls", correct: true },
-                        { text: "Rupa Falls", correct: false },
-                        { text: "Bhote Koshi Falls", correct: false }
-                    ]
-                },
-                {
-                    question: "Which mountain range runs through the northern border of Nepal?",
-                    answers: [
-                        { text: "Andes", correct: false },
-                        { text: "Rocky Mountains", correct: false },
-                        { text: "Himalayas", correct: true },
-                        { text: "Alps", correct: false }
-                    ]
-                },
-                {
-                    question: "Which is the highest waterfall in Nepal?",
-                    answers: [
-                        { text: "Hyatung Falls", correct: false },
-                        { text: "Bhote Koshi Falls", correct: false },
-                        { text: "Devis Falls", correct: false },
-                        { text: "Rupa Falls", correct: true }
-                    ]
-                },
-                {
-                    question: "What is the name of the longest river in Nepal?",
-                    answers: [
-                        { text: "Karnali River", correct: false },
-                        { text: "Kosi River", correct: true },
-                        { text: "Gandaki River", correct: false },
-                        { text: "Trishuli River", correct: false }
-                    ]
-                },
-                {
-                    question: "Which is the highest waterfall in Nepal?",
-                    answers: [
-                        { text: "Hyatung Falls", correct: false },
-                        { text: "Bhote Koshi Falls", correct: false },
-                        { text: "Devis Falls", correct: false },
-                        { text: "Rupa Falls", correct: true }
-                    ]
-                }
-            ]
-
-
-
-
-        ],
-        "SPORTS": [
+        
+        "SPORTS & GAMES": [
             {
                 question: "What country won the first World Cup?",
                 answers: [
@@ -1601,7 +1504,191 @@ const questionsByDifficultyAndCategory =
                     { text: "Inter Milan", correct: true }
                 ]
             }
-        ]
+        ],
+        "GEOGRAPHY & NEPAL": [
+            {
+                question: "What is the highest mountain in Nepal?",
+                answers: [
+                    { text: "Mount Kanchenjunga", correct: false },
+                    { text: "Mount Everest", correct: true },
+                    { text: "Mount Makalu", correct: false },
+                    { text: "Mount Lhotse", correct: false }
+                ]
+            },
+            {
+                question: "Which river is the longest river in Nepal?",
+                answers: [
+                    { text: "Karnali River", correct: false },
+                    { text: "Kosi River", correct: true },
+                    { text: "Gandaki River", correct: false },
+                    { text: "Trishuli River", correct: false }
+                ]
+            },
+            {
+                question: "What is the capital city of Nepal?",
+                answers: [
+                    { text: "Pokhara", correct: false },
+                    { text: "Biratnagar", correct: false },
+                    { text: "Kathmandu", correct: true },
+                    { text: "Lalitpur", correct: false }
+                ]
+            },
+            {
+                question: "Which lake is the largest lake in Nepal?",
+                answers: [
+                    { text: "Rara Lake", correct: true },
+                    { text: "Phewa Lake", correct: false },
+                    { text: "Begnas Lake", correct: false },
+                    { text: "Gosaikunda Lake", correct: false }
+                ]
+            },
+            {
+                question: "What is the major religion in Nepal?",
+                answers: [
+                    { text: "Christianity", correct: false },
+                    { text: "Islam", correct: false },
+                    { text: "Buddhism", correct: false },
+                    { text: "Hinduism", correct: true }
+                ]
+            },
+            {
+                question: "Which national park is located in the Terai region of Nepal?",
+                answers: [
+                    { text: "Sagarmatha National Park", correct: false },
+                    { text: "Langtang National Park", correct: false },
+                    { text: "Chitwan National Park", correct: true },
+                    { text: "Khaptad National Park", correct: false }
+                ]
+            },
+            {
+                question: "What is the highest peak in the Annapurna mountain range?",
+                answers: [
+                    { text: "Annapurna I", correct: true },
+                    { text: "Annapurna South", correct: false },
+                    { text: "Machapuchare", correct: false },
+                    { text: "Gangapurna", correct: false }
+                ]
+            },
+            {
+                question: "Which is the largest city in Nepal by population?",
+                answers: [
+                    { text: "Pokhara", correct: false },
+                    { text: "Biratnagar", correct: true },
+                    { text: "Dharan", correct: false },
+                    { text: "Bharatpur", correct: false }
+                ]
+            },
+            {
+                question: "What is the major economic activity in the Mustang district of Nepal?",
+                answers: [
+                    { text: "Farming", correct: false },
+                    { text: "Tourism", correct: true },
+                    { text: "Mining", correct: false },
+                    { text: "Fishing", correct: false }
+                ]
+            },
+            {
+                question: "Which mountain peak is known as the 'Fish Tail'?",
+                answers: [
+                    { text: "Annapurna I", correct: false },
+                    { text: "Dhaulagiri", correct: false },
+                    { text: "Machapuchare", correct: true },
+                    { text: "Gangapurna", correct: false }
+                ]
+            },
+
+            {
+                question: "Which is the highest lake in Nepal?",
+                answers: [
+                    { text: "Rara Lake", correct: false },
+                    { text: "Tilicho Lake", correct: true },
+                    { text: "Phewa Lake", correct: false },
+                    { text: "Shey Phoksundo Lake", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the longest glacier in Nepal?",
+                answers: [
+                    { text: "Khumbu Glacier", correct: false },
+                    { text: "Ngozumpa Glacier", correct: true },
+                    { text: "Imja Glacier", correct: false },
+                    { text: "Langtang Glacier", correct: false }
+                ]
+            },
+            {
+                question: "Which district is home to the famous Annapurna Circuit trek in Nepal?",
+                answers: [
+                    { text: "Mustang", correct: false },
+                    { text: "Manang", correct: true },
+                    { text: "Dolpa", correct: false },
+                    { text: "Gorkha", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the deepest lake in Nepal?",
+                answers: [
+                    { text: "Rara Lake", correct: false },
+                    { text: "Gosaikunda Lake", correct: false },
+                    { text: "Phoksundo Lake", correct: true },
+                    { text: "Shey Phoksundo Lake", correct: false }
+                ]
+            },
+            {
+                question: "Which is the largest glacier in Nepal?",
+                answers: [
+                    { text: "Khumbu Glacier", correct: true },
+                    { text: "Ngozumpa Glacier", correct: false },
+                    { text: "Imja Glacier", correct: false },
+                    { text: "Langtang Glacier", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the highest waterfall in Nepal?",
+                answers: [
+                    { text: "Devis Falls", correct: false },
+                    { text: "Hyatung Falls", correct: true },
+                    { text: "Rupa Falls", correct: false },
+                    { text: "Bhote Koshi Falls", correct: false }
+                ]
+            },
+            {
+                question: "Which mountain range runs through the northern border of Nepal?",
+                answers: [
+                    { text: "Andes", correct: false },
+                    { text: "Rocky Mountains", correct: false },
+                    { text: "Himalayas", correct: true },
+                    { text: "Alps", correct: false }
+                ]
+            },
+            {
+                question: "Which is the highest waterfall in Nepal?",
+                answers: [
+                    { text: "Hyatung Falls", correct: false },
+                    { text: "Bhote Koshi Falls", correct: false },
+                    { text: "Devis Falls", correct: false },
+                    { text: "Rupa Falls", correct: true }
+                ]
+            },
+            {
+                question: "What is the name of the longest river in Nepal?",
+                answers: [
+                    { text: "Karnali River", correct: false },
+                    { text: "Kosi River", correct: true },
+                    { text: "Gandaki River", correct: false },
+                    { text: "Trishuli River", correct: false }
+                ]
+            },
+            {
+                question: "Which is the highest waterfall in Nepal?",
+                answers: [
+                    { text: "Hyatung Falls", correct: false },
+                    { text: "Bhote Koshi Falls", correct: false },
+                    { text: "Devis Falls", correct: false },
+                    { text: "Rupa Falls", correct: true }
+                ]
+            }
+
+        ],
     },
     hard: {
         "GENERAL KNOWLEDGE": [
@@ -1642,7 +1729,70 @@ const questionsByDifficultyAndCategory =
                     { text: "Phobos", correct: false },
                     { text: "Deimos", correct: false }
                 ]
-            }
+            },
+            {
+                question: "In which year did World War I begin?",
+                answers: [
+                    { text: "1914", correct: true },
+                    { text: "1916", correct: false },
+                    { text: "1918", correct: false },
+                    { text: "1920", correct: false }
+                ]
+            },
+            {
+                question: "Which ancient civilization is known for its pyramids and hieroglyphics?",
+                answers: [
+                    { text: "Ancient Egypt", correct: true },
+                    { text: "Mesopotamia", correct: false },
+                    { text: "Ancient Greece", correct: false },
+                    { text: "Mayan Civilization", correct: false }
+                ]
+            },
+            {
+                question: "Who is the author of the “Harry Potter” book series?",
+                answers: [
+                    { text: "J.K. Rowling", correct: true },
+                    { text: "Stephenie Meyer", correct: false },
+                    { text: "J.R.R. Tolkien", correct: false },
+                    { text: "George R.R. Martin", correct: false }
+                ]
+            },
+            {
+                question: "Who is known for his theory of relativity and is considered one of the greatest physicists of the 20th century?",
+                answers: [
+                    { text: "Albert Einstein", correct: true },
+                    { text: "Isaac Newton", correct: false },
+                    { text: "Stephen Hawking", correct: false },
+                    { text: "Nikola Tesla", correct: false }
+                ]
+            },
+            {
+                question: "What is the largest country in Africa by land area?",
+                answers: [
+                    { text: "Algeria", correct: true },
+                    { text: "Democratic Republic of the Congo", correct: false },
+                    { text: "Sudan", correct: false },
+                    { text: "Libya", correct: false }
+                ]
+            },
+            {
+                question: "Which gas do plants absorb from the atmosphere and release oxygen during photosynthesis?",
+                answers: [
+                    { text: "Carbon dioxide (CO2)", correct: true },
+                    { text: "Oxygen (O2)", correct: false },
+                    { text: "Nitrogen (N2)", correct: false },
+                    { text: "Methane (CH4)", correct: false }
+                ]
+            },
+            {
+                question: "What is the chemical symbol for iron?",
+                answers: [
+                    { text: "Fe", correct: true },
+                    { text: "Ir", correct: false },
+                    { text: "Au", correct: false },
+                    { text: "Pb", correct: false }
+                ]
+            },
 
         ],
         "HISTORY & PAST": [
@@ -2252,6 +2402,7 @@ let currentDifficulty = "";
 let currentCategory = "";
 let score = 0;
 let questions = [];
+let usedQuestionsIndexes = [];
 
 startBtn.addEventListener("click", function () {
     infoBox.style.display = "block";
@@ -2279,10 +2430,13 @@ categorySelect.addEventListener('change', function () {
     }
 });
 
+
+
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
+    usedQuestionsIndexes = [];
 
     const selectedDifficulty = difficultySelect.value;
     const selectedCategory = categorySelect.value;
@@ -2293,21 +2447,20 @@ function startQuiz() {
 
         questions = questionsByDifficultyAndCategory[selectedDifficulty][selectedCategory];
 
-
+        questions = questions.filter((question, index) => !usedQuestionsIndexes.includes(index));
         questions = shuffleArray(questions);
-
-
         questions = questions.slice(0, 5);
 
         if (questions && questions.length > 0) {
             showQuestion();
         } else {
-            questionElement.innerHTML = "No questions available for this category and difficulty level.";
+            questionElement.innerHTML = "No new questions available for this category and difficulty level.";
         }
     } else {
         questionElement.innerHTML = "Please select a category and difficulty level to start the quiz.";
     }
 }
+
 
 
 
