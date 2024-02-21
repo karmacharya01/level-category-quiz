@@ -270,7 +270,7 @@ const questionsByDifficultyAndCategory =
                     { text: " Diwali", correct: false }
                 ]
             },
-           
+
             {
                 question: "What is the largest city by population in Nepal, after Kathmandu?",
                 answers: [
@@ -361,7 +361,7 @@ const questionsByDifficultyAndCategory =
                     { text: " Dhaulagiri", correct: false }
                 ]
             },
-           {
+            {
 
                 question: "Which religious festival in Nepal involves the worship of young girls as the living incarnations of the goddess?",
                 answers: [
@@ -371,7 +371,7 @@ const questionsByDifficultyAndCategory =
                     { text: " Teej", correct: false }
                 ]
             },
-           
+
             {
                 question: "Which lake in Nepal is considered one of the highest freshwater lakes in the world?",
                 answers: [
@@ -477,16 +477,592 @@ const questionsByDifficultyAndCategory =
         "HISTORY & PAST": [
 
 
+
             {
-                question: "What is the currency of Nepal?",
+                question: "Who Was The First King Of Unified Nepal?",
                 answers: [
-                    { text: "Nepalese Rupee", correct: true },
-                    { text: "Indian Rupee", correct: false },
-                    { text: "Yen", correct: false },
-                    { text: "Dollar", correct: false }
+                    { text: "Prithvi Narayan Shah", correct: true },
+                    { text: "Jang Bahadur Rana", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false }
                 ]
             },
             {
+                question: "Who Was The First King Of Unified Nepal?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: true },
+                    { text: "Jang Bahadur Rana", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First King Of The Shah Dynasty Of Nepal?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: true },
+                    { text: "Ram Shah", correct: false },
+                    { text: "Jaya Prakash Malla", correct: false },
+                    { text: "Surendra Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Last King Of Nepal?",
+                answers: [
+                    { text: "Gyanendra Bir Bikram Shah", correct: true },
+                    { text: "Mahendra Bir Bikram Shah", correct: false },
+                    { text: "Birendra Bir Bikram Shah", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First President Of Nepal?",
+                answers: [
+                    { text: "Ram Baran Yadav", correct: true },
+                    { text: "Bidhya Devi Bhandari", correct: false },
+                    { text: "Dr. Prakash Chandra Lohani", correct: false },
+                    { text: "Surya Bahadur Thapa", correct: false }
+                ]
+            },
+            {
+                question: "Who Founded The Pashupatinath Temple In Kathmandu?",
+                answers: [
+                    { text: "Jayasthiti Malla", correct: false },
+                    { text: "Yaksha Malla", correct: false },
+                    { text: "Siddhi Narsingh Malla", correct: false },
+                    { text: "Pratap Malla", correct: true }
+                ]
+            },
+            {
+                question: "Who Led The Peasant Uprising In Nepal In 1951 That Ended The Rana Regime?",
+                answers: [
+                    { text: "Mohan Shamsher", correct: false },
+                    { text: "Jang Bahadur Rana", correct: false },
+                    { text: "Bhim Shamsher", correct: false },
+                    { text: "Sukraraj Shastri", correct: true }
+                ]
+            },
+            {
+                question: "Who Was The First Prime Minister Of Nepal?",
+                answers: [
+                    { text: "Bishweshwar Prasad Koirala", correct: true },
+                    { text: "Matrika Prasad Koirala", correct: false },
+                    { text: "Krishna Prasad Bhattarai", correct: false },
+                    { text: "Girija Prasad Koirala", correct: false }
+                ]
+            },
+            {
+                question: "Who Built The Swayambhunath Stupa In Kathmandu?",
+                answers: [
+                    { text: "Pratap Malla", correct: true },
+                    { text: "Siddhi Narsingh Malla", correct: false },
+                    { text: "Jaya Prakash Malla", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Established The Modern Education System In Nepal?",
+                answers: [
+                    { text: "Bhimsen Thapa", correct: false },
+                    { text: "Jung Bahadur Rana", correct: true },
+                    { text: "Dev Shumsher Rana", correct: false },
+                    { text: "Chandra Shumsher Rana", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First Person To Climb Mount Everest?",
+                answers: [
+                    { text: "Tenzing Norgay", correct: false },
+                    { text: "Edmund Hillary", correct: true },
+                    { text: "Reinhold Messner", correct: false },
+                    { text: "Junko Tabei", correct: false }
+                ]
+            },
+            {
+                question: "What Was The Religion Of The Malla Kings Who Ruled The Kathmandu Valley From The 12th To The 18th Century?",
+                answers: [
+                    { text: "Hinduism", correct: true },
+                    { text: "Buddhism", correct: false },
+                    { text: "Jainism", correct: false },
+                    { text: "Islam", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Founder Of The Licchavi Dynasty In Nepal?",
+                answers: [
+                    { text: "Amshuverma", correct: true },
+                    { text: "Shankhadhar Sakhwa", correct: false },
+                    { text: "Manadeva", correct: false },
+                    { text: "Anshuvarma", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Founder Of The Kirat Dynasty In Nepal?",
+                answers: [
+                    { text: "Yalambar", correct: true },
+                    { text: "Limbuwan", correct: false },
+                    { text: "Khambuwan", correct: false },
+                    { text: "Majhkirat", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The King Of Nepal During The Anglo-Nepal War Of 1814-1816?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: false },
+                    { text: "Jang Bahadur Rana", correct: false },
+                    { text: "Bhimsen Thapa", correct: true },
+                    { text: "Jung Bahadur Rana", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First Nepali To Receive The Nobel Peace Prize?",
+                answers: [
+                    { text: "Bishweshwar Prasad Koirala", correct: false },
+                    { text: "Mahesh Chandra Regmi", correct: false },
+                    { text: "King Tribhuvan", correct: false },
+                    { text: "Ram Baran Yadav", correct: true }
+                ]
+            },
+            {
+                question: "Which King Of Nepal Is Credited With Starting The Modernization Of Nepal In The Mid-19th Century?",
+                answers: [
+                    { text: "Jang Bahadur Rana", correct: true },
+                    { text: "Surendra Bikram Shah", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: false },
+                    { text: "Prithvi Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Leader Of The Nepali Congress Party During The Democracy Movement Of 1990 In Nepal?",
+                answers: [
+                    { text: "Girija Prasad Koirala", correct: true },
+                    { text: "Krishna Prasad Bhattarai", correct: false },
+                    { text: "B.P. Koirala", correct: false },
+                    { text: "Sushil Koirala", correct: false }
+                ]
+            },
+            {
+                question: "Which Country Did Nepal Fight A War With In 1814-1816?",
+                answers: [
+                    { text: "Tibet", correct: false },
+                    { text: "China", correct: false },
+                    { text: "India", correct: false },
+                    { text: "Britain", correct: true }
+                ]
+            },
+            {
+                question: "Who Built The Famous Palace Complex Of Basantapur Durbar Square In Kathmandu?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: false },
+                    { text: "Jaya Prakash Malla", correct: true },
+                    { text: "Siddhi Narsingh Malla", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First Nepali To Climb Mount Everest Without Using Bottled Oxygen?",
+                answers: [
+                    { text: "Tenzing Norgay", correct: false },
+                    { text: "Pasang Lhamu Sherpa", correct: true },
+                    { text: "Ang Rita Sherpa", correct: false },
+                    { text: "Apa Sherpa", correct: false }
+                ]
+            },
+            {
+                question: "Which Famous Indian Emperor Invaded Nepal In The 4th Century BC?",
+                answers: [
+                    { text: "Ashoka the Great", correct: true },
+                    { text: "Chandragupta Maurya", correct: false },
+                    { text: "Samudragupta", correct: false },
+                    { text: "Harsha", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First King Of Nepal To Visit Europe?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: true },
+                    { text: "Pratap Singh Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Leader Of The Peasant Uprising Of 1951 In Nepal?",
+                answers: [
+                    { text: "Krishna Prasad Bhattarai", correct: false },
+                    { text: "Mohan Shamsher Jang Bahadur Rana", correct: false },
+                    { text: "Tulsi Giri", correct: false },
+                    { text: "Dharmabhakta Mathema", correct: true }
+                ]
+            },
+            {
+                question: "Who Was The Founder Of The Malla Dynasty In Nepal?",
+                answers: [
+                    { text: "Yaksha Malla", correct: true },
+                    { text: "Jaya Deva Malla", correct: false },
+                    { text: "Ari Malla", correct: false },
+                    { text: "Abhimanyu Malla", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The King Of Nepal During The Gorkha War Of 1814-1816?",
+                answers: [
+                    { text: "Jang Bahadur Rana", correct: false },
+                    { text: "Bhimsen Thapa", correct: false },
+                    { text: "Prithvi Narayan Shah", correct: true },
+                    { text: "Jung Bahadur Rana", correct: false }
+                ]
+            },
+            {
+                question: "Who Wrote The Famous Nepali Novel “Seto Bagh”?",
+                answers: [
+                    { text: "BP Koirala", correct: true },
+                    { text: "Parijat", correct: false },
+                    { text: "Diamond Shumsher Rana", correct: false },
+                    { text: "Laxmi Prasad Devkota", correct: false }
+                ]
+            },
+            {
+                question: "Which River Forms The Western Border Of Nepal?",
+                answers: [
+                    { text: "Kali Gandaki", correct: false },
+                    { text: "Karnali", correct: false },
+                    { text: "Mahakali", correct: true },
+                    { text: "Saptakoshi", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Last King Of Nepal?",
+                answers: [
+                    { text: "Gyanendra Bir Bikram Shah", correct: true },
+                    { text: "Birendra Bir Bikram Shah", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Founder Of The Shah Dynasty In Nepal?",
+                answers: [
+                    { text: "Raghav Dev", correct: false },
+                    { text: "Bhupal Dev", correct: false },
+                    { text: "Prithvi Narayan Shah", correct: true },
+                    { text: "Jaya Prakash Malla", correct: false }
+                ]
+            },
+            {
+                question: "Which Nepali Queen Is Known For Her Contribution To The Field Of Women’s Rights And Education?",
+                answers: [
+                    { text: "Rajya Lakshmi Devi Shah", correct: false },
+                    { text: "Shanti Devi", correct: false },
+                    { text: "Ishwari Rajya Laxmi Devi Shah", correct: true },
+                    { text: "Divyeshwari Devi", correct: false }
+                ]
+            },
+            {
+                question: "Which Rana Prime Minister Ruled Nepal For The Longest Period?",
+                answers: [
+                    { text: "Jung Bahadur Rana", correct: true },
+                    { text: "Chandra Shumsher Rana", correct: false },
+                    { text: "Bhim Shumsher Rana", correct: false },
+                    { text: "Mohan Shumsher Rana", correct: false }
+                ]
+            },
+            {
+                question: "Which War Was Fought Between Nepal And The British East India Company In 1814-1816?",
+                answers: [
+                    { text: "Anglo-Nepalese War", correct: true },
+                    { text: "Gurkha War", correct: false },
+                    { text: "Sikkim War", correct: false },
+                    { text: "Bhutan War", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First Nepali To Climb Mount Everest?",
+                answers: [
+                    { text: "Tenzing Norgay", correct: false },
+                    { text: "Edmund Hillary", correct: true },
+                    { text: "Appa Sherpa", correct: false },
+                    { text: "Ang Rita Sherpa", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First Woman Chief Justice Of Nepal?",
+                answers: [
+                    { text: "Sushila Karki", correct: true },
+                    { text: "Anup Raj Sharma", correct: false },
+                    { text: "Om Prakash Mishra", correct: false },
+                    { text: "Gopal Parajuli", correct: false }
+                ]
+            },
+            {
+                question: "Which Treaty Was Signed Between Nepal And The British East India Company After The Anglo-Nepalese War?",
+                answers: [
+                    { text: "Treaty of Sugauli", correct: true },
+                    { text: "Treaty of Titalia", correct: false },
+                    { text: "Treaty of Lalitpur", correct: false },
+                    { text: "Treaty of Bakhim", correct: false }
+                ]
+            },
+            {
+                question: "Which Nepali Festival Is Also Known As The “Festival Of Lights”?",
+                answers: [
+                    { text: "Tihar", correct: true },
+                    { text: "Dashain", correct: false },
+                    { text: "Holi", correct: false },
+                    { text: "Teej", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First President Of Nepal?",
+                answers: [
+                    { text: "Ram Baran Yadav", correct: true },
+                    { text: "Bidhya Devi Bhandari", correct: false },
+                    { text: "Surya Bahadur Thapa", correct: false },
+                    { text: "Ganesh Man Singh", correct: false }
+                ]
+            },
+            {
+                question: "Which City In Nepal Is Known As The “City Of Devotees”?",
+                answers: [
+                    { text: "Kathmandu", correct: false },
+                    { text: "Bhaktapur", correct: true },
+                    { text: "Pokhara", correct: false },
+                    { text: "Janakpur", correct: false }
+                ]
+            },
+            {
+                question: "Who Wrote The Epic Nepali Poem “Bhagawat Gita”?",
+                answers: [
+                    { text: "Bhanubhakta Acharya", correct: true },
+                    { text: "Laxmi Prasad Devkota", correct: false },
+                    { text: "Siddhicharan Shrestha", correct: false },
+                    { text: "Krishna Bhakta Pokhrel", correct: false }
+                ]
+            },
+            {
+                question: "Which Nepali King Is Known As The “Father Of The Nation”?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: true },
+                    { text: "Mahendra Bir Bikram Shah", correct: false },
+                    { text: "Gyanendra Bir Bikram Shah", correct: false },
+                    { text: "Birendra Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Which Dynasty Ruled Nepal Before The Shah Dynasty?",
+                answers: [
+                    { text: "Lichhavi dynasty", correct: true },
+                    { text: "Malla dynasty", correct: false },
+                    { text: "Thakuri dynasty", correct: false },
+                    { text: "Rana dynasty", correct: false }
+                ]
+            },
+            {
+                question: "Who Founded The Nepali Congress Party In 1947?",
+                answers: [
+                    { text: "B.P. Koirala", correct: true },
+                    { text: "Girija Prasad Koirala", correct: false },
+                    { text: "Krishna Prasad Bhattarai", correct: false },
+                    { text: "Man Mohan Adhikari", correct: false }
+                ]
+            },
+            {
+                question: "Which Treaty Was Signed Between Nepal And China In 1960?",
+                answers: [
+                    { text: "Nepal-China Peace and Friendship Treaty", correct: false },
+                    { text: "Nepal-India Friendship Treaty", correct: false },
+                    { text: "Nepal-US Peace and Friendship Treaty", correct: false },
+                    { text: "Nepal-Bhutan Friendship Treaty", correct: false }
+                ]
+            },
+            {
+                question: "Which Is The Largest And Most Popular Festival In Nepal?",
+                answers: [
+                    { text: "Tihar", correct: false },
+                    { text: "Dashain", correct: true },
+                    { text: "Holi", correct: false },
+                    { text: "Teej", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Last King Of Nepal Before The Country Became A Republic In 2008?",
+                answers: [
+                    { text: "Gyanendra Bir Bikram Shah", correct: true },
+                    { text: "Birendra Bir Bikram Shah", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Which City In Nepal Is Known As The “City Of Temples”?",
+                answers: [
+                    { text: "Kathmandu", correct: true },
+                    { text: "Patan", correct: false },
+                    { text: "Bhaktapur", correct: false },
+                    { text: "Pokhara", correct: false }
+                ]
+            },
+            {
+                question: "Which Treaty Was Signed Between Nepal And The East India Company In 1792?",
+                answers: [
+                    { text: "Treaty of Kathmandu", correct: false },
+                    { text: "Treaty of Sugauli", correct: true },
+                    { text: "Treaty of Titalia", correct: false },
+                    { text: "Treaty of Bakhim", correct: false }
+                ]
+            },
+            {
+                question: "Which Is The National Flower Of Nepal?",
+                answers: [
+                    { text: "Rhododendron", correct: true },
+                    { text: "Lotus", correct: false },
+                    { text: "Orchid", correct: false },
+                    { text: "Rose", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First Nepali To Climb Mount Everest?",
+                answers: [
+                    { text: "Tenzing Norgay", correct: false },
+                    { text: "Edmund Hillary", correct: true },
+                    { text: "Junko Tabei", correct: false },
+                    { text: "Reinhold Messner", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First King Of Unified Nepal?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: true },
+                    { text: "Jang Bahadur Rana", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First King Of Unified Nepal?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: true },
+                    { text: "Jang Bahadur Rana", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First King Of The Shah Dynasty Of Nepal?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: true },
+                    { text: "Ram Shah", correct: false },
+                    { text: "Jaya Prakash Malla", correct: false },
+                    { text: "Surendra Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Last King Of Nepal?",
+                answers: [
+                    { text: "Gyanendra Bir Bikram Shah", correct: true },
+                    { text: "Mahendra Bir Bikram Shah", correct: false },
+                    { text: "Birendra Bir Bikram Shah", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First President Of Nepal?",
+                answers: [
+                    { text: "Ram Baran Yadav", correct: true },
+                    { text: "Bidhya Devi Bhandari", correct: false },
+                    { text: "Dr. Prakash Chandra Lohani", correct: false },
+                    { text: "Surya Bahadur Thapa", correct: false }
+                ]
+            },
+            {
+                question: "Who Founded The Pashupatinath Temple In Kathmandu?",
+                answers: [
+                    { text: "Jayasthiti Malla", correct: false },
+                    { text: "Yaksha Malla", correct: false },
+                    { text: "Siddhi Narsingh Malla", correct: false },
+                    { text: "Pratap Malla", correct: true }
+                ]
+            },
+            {
+                question: "Who Led The Peasant Uprising In Nepal In 1951 That Ended The Rana Regime?",
+                answers: [
+                    { text: "Mohan Shamsher", correct: false },
+                    { text: "Jang Bahadur Rana", correct: false },
+                    { text: "Bhim Shamsher", correct: false },
+                    { text: "Sukraraj Shastri", correct: true }
+                ]
+            },
+            {
+                question: "Who Was The First Prime Minister Of Nepal?",
+                answers: [
+                    { text: "Bishweshwar Prasad Koirala", correct: true },
+                    { text: "Matrika Prasad Koirala", correct: false },
+                    { text: "Krishna Prasad Bhattarai", correct: false },
+                    { text: "Girija Prasad Koirala", correct: false }
+                ]
+            },
+            {
+                question: "Who Built The Swayambhunath Stupa In Kathmandu?",
+                answers: [
+                    { text: "Pratap Malla", correct: true },
+                    { text: "Siddhi Narsingh Malla", correct: false },
+                    { text: "Jaya Prakash Malla", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false }
+                ]
+            },
+            {
+                question: "Who Established The Modern Education System In Nepal?",
+                answers: [
+                    { text: "Bhimsen Thapa", correct: false },
+                    { text: "Jung Bahadur Rana", correct: true },
+                    { text: "Dev Shumsher Rana", correct: false },
+                    { text: "Chandra Shumsher Rana", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The First Person To Climb Mount Everest?",
+                answers: [
+                    { text: "Tenzing Norgay", correct: false },
+                    { text: "Edmund Hillary", correct: true },
+                    { text: "Reinhold Messner", correct: false },
+                    { text: "Junko Tabei", correct: false }
+                ]
+            },
+            {
+                question: "What Was The Religion Of The Malla Kings Who Ruled The Kathmandu Valley From The 12th To The 18th Century?",
+                answers: [
+                    { text: "Hinduism", correct: true },
+                    { text: "Buddhism", correct: false },
+                    { text: "Jainism", correct: false },
+                    { text: "Islam", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Founder Of The Licchavi Dynasty In Nepal?",
+                answers: [
+                    { text: "Amshuverma", correct: true },
+                    { text: "Shankhadhar Sakhwa", correct: false },
+                    { text: "Manadeva", correct: false },
+                    { text: "Anshuvarma", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The Founder Of The Kirat Dynasty In Nepal?",
+                answers: [
+                    { text: "Yalambar", correct: true },
+                    { text: "Limbuwan", correct: false },
+                    { text: "Khambuwan", correct: false },
+                    { text: "Majhkirat", correct: false }
+                ]
+            },
+            {
+                question: "Who Was The King Of Nepal During The Anglo-Nepal War Of 1814-1816?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: false },
+                    { text: "Jang Bahadur Rana", correct: false },
+                    { text: "Bhimsen Thapa", correct: true },
+                    { text: "Jung Bahadur Rana", correct: false }
+                ]
+            }, {
                 question: "Who was the first woman to climb Mount Everest?",
                 answers: [
                     { text: "Junko Tabei", correct: true },
@@ -495,42 +1071,9 @@ const questionsByDifficultyAndCategory =
                     { text: "Reinhold Messner", correct: false }
                 ]
             },
-            {
-                question: "Which famous festival is celebrated in Nepal to honor the bond between brothers and sisters?",
-                answers: [
-                    { text: "Tihar", correct: false },
-                    { text: "Holi", correct: false },
-                    { text: "Dashain", correct: false },
-                    { text: "Raksha Bandhan", correct: true }
-                ]
-            },
-            {
-                question: "What is the name of the famous lake in Pokhara, Nepal?",
-                answers: [
-                    { text: "Phewa Lake", correct: true },
-                    { text: "Rara Lake", correct: false },
-                    { text: "Fewa Lake", correct: false },
-                    { text: "Tilicho Lake", correct: false }
-                ]
-            },
-            {
-                question: "Who is known as the 'Light of Asia' and was born in Lumbini, Nepal?",
-                answers: [
-                    { text: "Gautama Buddha", correct: true },
-                    { text: "Mahavira", correct: false },
-                    { text: "Ramakrishna Paramahamsa", correct: false },
-                    { text: "Adi Shankaracharya", correct: false }
-                ]
-            },
-            {
-                question: "What is the name of the traditional Newari dish consisting of lentil patties?",
-                answers: [
-                    { text: "Yomari", correct: false },
-                    { text: "Sel Roti", correct: false },
-                    { text: "Bara", correct: true },
-                    { text: "Chatamari", correct: false }
-                ]
-            },
+
+
+
             {
                 question: "Who led the unification of Nepal in the 18th century?",
                 answers: [
@@ -558,25 +1101,8 @@ const questionsByDifficultyAndCategory =
                     { text: "King Mahendra", correct: false }
                 ]
             },
-            {
-                question: "What is the name of the traditional musical instrument of Nepal?",
-                answers: [
-                    { text: "Madal", correct: true },
-                    { text: "Sarangi", correct: false },
-                    { text: "Tabla", correct: false },
-                    { text: "Sitar", correct: false }
-                ]
-            },
-            {
-                question: "Which famous trekking route is located in the Himalayas of Nepal?",
-                answers: [
-                    { text: "Everest Base Camp Trek", correct: true },
-                    { text: "Annapurna Circuit Trek", correct: false },
-                    { text: "Langtang Valley Trek", correct: false },
-                    { text: "Manaslu Circuit Trek", correct: false }
-                ]
-            },
-           
+
+
             {
                 question: "Which dynasty ruled Nepal before the Shah dynasty?",
                 answers: [
@@ -613,32 +1139,8 @@ const questionsByDifficultyAndCategory =
                     { text: "Namo Namo Matha", correct: false }
                 ]
             },
-            {
-                question: "Which international organization is headquartered in Kathmandu, Nepal?",
-                answers: [
-                    { text: "South Asian Association for Regional Cooperation (SAARC)", correct: true },
-                    { text: "Association of Southeast Asian Nations (ASEAN)", correct: false },
-                    { text: "United Nations", correct: false },
-                    { text: "World Health Organization", correct: false }
-                ]
-            },
-            {
-                question: "What is the name of the traditional Nepali bread made from rice flour?",
-                answers: [
-                    { text: "Sel Roti", correct: true },
-                    { text: "Yomari", correct: false },
-                    { text: "Bara", correct: false },
-                    { text: "Chatamari", correct: false }
-                ]
-            }, {
-                question: "What is the capital city of Nepal?",
-                answers: [
-                    { text: "Kathmandu", correct: true },
-                    { text: "Pokhara", correct: false },
-                    { text: "Lumbini", correct: false },
-                    { text: "Bhaktapur", correct: false }
-                ]
-            },
+
+
             {
                 question: "Who was the first monarch of modern Nepal?",
                 answers: [
@@ -657,78 +1159,9 @@ const questionsByDifficultyAndCategory =
                     { text: "2012", correct: false }
                 ]
             },
-            {
-                question: "Which mountain, the highest in the world, is located in Nepal?",
-                answers: [
-                    { text: "Mount Everest", correct: true },
-                    { text: "K2", correct: false },
-                    { text: "Kangchenjunga", correct: false },
-                    { text: "Lhotse", correct: false }
-                ]
-            },
-            {
-                question: "What is the name of the famous Hindu temple in Kathmandu?",
-                answers: [
-                    { text: "Pashupatinath Temple", correct: true },
-                    { text: "Swayambhunath Stupa", correct: false },
-                    { text: "Boudhanath Stupa", correct: false },
-                    { text: "Changu Narayan Temple", correct: false }
-                ]
-            },
-            {
-                question: "Who is considered the founder of Buddhism and was born in Nepal?",
-                answers: [
-                    { text: "Gautama Buddha", correct: true },
-                    { text: "Mahavira", correct: false },
-                    { text: "Adi Shankaracharya", correct: false },
-                    { text: "Ramakrishna Paramahamsa", correct: false }
-                ]
-            },
-            {
-                question: "Which river is known as the 'Holy River' of Nepal?",
-                answers: [
-                    { text: "Bagmati River", correct: true },
-                    { text: "Koshi River", correct: false },
-                    { text: "Gandaki River", correct: false },
-                    { text: "Narayani River", correct: false }
-                ]
-            },
-            {
-                question: "What is the traditional Nepali attire worn by men?",
-                answers: [
-                    { text: "Daura-Suruwal", correct: true },
-                    { text: "Sari", correct: false },
-                    { text: "Kurta-Pajama", correct: false },
-                    { text: "Ghaghra-Choli", correct: false }
-                ]
-            },
-            {
-                question: "What is the traditional Nepali attire worn by women?",
-                answers: [
-                    { text: "Sari", correct: true },
-                    { text: "Daura-Suruwal", correct: false },
-                    { text: "Kurta-Pajama", correct: false },
-                    { text: "Ghaghra-Choli", correct: false }
-                ]
-            },
-            {
-                question: "Which festival is celebrated with the flying of kites in Nepal?",
-                answers: [
-                    { text: "Makar Sankranti", correct: true },
-                    { text: "Dashain", correct: false },
-                    { text: "Tihar", correct: false },
-                    { text: "Holi", correct: false }
-                ]
-            },
-            {
-                question: "What is the national flower of Nepal?",
-                answers: [
-                    { text: "Rhododendron", correct: true },
-                    { text: "Lotus", correct: false },
-                    { text: "Lily", correct: false },
-                    { text: "Jasmine", correct: false }
-                ]
-            },
+
+
+
             {
                 question: "Which treaty established the current borders of Nepal with India?",
                 answers: [
@@ -748,24 +1181,8 @@ const questionsByDifficultyAndCategory =
                     { text: "King Gyanendra", correct: false },
                 ]
             },
-            {
-                question: "What is called a hundred year period?",
-                answers: [
-                    { text: "Century", correct: true },
-                    { text: "Decade", correct: false },
-                    { text: "Millennium", correct: false },
-                    { text: "Era", correct: false },
-                ]
-            },
-            {
-                question: "Which is the longest running Jatra in Nepal?",
-                answers: [
-                    { text: "Jatra of Red Machhindra Nath", correct: true },
-                    { text: "Indra Jatra", correct: false },
-                    { text: "Bisket Jatra", correct: false },
-                    { text: "Dashain Jatra", correct: false },
-                ]
-            },
+
+
             {
                 question: "Which part of Nepal do Gurkhas originate from?",
                 answers: [
@@ -852,15 +1269,7 @@ const questionsByDifficultyAndCategory =
                     { text: " King Tribhuvan", correct: false }
                 ]
             },
-            {
-                question: "What was the capital of Nepal before Kathmandu?",
-                answers: [
-                    { text: " Bhaktapur", correct: false },
-                    { text: " Lalitpur", correct: false },
-                    { text: " Pokhara", correct: false },
-                    { text: " Gorkha", correct: true }
-                ]
-            },
+
             {
                 question: "The Rana dynasty ruled Nepal for how many years?",
                 answers: [
@@ -2806,6 +3215,215 @@ const questionsByDifficultyAndCategory =
             },
         ],
         "COMPUTER & TECHNOLOGY": [
+            [
+                {
+                    question: "The VLSI was used in .......... generation computers.",
+                    answers: [
+                        { text: "First", correct: false },
+                        { text: "Second", correct: true },
+                        { text: "Third", correct: false },
+                        { text: "Fourth", correct: false }
+                    ]
+                },
+                {
+                    question: "Which symbol is used to represent group of any characters?",
+                    answers: [
+                        { text: "?", correct: false },
+                        { text: "#", correct: false },
+                        { text: "*", correct: true },
+                        { text: "@", correct: false }
+                    ]
+                },
+                {
+                    question: "When was the CRAY-I supercomputer built?",
+                    answers: [
+                        { text: "1960", correct: false },
+                        { text: "1976", correct: false },
+                        { text: "1980", correct: false },
+                        { text: "1985", correct: true }
+                    ]
+                },
+                {
+                    question: "Which switch will be used in Dir to see a screenful contents of disk at a time?",
+                    answers: [
+                        { text: "/p", correct: true },
+                        { text: "/.w", correct: false },
+                        { text: "/s", correct: false },
+                        { text: "/b", correct: false }
+                    ]
+                },
+                {
+                    question: "When was the P4 computer introduced?",
+                    answers: [
+                        { text: "1980", correct: false },
+                        { text: "1990", correct: false },
+                        { text: "2000", correct: false },
+                        { text: "2004", correct: true }
+                    ]
+                },
+                {
+                    question: "Which is not invalid user file name?",
+                    answers: [
+                        { text: "Raj.exe", correct: false },
+                        { text: "Ram.txt", correct: false },
+                        { text: "Kumar.sys", correct: false },
+                        { text: "Rajan.com", correct: true }
+                    ]
+                },
+                {
+                    question: "The memory serves as a buffer between processor and memory is..........",
+                    answers: [
+                        { text: "Virtual memory", correct: false },
+                        { text: "Flash memory", correct: false },
+                        { text: "Cache memory", correct: true },
+                        { text: "RAM", correct: false }
+                    ]
+                },
+                {
+                    question: "Which is not valid alphabet for attribute setting?",
+                    answers: [
+                        { text: "R", correct: false },
+                        { text: "S", correct: false },
+                        { text: "H", correct: true },
+                        { text: "C", correct: false }
+                    ]
+                },
+                {
+                    question: "The memory which allocate space for DOS and application is called..........",
+                    answers: [
+                        { text: "Expanded memory", correct: false },
+                        { text: "Cache memory", correct: false },
+                        { text: "Virtual memory", correct: true },
+                        { text: "Conventional memory", correct: false }
+                    ]
+                },
+                {
+                    question: "Which will not create a sub directory on disk?",
+                    answers: [
+                        { text: "Mkdir", correct: false },
+                        { text: "Md", correct: false },
+                        { text: "Chdir", correct: true },
+                        { text: "All of the above", correct: false }
+                    ]
+                },
+                {
+                    question: "The data density of tape is measured in..........",
+                    answers: [
+                        { text: "Bits per inch", correct: true },
+                        { text: "Bytes per inch", correct: false },
+                        { text: "Record per inch", correct: false },
+                        { text: "None", correct: false }
+                    ]
+                },
+                {
+                    question: "The command sorts the fragments of file and enhanced the performance of disk is..........",
+                    answers: [
+                        { text: "Scandisk", correct: false },
+                        { text: "Chkdsk", correct: false },
+                        { text: "Defrag", correct: true },
+                        { text: "Sys", correct: false }
+                    ]
+                },
+                {
+                    question: "Which directory can not be created by MD command?",
+                    answers: [
+                        { text: "Sub directory", correct: false },
+                        { text: "Root Directory", correct: true },
+                        { text: "Child Directory", correct: false },
+                        { text: "None", correct: false }
+                    ]
+                },
+                {
+                    question: "Which is the system software?",
+                    answers: [
+                        { text: "Operating system", correct: true },
+                        { text: "Compiler", correct: false },
+                        { text: "Utilities", correct: false },
+                        { text: "All of the above", correct: false }
+                    ]
+                },
+                {
+                    question: "The command allows you to show the status of disk.",
+                    answers: [
+                        { text: "Vol", correct: false },
+                        { text: "Diskcomp", correct: false },
+                        { text: "Chkdsk", correct: true },
+                        { text: "Defrag", correct: false }
+                    ]
+                },
+                {
+                    question: "The most of the input devices consist .......... for signal conversion.",
+                    answers: [
+                        { text: "Encoder", correct: true },
+                        { text: "Decoder", correct: false },
+                        { text: "Modem", correct: false },
+                        { text: "None", correct: false }
+                    ]
+                },
+                {
+                    question: "What will be the command if you want to copy ra.doc file that resides in the floppy disk into work sub-directory of hard-disk while you are in c-prompt.",
+                    answers: [
+                        { text: "Copy c:/ra.doc  a:/work", correct: false },
+                        { text: "Copy a:/ra.doc  c:/work", correct: true },
+                        { text: "Copy ra.doc  c:/work", correct: false },
+                        { text: "Copy c:/work  a:/ra.doc", correct: false }
+                    ]
+                },
+                {
+                    question: "The latest 16-bit Unicode can represent the .......... symbols.",
+                    answers: [
+                        { text: "256", correct: false },
+                        { text: "32567", correct: false },
+                        { text: "40000", correct: false },
+                        { text: "65536", correct: true }
+                    ]
+                },
+                {
+                    question: "The system files are resides in the .......... after booting process.",
+                    answers: [
+                        { text: "ROM", correct: true },
+                        { text: "Processor", correct: false },
+                        { text: "RAM", correct: false },
+                        { text: "Hard disk", correct: false }
+                    ]
+                },
+                {
+                    question: "The input device is used for examination paper.",
+                    answers: [
+                        { text: "OMR", correct: true },
+                        { text: "Light pen", correct: false },
+                        { text: "OCR", correct: false },
+                        { text: "MICR", correct: false }
+                    ]
+                },
+                {
+                    question: "The break checking command is..........",
+                    answers: [
+                        { text: "Ctrl+C", correct: true },
+                        { text: "Ctrl+B", correct: false },
+                        { text: "Ctrl+D", correct: false },
+                        { text: "Ctrl+Z", correct: false }
+                    ]
+                },
+                {
+                    question: "The registers which are partially visible to users and used to hold conditional codes (bits set by the CPU hardware as the result of operations), are called.........",
+                    answers: [
+                        { text: "Special registers", correct: true },
+                        { text: "Flag registers", correct: false },
+                        { text: "General registers", correct: false },
+                        { text: "Counters", correct: false }
+                    ]
+                },
+                {
+                    question: "What does 'Ctrl+O' shortcut key do in Windows OS?",
+                    answers: [
+                        { text: "Open an existing file", correct: true },
+                        { text: "Open the selected items", correct: false },
+                        { text: "Italicize the selected text", correct: false },
+                        { text: "Copy the selected item", correct: false }
+                    ]
+                }
+            ]
             {
                 question: "The hexadecimal number system consists of the symbols",
                 answers: [
@@ -3874,7 +4492,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Deimos", correct: false }
                 ]
             },
-           
+
             {
                 question: "Which ancient civilization is known for its pyramids and hieroglyphics?",
                 answers: [
@@ -4006,6 +4624,98 @@ const questionsByDifficultyAndCategory =
             },
         ],
         "COMPUTER & TECHNOLOGY": [
+
+            {
+                question: "What does the acronym HTML stand for?",
+                answers: [
+                    { text: "Hyper Text Markup Language", correct: true },
+                    { text: "High Technical Modular Language", correct: false },
+                    { text: "Hyperlinks and Text Markup Language", correct: false },
+                    { text: "Home Tool Markup Language", correct: false }
+                ]
+            },
+            {
+                question: "Which programming language is often used for creating web applications?",
+                answers: [
+                    { text: "Java", correct: false },
+                    { text: "Python", correct: false },
+                    { text: "Ruby", correct: false },
+                    { text: "JavaScript", correct: true }
+                ]
+            },
+            {
+                question: "What does CPU stand for?",
+                answers: [
+                    { text: "Computer Processing Unit", correct: false },
+                    { text: "Central Processing Unit", correct: true },
+                    { text: "Computer Power Unit", correct: false },
+                    { text: "Central Power Unit", correct: false }
+                ]
+            },
+            {
+                question: "Which company developed the Java programming language?",
+                answers: [
+                    { text: "Microsoft", correct: false },
+                    { text: "Apple", correct: false },
+                    { text: "Sun Microsystems", correct: true },
+                    { text: "IBM", correct: false }
+                ]
+            },
+            {
+                question: "What is the function of a router in a computer network?",
+                answers: [
+                    { text: "Convert digital signals to analog signals", correct: false },
+                    { text: "Connect multiple networks together", correct: true },
+                    { text: "Provide power to network devices", correct: false },
+                    { text: "Store data temporarily", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is a type of malware?",
+                answers: [
+                    { text: "Firewall", correct: false },
+                    { text: "Spyware", correct: true },
+                    { text: "Router", correct: false },
+                    { text: "Ethernet", correct: false }
+                ]
+            },
+            {
+                question: "What does URL stand for?",
+                answers: [
+                    { text: "Universal Resource Locator", correct: true },
+                    { text: "Uniform Resource Language", correct: false },
+                    { text: "Unified Resource Listing", correct: false },
+                    { text: "Universal Recording Language", correct: false }
+                ]
+            },
+            {
+                question: "What does RAM stand for in computer terms?",
+                answers: [
+                    { text: "Random Access Memory", correct: true },
+                    { text: "Read-Only Memory", correct: false },
+                    { text: "Random Analog Memory", correct: false },
+                    { text: "Real-time Access Memory", correct: false }
+                ]
+            },
+            {
+                question: "Which of the following is not a type of computer network?",
+                answers: [
+                    { text: "LAN (Local Area Network)", correct: false },
+                    { text: "WAN (Wide Area Network)", correct: false },
+                    { text: "PAN (Personal Area Network)", correct: false },
+                    { text: "CPU (Central Processing Unit)", correct: true }
+                ]
+            },
+            {
+                question: "What is the purpose of an operating system?",
+                answers: [
+                    { text: "To manage hardware resources", correct: true },
+                    { text: "To browse the internet", correct: false },
+                    { text: "To create documents and presentations", correct: false },
+                    { text: "To play games", correct: false }
+                ]
+            },
+
             {
                 question: "1 GB is equal to",
                 answers: [
