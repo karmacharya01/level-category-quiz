@@ -3215,7 +3215,7 @@ const questionsByDifficultyAndCategory =
             },
         ],
         "COMPUTER & TECHNOLOGY": [
-            [
+            
                 {
                     question: "The VLSI was used in .......... generation computers.",
                     answers: [
@@ -3422,8 +3422,8 @@ const questionsByDifficultyAndCategory =
                         { text: "Italicize the selected text", correct: false },
                         { text: "Copy the selected item", correct: false }
                     ]
-                }
-            ]
+                },
+            
             {
                 question: "The hexadecimal number system consists of the symbols",
                 answers: [
