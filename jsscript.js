@@ -5399,6 +5399,7 @@ let currentCategory = "";
 let score = 0;
 let questions = [];
 let usedQuestionsIndexes = [];
+let countdown;
 
 startBtn.addEventListener("click", function () {
     infoBox.style.display = "block";
@@ -5468,6 +5469,20 @@ function shuffleArray(array) {
     return array;
 }
 
+function startTimer() {
+    let timeLeft = 10;
+    const timerElement = document.getElementById("timer");
+    clearInterval(countdown); // Clear any existing timer interval
+    countdown = setInterval(() => {
+        timerElement.textContent = `Timer: ${timeLeft}`;
+        timeLeft--;
+        if (timeLeft < 0) {
+            clearInterval(countdown);
+            timerElement.textContent = "Time's up!";
+            // Add code to handle time's up event here
+        }
+    }, 1000);
+}
 
 function showQuestion() {
     resetState();
@@ -5476,6 +5491,7 @@ function showQuestion() {
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
+    startTimer(); // Start the timer when a question is shown
 
     let shuffledAnswers = shuffleArray(currentQuestion.answers);
 
