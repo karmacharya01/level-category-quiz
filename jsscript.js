@@ -270,15 +270,7 @@ const questionsByDifficultyAndCategory =
                     { text: " Diwali", correct: false }
                 ]
             },
-            {
-                question: "Which animal is the national symbol of Nepal?",
-                answers: [
-                    { text: " Cow", correct: false },
-                    { text: " Rhinoceros", correct: false },
-                    { text: " Tiger", correct: false },
-                    { text: " Cow", correct: true }
-                ]
-            },
+           
             {
                 question: "What is the largest city by population in Nepal, after Kathmandu?",
                 answers: [
@@ -286,6 +278,15 @@ const questionsByDifficultyAndCategory =
                     { text: " Biratnagar", correct: true },
                     { text: " Lalitpur", correct: false },
                     { text: " Bharatpur", correct: false }
+                ]
+            },
+            {
+                question: "What is the national bird of Nepal?",
+                answers: [
+                    { text: "Himalayan Monal", correct: true },
+                    { text: "Danphe", correct: false },
+                    { text: "Sparrow", correct: false },
+                    { text: "Peacock", correct: false }
                 ]
             },
             {
@@ -360,15 +361,7 @@ const questionsByDifficultyAndCategory =
                     { text: " Dhaulagiri", correct: false }
                 ]
             },
-            {
-                question: "What is the name of the traditional Newari dish made from buffalo meat?",
-                answers: [
-                    { text: " Sel Roti", correct: false },
-                    { text: " Gundruk", correct: false },
-                    { text: " Dhido", correct: false },
-                    { text: " Yomari", correct: true }
-                ]
-            }, {
+           {
 
                 question: "Which religious festival in Nepal involves the worship of young girls as the living incarnations of the goddess?",
                 answers: [
@@ -378,15 +371,7 @@ const questionsByDifficultyAndCategory =
                     { text: " Teej", correct: false }
                 ]
             },
-            {
-                question: "What is the name of the famous trekking route in Nepal that goes around the Annapurna Massif?",
-                answers: [
-                    { text: " Everest Base Camp Trek", correct: false },
-                    { text: " Langtang Valley Trek", correct: false },
-                    { text: " Annapurna Circuit Trek", correct: true },
-                    { text: " Manaslu Circuit Trek", correct: false }
-                ]
-            },
+           
             {
                 question: "Which lake in Nepal is considered one of the highest freshwater lakes in the world?",
                 answers: [
@@ -591,15 +576,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Manaslu Circuit Trek", correct: false }
                 ]
             },
-            {
-                question: "What is the national bird of Nepal?",
-                answers: [
-                    { text: "Himalayan Monal", correct: true },
-                    { text: "Danphe", correct: false },
-                    { text: "Sparrow", correct: false },
-                    { text: "Peacock", correct: false }
-                ]
-            },
+           
             {
                 question: "Which dynasty ruled Nepal before the Shah dynasty?",
                 answers: [
@@ -2111,8 +2088,223 @@ const questionsByDifficultyAndCategory =
         ],
         "GEOGRAPHY & NEPAL": [
             {
+                question: "Which is the largest ethnic group in Nepal?",
+                answers: [
+                    { text: "Chhetri", correct: true },
+                    { text: "Bahun", correct: false },
+                    { text: "Magar", correct: false },
+                    { text: "Newar", correct: false }
+                ]
+            },
+            {
+                question: "What is the average elevation of Nepal?",
+                answers: [
+                    { text: "1,000 meters", correct: false },
+                    { text: "2,000 meters", correct: false },
+                    { text: "3,000 meters", correct: true },
+                    { text: "4,000 meters", correct: false }
+                ]
+            },
+            {
+                question: "Which is the only country that shares a border with Nepal to the south?",
+                answers: [
+                    { text: "India", correct: true },
+                    { text: "China", correct: false },
+                    { text: "Bangladesh", correct: false },
+                    { text: "Pakistan", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the traditional Nepali dress worn by women?",
+                answers: [
+                    { text: "Sari", correct: true },
+                    { text: "Kurta", correct: false },
+                    { text: "Daura-Suruwal", correct: false },
+                    { text: "Cholo", correct: false }
+                ]
+            },
+            {
+                question: "Which is the largest district in Nepal by area?",
+                answers: [
+                    { text: "Dolpa", correct: false },
+                    { text: "Humla", correct: true },
+                    { text: "Salyan", correct: false },
+                    { text: "Kanchanpur", correct: false }
+                ]
+            },
+            {
+                question: "Which is the highest mountain peak in Nepal?",
+                answers: [
+                    { text: "Mount Everest", correct: true },
+                    { text: "Kangchenjunga", correct: false },
+                    { text: "Lhotse", correct: false },
+                    { text: "Makalu", correct: false }
+                ]
+            },
+            {
+                question: "Which river is known as the 'Sorrow of Bihar' and originates in Nepal?",
+                answers: [
+                    { text: "Ganges", correct: false },
+                    { text: "Yamuna", correct: false },
+                    { text: "Koshi", correct: true },
+                    { text: "Gandaki", correct: false }
+                ]
+            },
+            {
+                question: "What is the capital city of Nepal?",
+                answers: [
+                    { text: "Kathmandu", correct: true },
+                    { text: "Pokhara", correct: false },
+                    { text: "Lalitpur", correct: false },
+                    { text: "Bhaktapur", correct: false }
+                ]
+            },
+            {
+                question: "Which lake is the largest in Nepal?",
+                answers: [
+                    { text: "Rara Lake", correct: true },
+                    { text: "Phewa Lake", correct: false },
+                    { text: "Shey Phoksundo Lake", correct: false },
+                    { text: "Tilicho Lake", correct: false }
+                ]
+            },
+            {
+                question: "Which is the longest river in Nepal?",
+                answers: [
+                    { text: "Koshi", correct: true },
+                    { text: "Ganges", correct: false },
+                    { text: "Gandaki", correct: false },
+                    { text: "Bagmati", correct: false }
+                ]
+            },
+            {
+                question: "What is the official language of Nepal?",
+                answers: [
+                    { text: "Nepali", correct: true },
+                    { text: "Hindi", correct: false },
+                    { text: "English", correct: false },
+                    { text: "Maithili", correct: false }
+                ]
+            },
+            {
+                question: "Which national park is known for being the habitat of Bengal tigers in Nepal?",
+                answers: [
+                    { text: "Chitwan National Park", correct: true },
+                    { text: "Sagarmatha National Park", correct: false },
+                    { text: "Langtang National Park", correct: false },
+                    { text: "Bardiya National Park", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the valley where Kathmandu is located?",
+                answers: [
+                    { text: "Kathmandu Valley", correct: true },
+                    { text: "Pokhara Valley", correct: false },
+                    { text: "Biratnagar Valley", correct: false },
+                    { text: "Birgunj Valley", correct: false }
+                ]
+            },
+            {
+                question: "Which is the second-highest peak in Nepal and the world?",
+                answers: [
+                    { text: "Kangchenjunga", correct: true },
+                    { text: "Lhotse", correct: false },
+                    { text: "Makalu", correct: false },
+                    { text: "Kanchenjunga", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the traditional Newari dish that is a specialty of the Kathmandu Valley?",
+                answers: [
+                    { text: "Momos", correct: false },
+                    { text: "Dal Bhat", correct: false },
+                    { text: "Yomari", correct: true },
+                    { text: "Sel Roti", correct: false }
+                ]
+            },
+            {
+                question: "Which district is known as the 'Gateway to Mount Everest'?",
+                answers: [
+                    { text: "Solukhumbu", correct: true },
+                    { text: "Lukla", correct: false },
+                    { text: "Kathmandu", correct: false },
+                    { text: "Ramechhap", correct: false }
+                ]
+            },
+            {
+                question: "Which is the largest city in Nepal by population?",
+                answers: [
+                    { text: "Kathmandu", correct: true },
+                    { text: "Pokhara", correct: false },
+                    { text: "Biratnagar", correct: false },
+                    { text: "Lalitpur", correct: false }
+                ]
+            },
+            {
+                question: "Which ethnic group is native to the Kathmandu Valley and is known for their rich cultural heritage?",
+                answers: [
+                    { text: "Sherpa", correct: false },
+                    { text: "Tamang", correct: false },
+                    { text: "Newar", correct: true },
+                    { text: "Tharu", correct: false }
+                ]
+            },
+            {
+                question: "Which is the only international airport in Nepal?",
+                answers: [
+                    { text: "Tribhuvan International Airport", correct: true },
+                    { text: "Pokhara International Airport", correct: false },
+                    { text: "Bhairahawa International Airport", correct: false },
+                    { text: "Gautam Buddha International Airport", correct: false }
+                ]
+            },
+            {
+                question: "Which mountain range forms the northern border of Nepal?",
+                answers: [
+                    { text: "Himalayas", correct: true },
+                    { text: "Andes", correct: false },
+                    { text: "Alps", correct: false },
+                    { text: "Rockies", correct: false }
+                ]
+            },
+            {
+                question: "What is the name of the traditional wooden bridge over the Dudh Kosi River in Sagarmatha National Park?",
+                answers: [
+                    { text: "Tilicho Bridge", correct: false },
+                    { text: "Larja Bridge", correct: true },
+                    { text: "Koshi Bridge", correct: false },
+                    { text: "Ghopte Bridge", correct: false }
+                ]
+            },
+            {
+                question: "What is the predominant religion in Nepal?",
+                answers: [
+                    { text: "Hinduism", correct: true },
+                    { text: "Buddhism", correct: false },
+                    { text: "Christianity", correct: false },
+                    { text: "Islam", correct: false }
+                ]
+            },
+            {
+                question: "Which is the deepest lake in Nepal?",
+                answers: [
+                    { text: "Rara Lake", correct: false },
+                    { text: "Phewa Lake", correct: false },
+                    { text: "Shey Phoksundo Lake", correct: true },
+                    { text: "Tilicho Lake", correct: false }
+                ]
+            },
+            {
+                question: "Which is the national flower of Nepal?",
+                answers: [
+                    { text: "Rhododendron", correct: true },
+                    { text: "Lotus", correct: false },
+                    { text: "Sunflower", correct: false },
+                    { text: "Rose", correct: false }
+                ]
+            }, {
                 question: "What ocean is the largest and deepest?",
-                options: [
+                answers: [
                     { text: "Atlantic Ocean", correct: false },
                     { text: "Indian Ocean", correct: false },
                     { text: "Arctic Ocean", correct: false },
@@ -2121,7 +2313,7 @@ const questionsByDifficultyAndCategory =
             },
             {
                 question: "What is the largest desert in the world?",
-                options: [
+                answers: [
                     { text: "Arabian Desert", correct: false },
                     { text: "Kalahari Desert", correct: false },
                     { text: "Sahara Desert", correct: true },
@@ -2130,7 +2322,7 @@ const questionsByDifficultyAndCategory =
             },
             {
                 question: "What is the largest continent by land area?",
-                options: [
+                answers: [
                     { text: "North America", correct: false },
                     { text: "Europe", correct: false },
                     { text: "Asia", correct: true },
@@ -2139,7 +2331,7 @@ const questionsByDifficultyAndCategory =
             },
             {
                 question: "What is the most populous city in the world?",
-                options: [
+                answers: [
                     { text: "Tokyo, Japan", correct: true },
                     { text: "Beijing, China", correct: false },
                     { text: "Shanghai, China", correct: false },
@@ -2148,7 +2340,7 @@ const questionsByDifficultyAndCategory =
             },
             {
                 question: "Which country has the most pyramids?",
-                options: [
+                answers: [
                     { text: "Sudan", correct: true },
                     { text: "Egypt", correct: false },
                     { text: "Mexico", correct: false },
@@ -2157,7 +2349,7 @@ const questionsByDifficultyAndCategory =
             },
             {
                 question: "What is the smallest country in the world?",
-                options: [
+                answers: [
                     { text: "Monaco", correct: false },
                     { text: "Nauru", correct: false },
                     { text: "Tuvalu", correct: false },
@@ -3436,7 +3628,118 @@ const questionsByDifficultyAndCategory =
     },
     hard: {
         "GENERAL KNOWLEDGE": [
-
+            {
+                question: "Which Nepali king is known as the 'Philosopher King' for his contributions to literature, philosophy, and social reforms during his reign in the mid-20th century?",
+                answers: [
+                    { text: "Prithvi Narayan Shah", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah", correct: false },
+                    { text: "Mahendra Bir Bikram Shah", correct: false },
+                    { text: "Tribhuvan Bir Bikram Shah Dev", correct: true }
+                ]
+            }, {
+                question: "What is the name of the sacred lake located in the Mustang district of Nepal, believed to be a manifestation of the Hindu god Vishnu?",
+                answers: [
+                    { text: "Rara Lake", correct: false },
+                    { text: "Phewa Lake", correct: false },
+                    { text: "Gosaikunda", correct: false },
+                    { text: "Tilicho Lake", correct: true }
+                ]
+            },
+            {
+                question: "What is the name of the traditional Nepali dance performed by the Gurung community, characterized by its fast-paced rhythm and energetic movements?",
+                answers: [
+                    { text: "Maruni", correct: false },
+                    { text: "Chutki", correct: false },
+                    { text: "Tamang Selo", correct: false },
+                    { text: "Ghatu", correct: true }
+                ]
+            },
+            {
+                question: "What is the traditional Newari dish made from fermented rice and consumed as a delicacy during festivals and special occasions in Nepal?",
+                answers: [
+                    { text: "Gundruk", correct: false },
+                    { text: "Aloo Tama", correct: false },
+                    { text: "Chatamari", correct: false },
+                    { text: "Yomari", correct: true }
+                ]
+            },
+            {
+                question: "What is the name of the traditional Nepali dance performed by masked dancers during religious festivals, portraying various deities and mythical characters?",
+                answers: [
+                    { text: "Dhime Baja", correct: false },
+                    { text: "Maruni", correct: false },
+                    { text: "Deuda", correct: false },
+                    { text: "lakhey ", correct: true }
+                ]
+            }, {
+                question: "Which famous Nepali poet and playwright is known for his contributions to Nepali literature, particularly for his epic poem 'Sulochana'?",
+                answers: [
+                    { text: "Lekhnath Paudyal", correct: false },
+                    { text: "Gopal Prasad Rimal", correct: false },
+                    { text: "Laxmi Prasad Devkota", correct: true },
+                    { text: "Bishweshwar Prasad Koirala", correct: false }
+                ]
+            }, {
+                question: "What is the name of the traditional Nepali musical instrument that resembles a long-necked lute and is often played during cultural events and ceremonies?",
+                answers: [
+                    { text: "Tabla", correct: false },
+                    { text: "Sitar", correct: false },
+                    { text: "Sarangi", correct: true },
+                    { text: "Dholak", correct: false }
+                ]
+            },
+            {
+                question: "In Nepali folklore, what mythical creature is believed to reside in the depths of the Himalayan lakes, often described as a serpent-like being?",
+                answers: [
+                    { text: "Yeti", correct: false },
+                    { text: "Garuda", correct: false },
+                    { text: "Naga", correct: true },
+                    { text: "Rakshasa", correct: false }
+                ]
+            },
+            {
+                question: "Which legendary figure is credited with the establishment of the Kathmandu Valley and the founding of the ancient city of Kathmandu?",
+                answers: [
+                    { text: "Aruna", correct: false },
+                    { text: "Siddhartha", correct: false },
+                    { text: "Manjushree", correct: true },
+                    { text: "Mahakala", correct: false }
+                ]
+            },
+            {
+                question: "What is the largest organ in the human body?",
+                answers: [
+                    { text: "Liver", correct: false },
+                    { text: "Brain", correct: false },
+                    { text: "Skin", correct: true },
+                    { text: "Heart", correct: false }
+                ]
+            }, {
+                question: "Who wrote the novel 'War and Peace'?",
+                answers: [
+                    { text: "Leo Tolstoy", correct: true },
+                    { text: "Fyodor Dostoevsky", correct: false },
+                    { text: "Anton Chekhov", correct: false },
+                    { text: "Vladimir Nabokov", correct: false }
+                ]
+            },
+            {
+                question: "Who was the first woman to win a Nobel Prize?",
+                answers: [
+                    { text: "Marie Curie", correct: true },
+                    { text: "Mother Teresa", correct: false },
+                    { text: "Doris Lessing", correct: false },
+                    { text: "Malala Yousafzai", correct: false }
+                ]
+            }, {
+                question: "Which chemical element has the highest melting point?",
+                answers: [
+                    { text: "Tungsten", correct: true },
+                    { text: "Carbon", correct: false },
+                    { text: "Titanium", correct: false },
+                    { text: "Platinum", correct: false }
+                ]
+            },
             {
                 question: "What is the only continent with land in all four hemispheres?",
                 answers: [
@@ -3571,15 +3874,7 @@ const questionsByDifficultyAndCategory =
                     { text: "Deimos", correct: false }
                 ]
             },
-            {
-                question: "In which year did World War I begin?",
-                answers: [
-                    { text: "1914", correct: true },
-                    { text: "1916", correct: false },
-                    { text: "1918", correct: false },
-                    { text: "1920", correct: false }
-                ]
-            },
+           
             {
                 question: "Which ancient civilization is known for its pyramids and hieroglyphics?",
                 answers: [
